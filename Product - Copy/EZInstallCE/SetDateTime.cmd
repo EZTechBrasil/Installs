@@ -1,3 +1,0 @@
-setdate
-settime
-exit

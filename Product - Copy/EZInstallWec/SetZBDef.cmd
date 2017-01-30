@@ -1,2 +1,0 @@
-EZloader /ZBDef
-exit
