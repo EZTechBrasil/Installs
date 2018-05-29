@@ -1,0 +1,2 @@
+del *.l*
+exit

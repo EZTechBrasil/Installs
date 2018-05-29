@@ -1,0 +1,83 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=USBI/OControlledDevices
+ClassGUID={96e73b6e-7a5a-11d4-9f24-0080c82727f4}
+Provider=%MFGNAME%
+DriverVer=04/11/2014,2.1.0.1
+CatalogFile.NTx86=EZForecourt.cat
+CatalogFile.ntamd64=EZForecourt.cat
+
+
+[DestinationDirs]
+EZForecourt.Copy=10,system32\drivers
+EZForecourt.NTamd64.Copy=10,system32\drivers
+
+[ClassInstall32] 
+AddReg=_AddReg_ClassInstall
+
+[SourceDisksNames]
+1=%INSTDISK%,,,
+
+[SourceDisksFiles]
+EZForecourt.sys=1,i386
+
+[SourceDisksFiles.amd64]
+EZForecourt.sys = 1,amd64
+
+[Manufacturer]
+%EZTech%=EzHw,NTamd64
+
+[EzHw]
+%DESCRIPTION1%=EZForecourt.NT,USB\VID_10C4&PID_1412
+%DESCRIPTION2%=EZForecourt.NT,USB\VID_10C4&PID_1612
+%DESCRIPTION5%=EZForecourt.NT,USB\VID_10C4&PID_0112
+
+[EzHw.NTamd64]
+%DESCRIPTION3%=EZForecourt.NTamd64,USB\VID_10C4&PID_1412
+%DESCRIPTION4%=EZForecourt.NTamd64,USB\VID_10C4&PID_1612
+%DESCRIPTION6%=EZForecourt.NTamd64,USB\VID_10C4&PID_0112
+
+[EZForecourt.NT]
+CopyFiles=EZForecourt.Copy
+
+[EZForecourt.NTamd64]
+CopyFiles=EZForecourt.Copy
+
+[EZForecourt.Copy]
+EZForecourt.sys,,,2
+
+[EZForecourt.NT.Services]
+AddService=EZForecourt,2,EZForecourt.AddService
+
+[EZForecourt.NTamd64.Services]
+AddService=EZForecourt,2,EZForecourt.AddService
+
+[EZForecourt.AddService]
+DisplayName    = %EZForecourt.SVCDESC%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\EZForecourt.sys
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+
+[Strings]
+MFGNAME="EZTech Ltd."
+EZTECH=EZTech
+INSTDISK="EZForecourt Installation Disc"
+DESCRIPTION1="EZForecourt CL/485 module"
+DESCRIPTION2="EZForecourt EZMOD USB module"
+DESCRIPTION3="EZForecourt CL/485 module x64"
+DESCRIPTION4="EZForecourt EZMOD USB module x64"
+DESCRIPTION5="EZForecourt 2G USB"
+DESCRIPTION6="EZForecourt 2G USB x64"
+
+%EZForecourt.SVCDESC%="EZForecourt device driver"
+
+; device class display name, shown in Device Manager
+S_DeviceClassDisplayName="USB I/O controlled devices"
+
+
+

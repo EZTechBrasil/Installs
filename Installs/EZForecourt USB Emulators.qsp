@@ -1,0 +1,454 @@
+[General]
+FileVersion=1.1
+FileType=QSetupIniFile
+OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
+ProcessorNameString=Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+ComputerRAM=32592 MB
+ProjectDrive=C:\  (462.78 GB Free)
+DateTime=29-MAY-2018 10:32:04
+OutputType=EXE
+Language=ENGLISH
+ComposerVersion=11.0.0.2
+License=DEMO
+
+[Project]
+ProjectName=EZForecourt USB Emulators
+ProjectDirectory=C:\ZEZTech\Release\Installs
+NonSFXDirectory=C:\ZEZTech\Release\Installs\NonSFX
+MediaFileName=EZForecourt USB Emulators 25b01B6
+CopyMediaToFName=
+ProgramDescriptiveName=EZForecourt Emulators
+ProgramVersion=2.5 build 01B6
+CompanyName=EZTech Tecnologia e Automação
+ProgVerLiveUpdate=0
+RegisterAsApp=1
+RegisterProject=1
+LanguageFlag=6
+LanguageNames=|English|Portuguese(Brazil)|Spanish|
+UseNonSFXDir=0
+ClrNonSFXDir=0
+BuildNonSFXTree=0
+CompressNonSFXFiles=0
+ForceCopyNonSFXFiles=0
+CompressionLevel=1
+SetupWillExpire=0
+ExpireByDate=0
+ExpireByDays=1
+ExpireDate=2010-11-18
+ExpireDays=90
+SpanCDs=0
+SpanCDsSize=650
+DebugWindow=0
+DebugOnThisPC=1
+DebugOnEveryPC=0
+MSI_ProductCode={209B00EF-B44B-4312-B73D-1D9F3739662D}
+MSI_UpgradeCode={B1B72A36-E2A5-4C19-960D-D0EA43A36401}
+
+[Language]
+Portuguese(Brazil)=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtEmulators-PT.txt|||||||
+English=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtEmulators-EN.txt|||||||
+Spanish=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtEmulators-SP.txt|||||||
+
+[LanguageShortcut]
+
+[LanguageCustomDLG]
+
+[Display]
+AddSetupBackground=0
+SetupBackground3D=0
+TopLabel=1
+TopLabelVer=1
+TopLabel2=1
+BottomLabel=1
+TopLabelText="Intalação do EZForecourt"
+TopLabel2Text="Módulos servidor e cliente local"
+BottomLabelText="Copyright © 2012 EzTech"
+BackgroundDesign=Gradient
+TopBackgroundColor=16777215
+BottomBackgroundColor=16777215
+AddBottomColor=1
+DlgBmp3DFrame=1
+DialogStyle=Modern
+AddDialogBitmap=1
+AddDialogBitmapSmall=1
+DialogBitmapFileName=C:\ZEZTech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+DialogBitmapSmallFileName=C:\ZEZTech\Release\Images\Icons\Install\Install.bmp
+AddBackgroundBitmap=1
+BackgroundBitmapFileName=C:\Work200\Icons\Instalação\Background.bmp
+BackgroundBitmapLocation=|Entire Screen|0|0|
+AddBackgroundWave=0
+BgBmpTransparent=1
+BackgroundWaveFileName=
+BackgroundWaveLocation=|Center|300|0|
+BackgroundWaveLoop=1
+BackgroundWaveDelay=0
+AddBackgroundWaveSlider=1
+BackgroundWaveSliderType=Fixed
+TopLabelSide=Left
+TopLabel2Side=Left
+BottomLabelSide=Right
+DialogLocation=|Center|0|0|
+TopLabelFont=|Trebuchet MS|32|128|1|1|0|0|
+TopLabel2Font=|Arial Black|16|8421504|1|0|0|0|
+BottomLabelFont=|Tahoma|12|16777215|1|0|1|0|
+CompanyUrl=www.eztech.ind.br
+HideQSetupWaterMark=1
+
+[TargetExe]
+TargetDirectory=<AbsoluteDir>C:\EZForecourt
+CommonDirectory=<AbsoluteDir>C:\EZForecourt
+AuxDirectory=<FontDir>
+TargetExeName=
+
+[Dialogs]
+SelectedDialogs=*Welcome,License,*Readme,User Information,Setup Type,*Custom,Destination,Associate,Shortcuts,Confirm Setup,*Copy Files,*Complete
+LicenseTextFile=
+ReadmeTextFile=
+ReadmeTextFile2=
+UseNotepad=0
+SpaceReqOnDriveCheckBox=0
+SpaceReqOnDrive=
+RequestUserName=1
+RequestCompanyName=1
+RequestSerialNumberAlso=0
+MandatoryUserName=1
+MandatoryCompanyName=1
+MandatorySerialNumber=1
+FromPcUserName=0
+FromPcCompanyName=0
+RequestSerialCheckDLL=0
+SerialCheckDll=
+RequestPredefinedSerial=0
+CaseSensitiveSerial=0
+RequestTokenizedSerial=0
+CDSetup=0
+ShowCompactSetupAlso=1
+ForcePartialSetup=0
+ShowProgBar2=0
+SilentSetup=0
+EnableCancelButton=1
+HiddenSetup=0
+ProposeReadme=0
+ProposeLaunch=0
+ProposeRestart=0
+ProposeReadmeChecked=0
+ProposeLaunchChecked=0
+ForceRestart=0
+ShowCloseRecommendation=1
+ShowAdwareDisclaimer=0
+ShowCopyrightWarning=1
+Image-000=Welcome=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+Image-001=Readme=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-002=Custom=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-003=Copy Files=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-004=Complete=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+
+[Shortcuts]
+AddMainShortCut=0
+ForceRemoveShortcutFolder=0
+ProgramLinkFolder=EZForecourt Emulators
+ProgramLinkName=
+ProgramLinkParam=
+ProgramLinkWorkDir=
+ProgramLinkRun=Normal Window
+ProgramLinkIconFile=
+ProgramLinkIconNum=0
+ProgramLinkRunAsAdmin=0
+StartMenuLinkName=Intalação do EZForecourt
+DesktopLinkName=Intalação do EZForecourt
+SendToLinkName=Intalação do EZForecourt
+StartUpLinkName=Intalação do EZForecourt
+QuickLaunchLinkName=Intalação do EZForecourt
+StartMenuCheckBox=0
+DesktopCheckBox=0
+SendToCheckBox=0
+StartUpCheckBox=0
+QuickLaunchCheckBox=0
+StartMenuChecked=1
+DesktopChecked=1
+SendToChecked=1
+StartUpChecked=1
+QuickLaunchChecked=1
+SetAllUsers=1
+SelectedByEndUser=0
+AddUninstallShortcut=0
+UnInstallSubFolder=0
+UnInstallSubFolderText=
+
+[Billboard]
+AddBillboard=1
+Item-000=|1|0|0|1|0|Center|0|0|8388608|16711680|Verdana|14|16777215|1|0|360|360|0|1|0|1|
+
+[SplitSetup]
+SplitSetup=0
+ForceDownload=1
+DownloadURL_SPLIT=http://
+ConfirmSplitDownload=0
+
+[AutoUpdate]
+AutoUpdate=0
+CheckAUSetupEnd=0
+RunAutoUpdate=1
+AddAutoUpdateShortcut=1
+AutoUpdateLog=0
+AutoUpdateSubFolder=0
+AutoUpdateSubFolderText=
+AutoUpdateShortcutIcon=0
+AutoUpdateShortcutIconText=
+AutoUpdateRunAsAdmin=1
+ReqConfirmDownload=0
+ReqConfirmDownloadForce=0
+ReqConfirmInstall=0
+ReqConfirmInstallForce=0
+ShutDownMethod=Don't Shut Down
+BackgroundUpdate=0
+RestartProcess=0
+InformFinish=0
+AddKnownExtensions=0
+UpdateProjectFName=
+DownloadURL_UPDATE=http:
+NameOfUpdateFile=
+RunningProcess=
+VersionOriginal=1
+ValidVersions=
+VersionNew=1
+ReAskDays=0
+AutoUpdateProbeSpin=1
+AutoUpdateProbeText=Only at Agent Start
+SelectInformFile=1
+DownloadUrlInform=1
+DownloadURL_INFORM=http://
+NameOfInformFile=
+UpdateSetupPageIndex=0
+AutoInformW=360
+AutoInformH=360
+
+[Switches]
+OperatingSystems=2003,XP,Vista,7,2008,8,XP.64,Vista.64,7.64,2008.64,2008R2.64,8.64,2012.64
+Create64BitSetup=0
+OverwriteFlag=1
+CreateLogFile=0
+ConfirmExtract=0
+ShowActivityBar=0
+TestAdminRights=1
+TestAdminRightsUnInstall=1
+IgnoreAdminTestVista=1
+RequestElevation=1
+SetAllowFullAccess=1
+TestDotNetFramework=1
+InstallDotNetFx=0
+InstallDotNetFxText=
+InstallDotNetFxUrl=0
+InstallDotNetFxUrlText=http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7
+DotNetFrameworkReqVer=3.5
+TestExeBeforeInstall=1
+TestExeBeforeUnInstall=1
+AutorunCreateInfFile=0
+AutorunTest=0
+AutorunStartApp=0
+AddAppToRunOnce=0
+AddAppToRun=0
+IfPreviousInstallationFound=0
+PreviousInstallationOp=Inform and Continue Setup
+UnInstallPreviousMode=Silent
+UsePrevInstallDir=1
+CreateUnInstall=1
+ScrambleUnInstallData=0
+SilentUnInstall=0
+HiddenUnInstall=0
+HideErrMsgUnInstall=0
+HideLogBtnUnInstall=0
+AddRemoveProgramsUnInstall=1
+AddChangeButtonUnInstall=1
+UnInstallExeStampSwitch=1
+UnInstallExeStamp=UninstallEZFEmulators
+UnInstallExeDirSwitch=0
+UnInstallExeDir=
+
+[UnInstall]
+UnInstallDisplayName=EZForecourt Emulators
+UnInstallDisplayIcon=<Application Folder>\EZLoader.ico
+UnInstallDisplayIconNum=0
+UnInstallHelpLink=
+UnInstallInfoAboutURL=
+
+[Registry]
+
+[IniFile]
+
+[XmlFile]
+
+[Environment]
+
+[Association]
+OpenWith=0
+OpenWithName=
+OpenWithMenuText=Open with
+OpenWithExtensions=
+
+[VerInfo]
+CopyFromExe=0
+DefineManually=1
+Item-001=|Comments|Instalation of <ProgramDescriptiveName>|
+Item-002=|CompanyName|<VendorCompanyName>|
+Item-003=|FileDescription||
+Item-004=|FileVersion|2.5.0.1.6|
+Item-005=|InternalName||
+Item-006=|LegalCopyright|<VendorCompanyName> (C) 2018|
+Item-007=|LegalTrademarks||
+Item-008=|OriginalFilename||
+Item-009=|ProductName|<ProgramDescriptiveName>|
+Item-010=|ProductVersion|<ProgramVersion>|
+Item-011=|LastCompile||
+Item-012=|OriginalFileName||
+Item-013=|PrivateBuildStr||
+Item-014=|SpecialBuildStr||
+CopyIconFromTargetExe=0
+CopyIconFromOtherApp=1
+OtherIconAppFileName=C:\zeztech\Release\Product\EZInstallXP\EZLoader.ico
+Spin1=0
+Spin2=0
+
+[Execute]
+ExecuteDllCheckBox=0
+ExecutionDllFileName=
+Exec-000=*||Test EZClient.dll (PT)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-000-1=<InstallDir>EZClient.dll
+Arg-000-2==
+Arg-000-5=Portuguese(Brazil)
+Arg-000-6==
+Arg-000-9=Portuguese(Brazil)
+Arg-000-10==
+Arg-000-13=EZForecourt não está instalado.<P><P>Execute a instalação do EZForecourt.
+Exec-001=*||Test EZClient.dll (EN)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-001-1=<InstallDir>EZClient.dll
+Arg-001-2==
+Arg-001-5=English
+Arg-001-6==
+Arg-001-9=Portuguese(Brazil)
+Arg-001-10==
+Arg-001-13=EZForecourt is not installed.<P><P>Run the EZForecourt Instalation.
+Exec-002=*||Test EZClient.dll (SP)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-002-1=<InstallDir>EZClient.dll
+Arg-002-2==
+Arg-002-5=Spanish
+Arg-002-6==
+Arg-002-9=Portuguese(Brazil)
+Arg-002-10==
+Arg-002-13=EZForecourt no está instalado. <P> <P> Ejecute el EZForecourt Instalación.
+Exec-003=*||Stop EZ2Serial service|Before Copy|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-003-1=EZForecourt USB Drivers
+Arg-003-2==
+Arg-003-5=EZForecourt Upgrade
+Arg-003-6==
+Arg-003-10==
+Arg-003-13=EZ2Serial
+Arg-003-16=ezlogger
+Arg-003-19=ezdbclient
+Arg-003-22=ezserver
+Arg-003-25=ezpasso
+Exec-004=*||Rename ini file (Company RS232)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-004-1=Company RS232
+Arg-004-2==
+Arg-004-6==
+Arg-004-10==
+Arg-004-13=<Application Folder>\EZ2Serial_CompanyRS232.ini
+Arg-004-14=<Application Folder>\EZ2Serial.ini
+Exec-005=*||Rename ini file (Company TCP/IP)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-005-1=Company TCP/IP
+Arg-005-2==
+Arg-005-6==
+Arg-005-10==
+Arg-005-13=<Application Folder>\EZ2Serial_CompanyTCPIP.ini
+Arg-005-14=<Application Folder>\EZ2Serial.ini
+Exec-006=*||Rename ini file (Gilbarco PAM)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-006-1=Gilbarco PAM
+Arg-006-2==
+Arg-006-6==
+Arg-006-10==
+Arg-006-13=<Application Folder>\EZ2Serial_PAM.ini
+Arg-006-14=<Application Folder>\EZ2Serial.ini
+Exec-007=*||Register EZS2Serial service|After Copy|10|Conditional|0|1|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-007-1=Upgrade
+Arg-007-2==
+Arg-007-6==
+Arg-007-10==
+Arg-007-13=<InstallDir>EZ2Serial.exe
+Arg-007-14=-i
+Arg-007-15=SW_HIDE
+Exec-008=*||Start EZ2Serial service|After Copy|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Start Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-008-1=EZForecourt USB Drivers
+Arg-008-2==
+Arg-008-5=EZForecourt Upgrade
+Arg-008-6==
+Arg-008-10==
+Arg-008-13=EZ2serial
+Arg-008-16=ezlogger
+Arg-008-19=ezdbclient
+Arg-008-22=ezserver
+Arg-008-25=ezpasso
+Exec-009=*||Stop EZ2Serial service|UnInstall Start|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-009-1=EZForecourt USB Drivers
+Arg-009-2==
+Arg-009-5=EZForecourt Upgrade
+Arg-009-6==
+Arg-009-10==
+Arg-009-13=EZ2Serial
+Arg-009-16=ezlogger
+Arg-009-19=ezdbclient
+Arg-009-22=ezserver
+Arg-009-25=ezpasso
+Exec-010=*||Uninstall EZ2Serial service|UnInstall Start|10|UnConditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-010-1=EZForecourt Full
+Arg-010-2==
+Arg-010-6==
+Arg-010-10==
+Arg-010-13=<InstallDir>EZ2Serial.exe
+Arg-010-14=-u
+Arg-010-15=SW_HIDE
+
+[MSI]
+Version=1
+AddMergeModule=0
+Msm2MsiData=|MSM2MSI_EZForecourt.msi|1|1|1|0|
+
+[GroupNames]
+Group-000=Company RS232
+Group-001=Company TCP/IP
+Group-002=Gilbarco PAM
+Group-003=Upgrade
+
+[Group-000]
+TypicalCompactData=6619139
+Description=Company emulation with RS232 serial<P>Emulação de concentrador Company com porta serial RS232
+SizeInKB=0
+Item-000=Fol*<Application Folder>
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZ2Serial.exe
+Item-003=Fil*<PATH_1>\EZ2Serial_CompanyRS232.ini
+
+[Group-001]
+TypicalCompactData=6619139
+Description=Company emulation with TCP/IP socket<P>Emulação do concentrador Company com socket TCP/IP
+SizeInKB=0
+Item-000=Fol*<Application Folder>
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZ2Serial.exe
+Item-003=Fil*<PATH_1>\EZ2Serial_CompanyTCPIP.ini
+
+[Group-002]
+TypicalCompactData=6619139
+Description=Gilbarco PAM emulation with RS232 serial<P>Emulação do concentrador Gilbarco PAM com porta serial RS232
+SizeInKB=0
+Item-000=Fol*<Application Folder>
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZ2Serial.exe
+Item-003=Fil*<PATH_1>\EZ2Serial_PAM.ini
+
+[Group-003]
+TypicalCompactData=6619143
+Description=Upgrade the version of the emulations for the EZForecourt. <P>Atualiza a versão das emulações para o EZForecourt.
+SizeInKB=0
+Item-000=Fol*<Application Folder>
+Item-001=Fil*<PATH_1>\EZ2Serial.exe
+

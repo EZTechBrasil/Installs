@@ -1,0 +1,884 @@
+[General]
+FileVersion=1.1
+FileType=QSetupIniFile
+OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
+ProcessorNameString=Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+ComputerRAM=32592 MB
+ProjectDrive=C:\  (462.78 GB Free)
+DateTime=29-MAY-2018 10:32:59
+OutputType=EXE
+Language=ENGLISH
+ComposerVersion=11.0.0.2
+License=DEMO
+
+[Project]
+ProjectName=EZTech Vision
+ProjectDirectory=C:\zeztech\Release\Installs
+NonSFXDirectory=C:\zeztech\Release\Installs\NonSFX
+MediaFileName=EZTech Vision 25b01B6
+CopyMediaToFName=Z:\Release\Installs\EZTech Vision 23b02A1.exe
+ProgramDescriptiveName=EZTech Vision
+ProgramVersion=2.5 build 01B6
+CompanyName=EZTech Tecnologia e Automação
+ProgVerLiveUpdate=0
+RegisterAsApp=1
+RegisterProject=1
+LanguageFlag=6
+LanguageNames=|English|Portuguese(Brazil)|Spanish|
+UseNonSFXDir=0
+ClrNonSFXDir=0
+BuildNonSFXTree=0
+CompressNonSFXFiles=0
+ForceCopyNonSFXFiles=0
+CompressionLevel=1
+SetupWillExpire=0
+ExpireByDate=0
+ExpireByDays=1
+ExpireDate=2010-11-18
+ExpireDays=90
+SpanCDs=0
+SpanCDsSize=650
+DebugWindow=0
+DebugOnThisPC=1
+DebugOnEveryPC=0
+MSI_ProductCode={209B00EF-B44B-4312-B73D-1D9F3739662D}
+MSI_UpgradeCode={B1B72A36-E2A5-4C19-960D-D0EA43A36401}
+
+[Language]
+Portuguese(Brazil)=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-PT.txt|||||||
+English=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-EN.txt|||||||
+Spanish=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-SP.txt|||||||
+
+[LanguageShortcut]
+Spanish=|Upgrade EZTech Vision=Actualizar EZTech Vision|Get EZTech Vision Logs=Recuperar logs el EZTech Vision|
+Portuguese(Brazil)=|Upgrade EZTech Vision=Atualizar EZTech Vision|Get EZTech Vision Logs=Recuperar logs do EZTech Vision|
+
+[LanguageCustomDLG]
+
+[Display]
+AddSetupBackground=0
+SetupBackground3D=0
+TopLabel=1
+TopLabelVer=1
+TopLabel2=1
+BottomLabel=1
+TopLabelText="Intalação do EZTech Vision"
+TopLabel2Text="Módulos servidor e cliente local"
+BottomLabelText="Copyright © 2016 EzTech"
+BackgroundDesign=Gradient
+TopBackgroundColor=16777215
+BottomBackgroundColor=16777215
+AddBottomColor=1
+DlgBmp3DFrame=1
+DialogStyle=Modern
+AddDialogBitmap=1
+AddDialogBitmapSmall=1
+DialogBitmapFileName=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+DialogBitmapSmallFileName=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+AddBackgroundBitmap=1
+BackgroundBitmapFileName=C:\Work200\Icons\Instalação\Background.bmp
+BackgroundBitmapLocation=|Entire Screen|0|0|
+AddBackgroundWave=0
+BgBmpTransparent=1
+BackgroundWaveFileName=
+BackgroundWaveLocation=|Center|300|0|
+BackgroundWaveLoop=1
+BackgroundWaveDelay=0
+AddBackgroundWaveSlider=1
+BackgroundWaveSliderType=Fixed
+TopLabelSide=Left
+TopLabel2Side=Left
+BottomLabelSide=Right
+DialogLocation=|Center|0|0|
+TopLabelFont=|Trebuchet MS|32|128|1|1|0|0|
+TopLabel2Font=|Arial Black|16|8421504|1|0|0|0|
+BottomLabelFont=|Tahoma|12|16777215|1|0|1|0|
+CompanyUrl=www.eztech.ind.br
+HideQSetupWaterMark=1
+
+[TargetExe]
+TargetDirectory=<AbsoluteDir>C:\EZForecourt
+CommonDirectory=<AbsoluteDir>C:\EZForecourt
+AuxDirectory=<AbsoluteDir>C:\Vision
+TargetExeName=<Application Folder>\EZMonitor\EZMonitor.exe
+
+[Dialogs]
+SelectedDialogs=*Welcome,License,*Readme,User Information,Setup Type,*Custom,Destination,Associate,Shortcuts,Confirm Setup,*Copy Files,*Complete
+LicenseTextFile=
+ReadmeTextFile=
+ReadmeTextFile2=
+UseNotepad=0
+SpaceReqOnDriveCheckBox=0
+SpaceReqOnDrive=
+RequestUserName=1
+RequestCompanyName=1
+RequestSerialNumberAlso=0
+MandatoryUserName=1
+MandatoryCompanyName=1
+MandatorySerialNumber=1
+FromPcUserName=0
+FromPcCompanyName=0
+RequestSerialCheckDLL=0
+SerialCheckDll=
+RequestPredefinedSerial=0
+CaseSensitiveSerial=0
+RequestTokenizedSerial=0
+CDSetup=0
+ShowCompactSetupAlso=1
+ForcePartialSetup=0
+ShowProgBar2=0
+SilentSetup=0
+EnableCancelButton=1
+HiddenSetup=0
+ProposeReadme=0
+ProposeLaunch=0
+ProposeRestart=0
+ProposeReadmeChecked=0
+ProposeLaunchChecked=0
+ForceRestart=0
+ShowCloseRecommendation=1
+ShowAdwareDisclaimer=0
+ShowCopyrightWarning=1
+Image-000=Welcome=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+Image-001=Readme=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-002=Custom=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-003=Copy Files=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-004=Complete=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+
+[Shortcuts]
+AddMainShortCut=0
+ForceRemoveShortcutFolder=0
+ProgramLinkFolder=EZTech Vision
+ProgramLinkName=EZMonitor
+ProgramLinkParam=
+ProgramLinkWorkDir=
+ProgramLinkRun=Normal Window
+ProgramLinkIconFile=
+ProgramLinkIconNum=0
+ProgramLinkRunAsAdmin=0
+StartMenuLinkName=Intalação do EZTech Vision
+DesktopLinkName=Intalação do EZTech Vision
+SendToLinkName=Intalação do EZTech Vision
+StartUpLinkName=Intalação do EZTech Vision
+QuickLaunchLinkName=Intalação do EZTech Vision
+StartMenuCheckBox=0
+DesktopCheckBox=0
+SendToCheckBox=0
+StartUpCheckBox=0
+QuickLaunchCheckBox=0
+StartMenuChecked=1
+DesktopChecked=1
+SendToChecked=1
+StartUpChecked=1
+QuickLaunchChecked=1
+SetAllUsers=1
+SelectedByEndUser=0
+AddUninstallShortcut=0
+UnInstallSubFolder=0
+UnInstallSubFolderText=
+Item-000=*|EZMonitor|<Application Folder>\EZMonitor\EZMonitor.exe|EZTech Vision|||Normal Window||0|1||0|0||0|
+Item-001=*|EZConfig|<Application Folder>\EZConfig.exe|EZTech Vision|||Normal Window||0|1||0|0||0|
+Item-002=*|EZTelnet|<Auxiliary Folder>\EZTelnet\EZTelnet.exe|EZTech Vision||<Auxiliary Folder>\EZTelnet|Normal Window||0|1||0|0||0|
+Item-003=*|Upgrade EZTech Vision|cmd.exe|EZTech Vision|/c upgrade.bat|<Auxiliary Folder>|Normal Window|<Application Folder>\EZLoader.ico|0|1||0|0||0|
+Item-004=*|Get EZTech Vision Logs|cmd.exe|EZTech Vision|/c getlogs.bat|<Auxiliary Folder>|Normal Window|<Application Folder>\EZLoader.ico|0|1||0|0||0|
+Item-005=*|EZIPConfig|<Application Folder>\EZIPConfig.exe|EZTech Vision|||Normal Window||0|1||0|0||0|
+Item-006=*|SetDateTime|<Auxiliary Folder>\SetDateTime.bat|EZTech Vision|||Normal Window||0|1||0|0||0|
+Item-007=*|EZSetup|<Application Folder>\EZSetup.exe|EZTech Vision|||Normal Window||0|1||0|0||0|
+Item-008=*|EZLoader|<Application Folder>\EZLoader.exe|EZTech Vision|||Normal Window||0|1||0|0||0|
+
+[Billboard]
+AddBillboard=1
+Item-000=|1|0|0|1|0|Center|0|0|8388608|16711680|Verdana|14|16777215|1|0|360|360|0|1|0|1|
+
+[SplitSetup]
+SplitSetup=0
+ForceDownload=1
+DownloadURL_SPLIT=http://
+ConfirmSplitDownload=0
+
+[AutoUpdate]
+AutoUpdate=0
+CheckAUSetupEnd=0
+RunAutoUpdate=1
+AddAutoUpdateShortcut=1
+AutoUpdateLog=0
+AutoUpdateSubFolder=0
+AutoUpdateSubFolderText=
+AutoUpdateShortcutIcon=0
+AutoUpdateShortcutIconText=
+AutoUpdateRunAsAdmin=1
+ReqConfirmDownload=0
+ReqConfirmDownloadForce=0
+ReqConfirmInstall=0
+ReqConfirmInstallForce=0
+ShutDownMethod=Don't Shut Down
+BackgroundUpdate=0
+RestartProcess=0
+InformFinish=0
+AddKnownExtensions=0
+UpdateProjectFName=
+DownloadURL_UPDATE=http:
+NameOfUpdateFile=
+RunningProcess=
+VersionOriginal=1
+ValidVersions=
+VersionNew=1
+ReAskDays=0
+AutoUpdateProbeSpin=1
+AutoUpdateProbeText=Only at Agent Start
+SelectInformFile=1
+DownloadUrlInform=1
+DownloadURL_INFORM=http://
+NameOfInformFile=
+UpdateSetupPageIndex=0
+AutoInformW=360
+AutoInformH=360
+
+[Switches]
+OperatingSystems=XP,Vista,7,2008,8,XP.64,Vista.64,7.64,2008.64,2008R2.64,8.64,2012.64
+Create64BitSetup=0
+OverwriteFlag=1
+CreateLogFile=1
+ConfirmExtract=0
+ShowActivityBar=0
+TestAdminRights=1
+TestAdminRightsUnInstall=1
+IgnoreAdminTestVista=1
+RequestElevation=1
+SetAllowFullAccess=1
+TestDotNetFramework=1
+InstallDotNetFx=0
+InstallDotNetFxText=
+InstallDotNetFxUrl=0
+InstallDotNetFxUrlText=http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7
+DotNetFrameworkReqVer=2.0,3.5
+TestExeBeforeInstall=1
+TestExeBeforeUnInstall=1
+AutorunCreateInfFile=0
+AutorunTest=0
+AutorunStartApp=0
+AddAppToRunOnce=0
+AddAppToRun=0
+IfPreviousInstallationFound=1
+PreviousInstallationOp=Inform and Continue Setup
+UnInstallPreviousMode=Silent
+UsePrevInstallDir=1
+CreateUnInstall=1
+ScrambleUnInstallData=0
+SilentUnInstall=0
+HiddenUnInstall=0
+HideErrMsgUnInstall=0
+HideLogBtnUnInstall=0
+AddRemoveProgramsUnInstall=1
+AddChangeButtonUnInstall=1
+UnInstallExeStampSwitch=1
+UnInstallExeStamp=UninstallEZTechVision
+UnInstallExeDirSwitch=0
+UnInstallExeDir=
+
+[UnInstall]
+UnInstallDisplayName=EZTech Vision
+UnInstallDisplayIcon=<Application Folder>\EZLoader.ico
+UnInstallDisplayIconNum=0
+UnInstallHelpLink=
+UnInstallInfoAboutURL=
+
+[Registry]
+
+[IniFile]
+
+[XmlFile]
+
+[Environment]
+
+[Association]
+OpenWith=0
+OpenWithName=
+OpenWithMenuText=Open with
+OpenWithExtensions=
+
+[VerInfo]
+CopyFromExe=0
+DefineManually=1
+Item-001=|Comments|Instalation of <ProgramDescriptiveName>|
+Item-002=|CompanyName|<VendorCompanyName>|
+Item-003=|FileDescription||
+Item-004=|FileVersion|2.5.0.1.6|
+Item-005=|InternalName||
+Item-006=|LegalCopyright|<VendorCompanyName> (C) 2018|
+Item-007=|LegalTrademarks||
+Item-008=|OriginalFilename||
+Item-009=|ProductName|<ProgramDescriptiveName>|
+Item-010=|ProductVersion|<ProgramVersion>|
+Item-011=|LastCompile||
+Item-012=|OriginalFileName||
+Item-013=|PrivateBuildStr||
+Item-014=|SpecialBuildStr||
+CopyIconFromTargetExe=0
+CopyIconFromOtherApp=1
+OtherIconAppFileName=C:\zeztech\Release\Product\EZInstallXP\EZLoader.ico
+Spin1=0
+Spin2=0
+
+[Execute]
+ExecuteDllCheckBox=0
+ExecutionDllFileName=
+Exec-000=*||Stop services|Before Copy|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Stop Service||1|
+Arg-000-2==
+Arg-000-6==
+Arg-000-10==
+Arg-000-13=EZ2Serial
+Arg-000-16=EZLogger
+Arg-000-19=EZWatchDog
+Arg-000-22=EZServer
+Arg-000-25=EZPasso
+Exec-001=*||Test EZClient.dll (PT)|Before Copy|10|Conditional|0|0|File is Locked||1|0|0|Selected Language is in||0|0|0|File Found||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-001-1=<InstallDir>EZClient.dll
+Arg-001-2==
+Arg-001-5=Portuguese(Brazil)
+Arg-001-6==
+Arg-001-10==
+Arg-001-13=EZClient.dll está em uso.<P><P>Feche todos os aplicativos da EZTech e parceiros.
+Exec-002=*||Test EZClient.dll (EN)|Before Copy|10|Conditional|0|0|File is Locked||1|0|0|Selected Language is in||0|0|0|File Found||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-002-1=<InstallDir>EZClient.dll
+Arg-002-2==
+Arg-002-5=English
+Arg-002-6==
+Arg-002-10==
+Arg-002-13=EZClient.dll is in use.<P><P>Close all EZTech and partner applications.
+Exec-003=*||Test EZClient.dll (SP)|Before Copy|10|Conditional|0|0|File is Locked||1|0|0|Selected Language is in||0|0|0|File Found||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-003-1=<InstallDir>EZClient.dll
+Arg-003-2==
+Arg-003-5=Spanish
+Arg-003-6==
+Arg-003-10==
+Arg-003-13=EZClient.dll está en uso. <P> <P> Cerrar todas las aplicaciones EZTech y socios.
+Exec-004=*||Uninstall EZServer service|Before Copy|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-004-2==
+Arg-004-6==
+Arg-004-10==
+Arg-004-13=<InstallDir>EZServer.exe
+Arg-004-14=-u
+Arg-004-15=SW_HIDE
+Exec-005=*||Delete Log files|After Copy|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Delete File(s)||0|Delete File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-005-2==
+Arg-005-6==
+Arg-005-10==
+Arg-005-13=<InstallDir>log /q
+Arg-005-14=Now
+Arg-005-16=<InstallDir>*.old /q
+Arg-005-17=Now
+Exec-006=*||Create EZClient.ini|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Copy File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-006-1=EZTech Vision
+Arg-006-2==
+Arg-006-6==
+Arg-006-10==
+Arg-006-13=<InstallDir>EZClientCE.ini
+Arg-006-14=<InstallDir>EZClient.ini
+Arg-006-15=TRUE
+Exec-007=*||Create EZMonitor.ini|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Copy File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-007-1=EZTech Vision
+Arg-007-2==
+Arg-007-6==
+Arg-007-10==
+Arg-007-13=<InstallDir>\EZMonitor\EZMonitorCE.ini
+Arg-007-14=<InstallDir>EZMonitor\EZMonitor.ini
+Arg-007-15=TRUE
+Exec-008=*||Install 64 bit dlls|After Copy|10|Conditional|0|0|Running on 64 Bit OS||0|0|0|File Found||0|0|0|File Found||1|Copy File(s)||1|Copy File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-008-2==
+Arg-008-6==
+Arg-008-10==
+Arg-008-13=<InstallDir>\x64\*.*
+Arg-008-14=<InstallDir>
+Arg-008-15=TRUE
+Arg-008-16=<InstallDir>\x64\*.*
+Arg-008-17=<InstallDir>\EZMonitor
+Arg-008-18=TRUE
+Exec-009=*||Start services|Before Complete|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Start Service||1|Start Service||0|Display Message||0|Display Message||0|Start Service||0|Display Message||1|
+Arg-009-2==
+Arg-009-6==
+Arg-009-10==
+Arg-009-13=EZPasso
+Arg-009-16=EZLogger
+Arg-009-25=EZ2Serial
+Exec-010=*||IP Configuration (PT)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||0|Run Executable and Wait||0|Display Message||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-010-1=EZTech Vision
+Arg-010-2==
+Arg-010-5=Portuguese(Brazil)
+Arg-010-6==
+Arg-010-10==
+Arg-010-13=<InstallDir>\EZIPConfig.exe
+Arg-010-14=/LEN
+Arg-010-19=<InstallDir>\EZIPConfig.exe
+Arg-010-20=/LPT
+Exec-011=*||IP Configuration (EN)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-011-1=EZTech Vision
+Arg-011-2==
+Arg-011-5=English
+Arg-011-6==
+Arg-011-10==
+Arg-011-13=<InstallDir>\EZIPConfig.exe
+Arg-011-14=/LEN
+Arg-011-19=<InstallDir>\EZIPConfig.exe
+Arg-011-20=/LPT
+Exec-012=*||IP Configuration (SP)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-012-1=EZTech Vision
+Arg-012-2==
+Arg-012-5=Spanish
+Arg-012-6==
+Arg-012-10==
+Arg-012-13=<InstallDir>\EZIPConfig.exe
+Arg-012-14=/LEN
+Arg-012-19=<InstallDir>\EZIPConfig.exe
+Arg-012-20=/LPT
+Exec-013=*||Stop services|UnInstall Start|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||1|Stop Service||0|Display Message||1|
+Arg-013-2==
+Arg-013-6==
+Arg-013-10==
+Arg-013-13=EZPasso
+Arg-013-16=EZLogger
+Arg-013-19=EZWatchDog
+Arg-013-25=EZ2Serial
+
+[MSI]
+Version=1
+AddMergeModule=0
+Msm2MsiData=|MSM2MSI_EZForecourt.msi|1|1|1|0|
+
+[GroupNames]
+Group-000=EZTech Vision
+Group-001=EZTech Vision Upgrade
+
+[Group-000]
+TypicalCompactData=6619139
+Description=
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\ABL.dll
+Item-002=Fil*<PATH_1>\Aspro.dll
+Item-003=Fil*<PATH_1>\atl90.dll
+Item-004=Fil*<PATH_1>\Bennet.dll
+Item-005=Fil*<PATH_1>\BMConfig.ini
+Item-006=Fil*<PATH_1>\Ceibo.dll
+Item-007=Fil*<PATH_1>\Daruma.dll
+Item-008=Fil*<PATH_1>\ExcelBr.dll
+Item-009=Fil*<PATH_1>\EZ2Serial.exe
+Item-010=Fil*<PATH_1>\EZATG.ini
+Item-011=Fil*<PATH_1>\EZClient.dll
+Item-012=Fil*<PATH_1>\EZClient.ocx[2]
+Item-013=Fil*<PATH_1>\EZClient64.dll
+Item-014=Fil*<PATH_1>\EZClientCE.ini
+Item-015=Fil*<PATH_1>\EZClientFP.dll
+Item-016=Fil*<PATH_1>\EZClientXP.ini
+Item-017=Fil*<PATH_1>\EZConfig.exe
+Item-018=Fil*<PATH_1>\EZCoord.B2G
+Item-019=Fil*<PATH_1>\EZDriver.ini
+Item-020=Fil*<PATH_1>\EZExtract.exe
+Item-021=Fil*<PATH_1>\EZIPConfig.exe
+Item-022=Fil*<PATH_1>\EZLicense.exe
+Item-023=Fil*<PATH_1>\EZLicenseXP.ini
+Item-024=Fil*<PATH_1>\EZLoader.dll
+Item-025=Fil*<PATH_1>\EZLoader.exe
+Item-026=Fil*<PATH_1>\EZLoader.ico
+Item-027=Fil*<PATH_1>\EZLogger.exe
+Item-028=Fil*<PATH_1>\EZLogViewer.exe
+Item-029=Fil*<PATH_1>\EZMOD.B2G
+Item-030=Fil*<PATH_1>\EZPriceSign.exe
+Item-031=Fil*<PATH_1>\EZPriceSign.ini
+Item-032=Fil*<PATH_1>\EZProductGroup.ini
+Item-033=Fil*<PATH_1>\EZPump.ocx[2]
+Item-034=Fil*<PATH_1>\EZRemote.B2G
+Item-035=Fil*<PATH_1>\EZServer.exe
+Item-036=Fil*<PATH_1>\EZServer.ini
+Item-037=Fil*<PATH_1>\EZSoftSim.dll
+Item-038=Fil*<PATH_1>\EZTankGauge.ini
+Item-039=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-040=Fil*<PATH_1>\FAFNIR.dll
+Item-041=Fil*<PATH_1>\G180.dll
+Item-042=Fil*<PATH_1>\GC21.dll
+Item-043=Fil*<PATH_1>\Gilbarco.dll
+Item-044=Fil*<PATH_1>\LT.dll
+Item-045=Fil*<PATH_1>\MedLiq.dll
+Item-046=Fil*<PATH_1>\mfc90.dll
+Item-047=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-048=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-049=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-050=Fil*<PATH_1>\ModBus.dll
+Item-051=Fil*<PATH_1>\msvcm90.dll
+Item-052=Fil*<PATH_1>\msvcp90.dll
+Item-053=Fil*<PATH_1>\msvcr90.dll
+Item-054=Fil*<PATH_1>\msvcrt.dll
+Item-055=Fil*<PATH_1>\NP.dll
+Item-056=Fil*<PATH_1>\NZP.dll
+Item-057=Fil*<PATH_1>\PumpDrv.dll
+Item-058=Fil*<PATH_1>\RSPS2.dll
+Item-059=Fil*<PATH_1>\Safe.dll
+Item-060=Fil*<PATH_1>\TankDrv.dll
+Item-061=Fil*<PATH_1>\Tatsuno.dll
+Item-062=Fil*<PATH_1>\TeleMed.dll
+Item-063=Fil*<PATH_1>\Tokheim.dll
+Item-064=Fil*<PATH_1>\VRTLS350.dll
+Item-065=Fil*<PATH_1>\Wayne.dll
+Item-066=Fil*<PATH_1>\EZIBM.dll
+Item-067=Fil*<PATH_1>\EZIBr.B2G
+Item-068=Fil*<PATH_1>\EZOdo.B2G
+Item-069=Fil*<PATH_1>\EZPriceSign.B2G
+Item-070=Dir*<Application Folder>\Driver[1]
+Item-071=Fil*<PATH_1>\Driver\ezforecourt.cat
+Item-072=Fil*<PATH_1>\Driver\EZForecourt.inf
+Item-073=Dir*<Application Folder>\Driver\amd64
+Item-074=Fil*<PATH_1>\Driver\amd64\EZForecourt.sys
+Item-075=Dir*<Application Folder>\Driver\i386
+Item-076=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
+Item-077=Dir*<Application Folder>\EZMonitor[1]
+Item-078=Fil*<PATH_1>\atl90.dll
+Item-079=Fil*<PATH_1>\EZClient.dll
+Item-080=Fil*<PATH_1>\EZClient64.dll
+Item-081=Fil*<PATH_1>\EZMonitor\EZMonitor.exe
+Item-082=Fil*<PATH_1>\EZMonitor\EZMonitorCE.ini
+Item-083=Fil*<PATH_1>\EZMonitor\EZMonitorXP.ini
+Item-084=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-085=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest[536870912]
+Item-086=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-087=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-088=Fil*<PATH_1>\msvcm90.dll
+Item-089=Fil*<PATH_1>\msvcp90.dll
+Item-090=Fil*<PATH_1>\msvcr90.dll
+Item-091=Fil*<PATH_1>\msvcrt.dll
+Item-092=Dir*<Application Folder>\EZMonitor\es[1]
+Item-093=Fil*<PATH_1>\EZMonitor\es\EZMonitor.resources.dll
+Item-094=Dir*<Application Folder>\EZMonitor\pt-BR
+Item-095=Fil*<PATH_1>\EZMonitor\pt-BR\EZMonitor.resources.dll
+Item-096=Dir*<Application Folder>\EZSim[1]
+Item-097=Fil*<PATH_1>\EZSim\EZSim.ini
+Item-098=Fil*<PATH_1>\EZSim\EZSim.exe
+Item-099=Dir*<Application Folder>\Log[2]
+Item-100=Dir*<Application Folder>\x64[1]
+Item-101=Fil*<PATH_1>\x64\EZTech.dll
+Item-102=Fol*<Auxiliary Folder>
+Item-103=Fil*<PATH_2>\CleanLogs.cmd
+Item-104=Fil*<PATH_2>\DelNV.bat
+Item-105=Fil*<PATH_2>\DelNV.cmd
+Item-106=Fil*<PATH_2>\EZConfirm.exe
+Item-107=Fil*<PATH_2>\GenEZ2SerialCompany.bat
+Item-108=Fil*<PATH_2>\GenEZ2SerialCompany.cmd
+Item-109=Fil*<PATH_2>\GetLogs.bat
+Item-110=Fil*<PATH_2>\InitBBBBefore.cmd
+Item-111=Fil*<PATH_2>\Install.bat
+Item-112=Fil*<PATH_2>\Logs.cmd
+Item-113=Fil*<PATH_2>\RemoveEZ2Serial.bat
+Item-114=Fil*<PATH_2>\RemoveEZ2Serial.cmd
+Item-115=Fil*<PATH_2>\RemoveOld.cmd
+Item-116=Fil*<PATH_2>\SetDateTime.bat
+Item-117=Fil*<PATH_2>\SetDateTime.cmd
+Item-118=Fil*<PATH_2>\Start.cmd
+Item-119=Fil*<PATH_2>\Stop.cmd
+Item-120=Fil*<PATH_2>\Upgrade.bat
+Item-121=Fil*<PATH_2>\Vision.cfg
+Item-122=Fil*<PATH_2>\ChangeUser.bat
+Item-123=Fil*<PATH_2>\ChangeUser.cmd
+Item-124=Fil*<PATH_2>\SetZBDef.bat
+Item-125=Fil*<PATH_2>\SetZBDef.cmd
+Item-126=Fil*<PATH_2>\VisionNew.cfg
+Item-127=Fil*<PATH_2>\WriteProtect.cmd
+Item-128=Dir*<Auxiliary Folder>\CE[1]
+Item-129=Fil*<PATH_2>\CE\NK.bin
+Item-130=Fil*<PATH_2>\CE\EBOOTSD.nb0
+Item-131=Fil*<PATH_2>\CE\logo.bmp
+Item-132=Fil*<PATH_2>\CE\MLO
+Item-133=Dir*<Auxiliary Folder>\EZApps[1]
+Item-134=Fil*<PATH_2>\EZApps\MyClock.exe
+Item-135=Fil*<PATH_2>\EZApps\WecEZAlarms.exe
+Item-136=Fil*<PATH_2>\EZApps\WecEZMain.exe
+Item-137=Fil*<PATH_2>\EZApps\WecEZPumps.exe
+Item-138=Fil*<PATH_2>\EZApps\WecEZSensors.exe
+Item-139=Fil*<PATH_2>\EZApps\WecEZTanks.exe
+Item-140=Dir*<Auxiliary Folder>\EZTelnet[1]
+Item-141=Fil*<PATH_1>\msvcr90.dll
+Item-142=Fil*<PATH_1>\msvcp90.dll
+Item-143=Fil*<PATH_1>\msvcm90.dll
+Item-144=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-145=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-146=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-147=Fil*<PATH_2>\EZTelnet\EZTelnet.ini
+Item-148=Fil*<PATH_2>\EZTelnet\EZTelnet.exe
+Item-149=Fil*<PATH_1>\atl90.dll
+Item-150=Dir*<Auxiliary Folder>\INI[1]
+Item-151=Fil*<PATH_2>\INI\EZClient.ini
+Item-152=Fil*<PATH_2>\INI\EZDriver.ini
+Item-153=Dir*<Auxiliary Folder>\INI\Install
+Item-154=Fil*<PATH_2>\INI\Install\BMConfig.ini
+Item-155=Fil*<PATH_2>\INI\Install\EZATG.ini
+Item-156=Fil*<PATH_2>\INI\Install\EZLicense.ini
+Item-157=Fil*<PATH_2>\INI\Install\EZPriceSign.ini
+Item-158=Fil*<PATH_2>\INI\Install\EZProductGroup.ini
+Item-159=Fil*<PATH_2>\INI\Install\EZserver.ini
+Item-160=Fil*<PATH_2>\INI\Install\EZTankGauge.ini
+Item-161=Fil*<PATH_2>\INI\Install\EZHOWSC.ini
+Item-162=Dir*<Auxiliary Folder>\Logs[1]
+Item-163=Dir*<Auxiliary Folder>\NcFTP[1]
+Item-164=Fil*<PATH_2>\NcFTP\prefs_v3.txt
+Item-165=Fil*<PATH_2>\NcFTP\ncftpput.exe
+Item-166=Fil*<PATH_2>\NcFTP\ncftpget.exe
+Item-167=Fil*<PATH_2>\NcFTP\ncftp.exe
+Item-168=Fil*<PATH_2>\NcFTP\log.txt
+Item-169=Fil*<PATH_2>\NcFTP\init_v3.txt
+Item-170=Fil*<PATH_2>\NcFTP\history.txt
+Item-171=Fil*<PATH_2>\NcFTP\firewall.txt
+Item-172=Fil*<PATH_2>\NcFTP\CleanLogs.bat
+Item-173=Dir*<Auxiliary Folder>\Release[1]
+Item-174=Fil*<PATH_2>\Release\ABL.dll
+Item-175=Fil*<PATH_2>\Release\Aspro.dll
+Item-176=Fil*<PATH_2>\Release\Bennet.dll
+Item-177=Fil*<PATH_2>\Release\Ceibo.dll
+Item-178=Fil*<PATH_2>\Release\Daruma.dll
+Item-179=Fil*<PATH_2>\Release\ExcelBr.dll
+Item-180=Fil*<PATH_2>\Release\EZ2Serial.dll
+Item-181=Fil*<PATH_2>\Release\EZClient.dll
+Item-182=Fil*<PATH_2>\Release\EZCoord.B2G
+Item-183=Fil*<PATH_2>\Release\EZCopy.exe
+Item-184=Fil*<PATH_2>\Release\EZExtract.exe
+Item-185=Fil*<PATH_2>\Release\EZHOWSC.dll
+Item-186=Fil*<PATH_2>\Release\EZLicense.exe
+Item-187=Fil*<PATH_2>\Release\EZLoader.exe
+Item-188=Fil*<PATH_2>\Release\EZMOD.B2G
+Item-189=Fil*<PATH_2>\Release\EZNet.exe
+Item-190=Fil*<PATH_2>\Release\EZPriceSign.B2G
+Item-191=Fil*<PATH_2>\Release\EZRemote.B2G
+Item-192=Fil*<PATH_2>\Release\EZServer.dll
+Item-193=Fil*<PATH_2>\Release\EZSetTCPIP.dll
+Item-194=Fil*<PATH_2>\Release\EZSoftSim.dll
+Item-195=Fil*<PATH_2>\Release\EZZip.exe
+Item-196=Fil*<PATH_2>\Release\FAFNIR.dll
+Item-197=Fil*<PATH_2>\Release\G180.dll
+Item-198=Fil*<PATH_2>\Release\GC21.dll
+Item-199=Fil*<PATH_2>\Release\Gilbarco.dll
+Item-200=Fil*<PATH_2>\Release\LT.dll
+Item-201=Fil*<PATH_2>\Release\MedLiq.dll
+Item-202=Fil*<PATH_2>\Release\ModBus.dll
+Item-203=Fil*<PATH_2>\Release\NP.dll
+Item-204=Fil*<PATH_2>\Release\NZP.dll
+Item-205=Fil*<PATH_2>\Release\PumpDrv.dll
+Item-206=Fil*<PATH_2>\Release\RSPS2.dll
+Item-207=Fil*<PATH_2>\Release\Safe.dll
+Item-208=Fil*<PATH_2>\Release\TankDrv.dll
+Item-209=Fil*<PATH_2>\Release\Tatsuno.dll
+Item-210=Fil*<PATH_2>\Release\TeleMed.dll
+Item-211=Fil*<PATH_2>\Release\Tokheim.dll
+Item-212=Fil*<PATH_2>\Release\VRTLS350.dll
+Item-213=Fil*<PATH_2>\Release\Wayne.dll
+Item-214=Fil*<PATH_2>\Release\WDTest.exe
+Item-215=Fil*<PATH_2>\Release\EZIBM.dll
+Item-216=Fil*<PATH_2>\Release\EZIBr.B2G
+Item-217=Fil*<PATH_2>\Release\EZOdo.B2G
+Item-218=Fil*<PATH_2>\Release\EZPriceSign.B2G
+
+[Group-001]
+TypicalCompactData=6619143
+Description=
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\ABL.dll
+Item-002=Fil*<PATH_1>\Aspro.dll
+Item-003=Fil*<PATH_1>\atl90.dll
+Item-004=Fil*<PATH_1>\Bennet.dll
+Item-005=Fil*<PATH_1>\BMConfig.ini
+Item-006=Fil*<PATH_1>\Ceibo.dll
+Item-007=Fil*<PATH_1>\Daruma.dll
+Item-008=Fil*<PATH_1>\ExcelBr.dll
+Item-009=Fil*<PATH_1>\EZ2Serial.exe
+Item-010=Fil*<PATH_1>\EZClient.dll
+Item-011=Fil*<PATH_1>\EZClient.ocx[2]
+Item-012=Fil*<PATH_1>\EZClient64.dll
+Item-013=Fil*<PATH_1>\EZClientCE.ini
+Item-014=Fil*<PATH_1>\EZClientFP.dll
+Item-015=Fil*<PATH_1>\EZClientXP.ini
+Item-016=Fil*<PATH_1>\EZConfig.exe
+Item-017=Fil*<PATH_1>\EZCoord.B2G
+Item-018=Fil*<PATH_1>\EZDriver.ini
+Item-019=Fil*<PATH_1>\EZExtract.exe
+Item-020=Fil*<PATH_1>\EZHOWSC.exe
+Item-021=Fil*<PATH_1>\EZIPConfig.exe
+Item-022=Fil*<PATH_1>\EZLicense.exe
+Item-023=Fil*<PATH_1>\EZLicenseXP.ini
+Item-024=Fil*<PATH_1>\EZLoader.dll
+Item-025=Fil*<PATH_1>\EZLoader.exe
+Item-026=Fil*<PATH_1>\EZLoader.ico
+Item-027=Fil*<PATH_1>\EZLogger.exe
+Item-028=Fil*<PATH_1>\EZLogViewer.exe
+Item-029=Fil*<PATH_1>\EZMOD.B2G
+Item-030=Fil*<PATH_1>\EZPriceSign.exe
+Item-031=Fil*<PATH_1>\EZProductGroup.ini
+Item-032=Fil*<PATH_1>\EZPump.ocx[2]
+Item-033=Fil*<PATH_1>\EZRemote.B2G
+Item-034=Fil*<PATH_1>\EZServer.exe
+Item-035=Fil*<PATH_1>\EZSoftSim.dll
+Item-036=Fil*<PATH_1>\EZTankGauge.ini
+Item-037=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-038=Fil*<PATH_1>\FAFNIR.dll
+Item-039=Fil*<PATH_1>\G180.dll
+Item-040=Fil*<PATH_1>\GC21.dll
+Item-041=Fil*<PATH_1>\Gilbarco.dll
+Item-042=Fil*<PATH_1>\LT.dll
+Item-043=Fil*<PATH_1>\MedLiq.dll
+Item-044=Fil*<PATH_1>\mfc90.dll
+Item-045=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-046=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-047=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-048=Fil*<PATH_1>\ModBus.dll
+Item-049=Fil*<PATH_1>\msvcm90.dll
+Item-050=Fil*<PATH_1>\msvcp90.dll
+Item-051=Fil*<PATH_1>\msvcr90.dll
+Item-052=Fil*<PATH_1>\msvcrt.dll
+Item-053=Fil*<PATH_1>\NP.dll
+Item-054=Fil*<PATH_1>\NZP.dll
+Item-055=Fil*<PATH_1>\PumpDrv.dll
+Item-056=Fil*<PATH_1>\RSPS2.dll
+Item-057=Fil*<PATH_1>\Safe.dll
+Item-058=Fil*<PATH_1>\TankDrv.dll
+Item-059=Fil*<PATH_1>\Tatsuno.dll
+Item-060=Fil*<PATH_1>\TeleMed.dll
+Item-061=Fil*<PATH_1>\Tokheim.dll
+Item-062=Fil*<PATH_1>\VRTLS350.dll
+Item-063=Fil*<PATH_1>\Wayne.dll
+Item-064=Fil*<PATH_1>\EZIBM.dll
+Item-065=Fil*<PATH_1>\EZIBr.B2G
+Item-066=Fil*<PATH_1>\EZOdo.B2G
+Item-067=Fil*<PATH_1>\EZPriceSign.B2G
+Item-068=Dir*<Application Folder>\Driver[1]
+Item-069=Fil*<PATH_1>\Driver\ezforecourt.cat
+Item-070=Fil*<PATH_1>\Driver\EZForecourt.inf
+Item-071=Dir*<Application Folder>\Driver\amd64
+Item-072=Fil*<PATH_1>\Driver\amd64\EZForecourt.sys
+Item-073=Dir*<Application Folder>\Driver\i386
+Item-074=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
+Item-075=Dir*<Application Folder>\EZMonitor[1]
+Item-076=Fil*<PATH_1>\atl90.dll
+Item-077=Fil*<PATH_1>\EZClient.dll
+Item-078=Fil*<PATH_1>\EZClient64.dll
+Item-079=Fil*<PATH_1>\EZMonitor\EZMonitor.exe
+Item-080=Fil*<PATH_1>\EZMonitor\EZMonitorCE.ini
+Item-081=Fil*<PATH_1>\EZMonitor\EZMonitorXP.ini
+Item-082=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-083=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-084=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-085=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-086=Fil*<PATH_1>\msvcm90.dll
+Item-087=Fil*<PATH_1>\msvcp90.dll
+Item-088=Fil*<PATH_1>\msvcr90.dll
+Item-089=Fil*<PATH_1>\msvcrt.dll
+Item-090=Dir*<Application Folder>\EZMonitor\es
+Item-091=Fil*<PATH_1>\EZMonitor\es\EZMonitor.resources.dll
+Item-092=Dir*<Application Folder>\EZMonitor\pt-BR
+Item-093=Fil*<PATH_1>\EZMonitor\pt-BR\EZMonitor.resources.dll
+Item-094=Dir*<Application Folder>\EZSim[1]
+Item-095=Fil*<PATH_1>\EZSim\EZSim.exe
+Item-096=Fil*<PATH_1>\EZSim\EZSim.ini
+Item-097=Dir*<Application Folder>\x64[1]
+Item-098=Fil*<PATH_1>\x64\EZTech.dll
+Item-099=Fol*<Auxiliary Folder>
+Item-100=Fil*<PATH_2>\CleanLogs.cmd
+Item-101=Fil*<PATH_2>\DelNV.bat
+Item-102=Fil*<PATH_2>\DelNV.cmd
+Item-103=Fil*<PATH_2>\EZConfirm.exe
+Item-104=Fil*<PATH_2>\GetLogs.bat
+Item-105=Fil*<PATH_2>\InitBBBBefore.cmd
+Item-106=Fil*<PATH_2>\Install.bat
+Item-107=Fil*<PATH_2>\Logs.cmd
+Item-108=Fil*<PATH_2>\RemoveEZ2Serial.bat
+Item-109=Fil*<PATH_2>\RemoveEZ2Serial.cmd
+Item-110=Fil*<PATH_2>\RemoveOld.cmd
+Item-111=Fil*<PATH_2>\SetDateTime.bat
+Item-112=Fil*<PATH_2>\SetDateTime.cmd
+Item-113=Fil*<PATH_2>\SetZBDef.bat
+Item-114=Fil*<PATH_2>\SetZBDef.cmd
+Item-115=Fil*<PATH_2>\Start.cmd
+Item-116=Fil*<PATH_2>\Stop.cmd
+Item-117=Fil*<PATH_2>\Upgrade.bat
+Item-118=Fil*<PATH_2>\ChangeUser.bat
+Item-119=Fil*<PATH_2>\ChangeUser.cmd
+Item-120=Fil*<PATH_2>\VisionNew.cfg
+Item-121=Fil*<PATH_2>\WriteProtect.cmd
+Item-122=Dir*<Auxiliary Folder>\CE[1]
+Item-123=Fil*<PATH_2>\CE\EBOOTSD.nb0
+Item-124=Fil*<PATH_2>\CE\logo.bmp
+Item-125=Fil*<PATH_2>\CE\MLO
+Item-126=Fil*<PATH_2>\CE\NK.bin
+Item-127=Dir*<Auxiliary Folder>\EZApps[1]
+Item-128=Fil*<PATH_2>\EZApps\MyClock.exe
+Item-129=Fil*<PATH_2>\EZApps\WecEZAlarms.exe
+Item-130=Fil*<PATH_2>\EZApps\WecEZMain.exe
+Item-131=Fil*<PATH_2>\EZApps\WecEZPumps.exe
+Item-132=Fil*<PATH_2>\EZApps\WecEZSensors.exe
+Item-133=Fil*<PATH_2>\EZApps\WecEZTanks.exe
+Item-134=Dir*<Auxiliary Folder>\EZTelnet[1]
+Item-135=Fil*<PATH_1>\atl90.dll
+Item-136=Fil*<PATH_2>\EZTelnet\EZTelnet.exe
+Item-137=Fil*<PATH_2>\EZTelnet\EZTelnet.ini
+Item-138=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-139=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-140=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-141=Fil*<PATH_1>\msvcm90.dll
+Item-142=Fil*<PATH_1>\msvcp90.dll
+Item-143=Fil*<PATH_1>\msvcr90.dll
+Item-144=Dir*<Auxiliary Folder>\INI[1]
+Item-145=Fil*<PATH_2>\INI\EZClient.ini
+Item-146=Fil*<PATH_2>\INI\EZDriver.ini
+Item-147=Dir*<Auxiliary Folder>\Logs[1]
+Item-148=Dir*<Auxiliary Folder>\NcFTP[1]
+Item-149=Fil*<PATH_2>\NcFTP\CleanLogs.bat
+Item-150=Fil*<PATH_2>\NcFTP\firewall.txt
+Item-151=Fil*<PATH_2>\NcFTP\history.txt
+Item-152=Fil*<PATH_2>\NcFTP\init_v3.txt
+Item-153=Fil*<PATH_2>\NcFTP\log.txt
+Item-154=Fil*<PATH_2>\NcFTP\ncftp.exe
+Item-155=Fil*<PATH_2>\NcFTP\ncftpget.exe
+Item-156=Fil*<PATH_2>\NcFTP\ncftpput.exe
+Item-157=Fil*<PATH_2>\NcFTP\prefs_v3.txt
+Item-158=Dir*<Auxiliary Folder>\Release[1]
+Item-159=Fil*<PATH_2>\Release\ABL.dll
+Item-160=Fil*<PATH_2>\Release\Aspro.dll
+Item-161=Fil*<PATH_2>\Release\Bennet.dll
+Item-162=Fil*<PATH_2>\Release\Ceibo.dll
+Item-163=Fil*<PATH_2>\Release\Daruma.dll
+Item-164=Fil*<PATH_2>\Release\ExcelBr.dll
+Item-165=Fil*<PATH_2>\Release\EZ2Serial.dll
+Item-166=Fil*<PATH_2>\Release\EZClient.dll
+Item-167=Fil*<PATH_2>\Release\EZCoord.B2G
+Item-168=Fil*<PATH_2>\Release\EZCopy.exe
+Item-169=Fil*<PATH_2>\Release\EZExtract.exe
+Item-170=Fil*<PATH_2>\Release\EZHOWSC.dll
+Item-171=Fil*<PATH_2>\Release\EZLicense.exe
+Item-172=Fil*<PATH_2>\Release\EZLoader.exe
+Item-173=Fil*<PATH_2>\Release\EZMOD.B2G
+Item-174=Fil*<PATH_2>\Release\EZNet.exe
+Item-175=Fil*<PATH_2>\Release\EZPriceSign.B2G
+Item-176=Fil*<PATH_2>\Release\EZRemote.B2G
+Item-177=Fil*<PATH_2>\Release\EZServer.dll
+Item-178=Fil*<PATH_2>\Release\EZSetTCPIP.dll
+Item-179=Fil*<PATH_2>\Release\EZSoftSim.dll
+Item-180=Fil*<PATH_2>\Release\EZZip.exe
+Item-181=Fil*<PATH_2>\Release\FAFNIR.dll
+Item-182=Fil*<PATH_2>\Release\G180.dll
+Item-183=Fil*<PATH_2>\Release\GC21.dll
+Item-184=Fil*<PATH_2>\Release\Gilbarco.dll
+Item-185=Fil*<PATH_2>\Release\LT.dll
+Item-186=Fil*<PATH_2>\Release\MedLiq.dll
+Item-187=Fil*<PATH_2>\Release\ModBus.dll
+Item-188=Fil*<PATH_2>\Release\NP.dll
+Item-189=Fil*<PATH_2>\Release\NZP.dll
+Item-190=Fil*<PATH_2>\Release\PumpDrv.dll
+Item-191=Fil*<PATH_2>\Release\RSPS2.dll
+Item-192=Fil*<PATH_2>\Release\Safe.dll
+Item-193=Fil*<PATH_2>\Release\TankDrv.dll
+Item-194=Fil*<PATH_2>\Release\Tatsuno.dll
+Item-195=Fil*<PATH_2>\Release\TeleMed.dll
+Item-196=Fil*<PATH_2>\Release\Tokheim.dll
+Item-197=Fil*<PATH_2>\Release\VRTLS350.dll
+Item-198=Fil*<PATH_2>\Release\Wayne.dll
+Item-199=Fil*<PATH_2>\Release\WDTest.exe
+Item-200=Fil*<PATH_2>\Release\EZIBM.dll
+Item-201=Fil*<PATH_2>\Release\EZIBr.B2G
+Item-202=Fil*<PATH_2>\Release\EZOdo.B2G
+Item-203=Fil*<PATH_2>\Release\EZPriceSign.B2G
+

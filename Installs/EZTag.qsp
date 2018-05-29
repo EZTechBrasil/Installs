@@ -1,0 +1,560 @@
+[General]
+FileVersion=1.1
+FileType=QSetupIniFile
+OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
+ProcessorNameString=Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+ComputerRAM=32592 MB
+ProjectDrive=C:\  (462.78 GB Free)
+DateTime=29-MAY-2018 10:32:25
+OutputType=EXE
+Language=ENGLISH
+ComposerVersion=11.0.0.2
+License=DEMO
+
+[Project]
+ProjectName=EZTag
+ProjectDirectory=C:\ZEZTech\Release\Installs
+NonSFXDirectory=C:\ZEZTech\Release\Installs\NonSFX
+MediaFileName=EZTag 25b01B6
+CopyMediaToFName=
+ProgramDescriptiveName=EZTag
+ProgramVersion=2.5 build 01B6
+CompanyName=EZTech Tecnologia e Automação
+ProgVerLiveUpdate=0
+RegisterAsApp=1
+RegisterProject=1
+LanguageFlag=6
+LanguageNames=|English|Portuguese(Brazil)|Spanish|
+UseNonSFXDir=0
+ClrNonSFXDir=0
+BuildNonSFXTree=0
+CompressNonSFXFiles=0
+ForceCopyNonSFXFiles=0
+CompressionLevel=1
+SetupWillExpire=0
+ExpireByDate=0
+ExpireByDays=1
+ExpireDate=2010-11-18
+ExpireDays=90
+SpanCDs=0
+SpanCDsSize=650
+DebugWindow=0
+DebugOnThisPC=1
+DebugOnEveryPC=0
+MSI_ProductCode={209B00EF-B44B-4312-B73D-1D9F3739662D}
+MSI_UpgradeCode={B1B72A36-E2A5-4C19-960D-D0EA43A36401}
+
+[Language]
+Portuguese(Brazil)=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtTag-PT.txt|||||||
+English=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtTag-EN.txt|||||||
+Spanish=||C:\zeztech\Release\Installs\Readme\ReadmeForecourtTag-SP.txt|||||||
+
+[LanguageShortcut]
+
+[LanguageCustomDLG]
+
+[Display]
+AddSetupBackground=0
+SetupBackground3D=0
+TopLabel=1
+TopLabelVer=1
+TopLabel2=1
+BottomLabel=1
+TopLabelText="Intalação do EZForecourt"
+TopLabel2Text="Módulos servidor e cliente local"
+BottomLabelText="Copyright © 2012 EzTech"
+BackgroundDesign=Gradient
+TopBackgroundColor=16777215
+BottomBackgroundColor=16777215
+AddBottomColor=1
+DlgBmp3DFrame=1
+DialogStyle=Modern
+AddDialogBitmap=1
+AddDialogBitmapSmall=1
+DialogBitmapFileName=C:\ZEZTech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+DialogBitmapSmallFileName=C:\ZEZTech\Release\Images\Icons\Install\Install.bmp
+AddBackgroundBitmap=1
+BackgroundBitmapFileName=C:\Work200\Icons\Instalação\Background.bmp
+BackgroundBitmapLocation=|Entire Screen|0|0|
+AddBackgroundWave=0
+BgBmpTransparent=1
+BackgroundWaveFileName=
+BackgroundWaveLocation=|Center|300|0|
+BackgroundWaveLoop=1
+BackgroundWaveDelay=0
+AddBackgroundWaveSlider=1
+BackgroundWaveSliderType=Fixed
+TopLabelSide=Left
+TopLabel2Side=Left
+BottomLabelSide=Right
+DialogLocation=|Center|0|0|
+TopLabelFont=|Trebuchet MS|32|128|1|1|0|0|
+TopLabel2Font=|Arial Black|16|8421504|1|0|0|0|
+BottomLabelFont=|Tahoma|12|16777215|1|0|1|0|
+CompanyUrl=www.eztech.ind.br
+HideQSetupWaterMark=1
+
+[TargetExe]
+TargetDirectory=<AbsoluteDir>C:\EZForecourt
+CommonDirectory=<AbsoluteDir>C:\EZForecourt
+AuxDirectory=<FontDir>
+TargetExeName=
+
+[Dialogs]
+SelectedDialogs=*Welcome,License,*Readme,User Information,Setup Type,*Custom,Destination,Associate,Shortcuts,Confirm Setup,*Copy Files,*Complete
+LicenseTextFile=
+ReadmeTextFile=
+ReadmeTextFile2=
+UseNotepad=0
+SpaceReqOnDriveCheckBox=0
+SpaceReqOnDrive=
+RequestUserName=1
+RequestCompanyName=1
+RequestSerialNumberAlso=0
+MandatoryUserName=1
+MandatoryCompanyName=1
+MandatorySerialNumber=1
+FromPcUserName=0
+FromPcCompanyName=0
+RequestSerialCheckDLL=0
+SerialCheckDll=
+RequestPredefinedSerial=0
+CaseSensitiveSerial=0
+RequestTokenizedSerial=0
+CDSetup=0
+ShowCompactSetupAlso=1
+ForcePartialSetup=0
+ShowProgBar2=0
+SilentSetup=0
+EnableCancelButton=1
+HiddenSetup=0
+ProposeReadme=0
+ProposeLaunch=0
+ProposeRestart=0
+ProposeReadmeChecked=0
+ProposeLaunchChecked=0
+ForceRestart=0
+ShowCloseRecommendation=1
+ShowAdwareDisclaimer=0
+ShowCopyrightWarning=1
+Image-000=Welcome=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+Image-001=Readme=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-002=Custom=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-003=Copy Files=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-004=Complete=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+
+[Shortcuts]
+AddMainShortCut=0
+ForceRemoveShortcutFolder=0
+ProgramLinkFolder=EZForecourt
+ProgramLinkName=
+ProgramLinkParam=
+ProgramLinkWorkDir=
+ProgramLinkRun=Normal Window
+ProgramLinkIconFile=
+ProgramLinkIconNum=0
+ProgramLinkRunAsAdmin=0
+StartMenuLinkName=Intalação do EZForecourt
+DesktopLinkName=Intalação do EZForecourt
+SendToLinkName=Intalação do EZForecourt
+StartUpLinkName=Intalação do EZForecourt
+QuickLaunchLinkName=Intalação do EZForecourt
+StartMenuCheckBox=0
+DesktopCheckBox=0
+SendToCheckBox=0
+StartUpCheckBox=0
+QuickLaunchCheckBox=0
+StartMenuChecked=1
+DesktopChecked=1
+SendToChecked=1
+StartUpChecked=1
+QuickLaunchChecked=1
+SetAllUsers=1
+SelectedByEndUser=0
+AddUninstallShortcut=0
+UnInstallSubFolder=0
+UnInstallSubFolderText=
+
+[Billboard]
+AddBillboard=1
+Item-000=|1|0|0|1|0|Center|0|0|8388608|16711680|Verdana|14|16777215|1|0|360|360|0|1|0|1|
+
+[SplitSetup]
+SplitSetup=0
+ForceDownload=1
+DownloadURL_SPLIT=http://
+ConfirmSplitDownload=0
+
+[AutoUpdate]
+AutoUpdate=0
+CheckAUSetupEnd=0
+RunAutoUpdate=1
+AddAutoUpdateShortcut=1
+AutoUpdateLog=0
+AutoUpdateSubFolder=0
+AutoUpdateSubFolderText=
+AutoUpdateShortcutIcon=0
+AutoUpdateShortcutIconText=
+AutoUpdateRunAsAdmin=1
+ReqConfirmDownload=0
+ReqConfirmDownloadForce=0
+ReqConfirmInstall=0
+ReqConfirmInstallForce=0
+ShutDownMethod=Don't Shut Down
+BackgroundUpdate=0
+RestartProcess=0
+InformFinish=0
+AddKnownExtensions=0
+UpdateProjectFName=
+DownloadURL_UPDATE=http:
+NameOfUpdateFile=
+RunningProcess=
+VersionOriginal=1
+ValidVersions=
+VersionNew=1
+ReAskDays=0
+AutoUpdateProbeSpin=1
+AutoUpdateProbeText=Only at Agent Start
+SelectInformFile=1
+DownloadUrlInform=1
+DownloadURL_INFORM=http://
+NameOfInformFile=
+UpdateSetupPageIndex=0
+AutoInformW=360
+AutoInformH=360
+
+[Switches]
+OperatingSystems=2003,XP,Vista,7,2008,8,XP.64,Vista.64,7.64,2008.64,2008R2.64,8.64,2012.64
+Create64BitSetup=0
+OverwriteFlag=1
+CreateLogFile=1
+ConfirmExtract=0
+ShowActivityBar=0
+TestAdminRights=1
+TestAdminRightsUnInstall=1
+IgnoreAdminTestVista=1
+RequestElevation=1
+SetAllowFullAccess=1
+TestDotNetFramework=1
+InstallDotNetFx=0
+InstallDotNetFxText=
+InstallDotNetFxUrl=0
+InstallDotNetFxUrlText=http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7
+DotNetFrameworkReqVer=3.5
+TestExeBeforeInstall=1
+TestExeBeforeUnInstall=1
+AutorunCreateInfFile=0
+AutorunTest=0
+AutorunStartApp=0
+AddAppToRunOnce=0
+AddAppToRun=0
+IfPreviousInstallationFound=1
+PreviousInstallationOp=Inform and Continue Setup
+UnInstallPreviousMode=Silent
+UsePrevInstallDir=1
+CreateUnInstall=1
+ScrambleUnInstallData=0
+SilentUnInstall=0
+HiddenUnInstall=0
+HideErrMsgUnInstall=0
+HideLogBtnUnInstall=0
+AddRemoveProgramsUnInstall=1
+AddChangeButtonUnInstall=1
+UnInstallExeStampSwitch=1
+UnInstallExeStamp=UninstallEZTag
+UnInstallExeDirSwitch=0
+UnInstallExeDir=
+
+[UnInstall]
+UnInstallDisplayName=EZTag
+UnInstallDisplayIcon=<Application Folder>\EZLoader.ico
+UnInstallDisplayIconNum=0
+UnInstallHelpLink=
+UnInstallInfoAboutURL=
+
+[Registry]
+
+[IniFile]
+
+[XmlFile]
+
+[Environment]
+
+[Association]
+OpenWith=0
+OpenWithName=
+OpenWithMenuText=Open with
+OpenWithExtensions=
+
+[VerInfo]
+CopyFromExe=0
+DefineManually=1
+Item-001=|Comments|Instalation of <ProgramDescriptiveName>|
+Item-002=|CompanyName|<VendorCompanyName>|
+Item-003=|FileDescription||
+Item-004=|FileVersion|2.5.0.1.6|
+Item-005=|InternalName||
+Item-006=|LegalCopyright|<VendorCompanyName> (C) 2018|
+Item-007=|LegalTrademarks||
+Item-008=|OriginalFilename||
+Item-009=|ProductName|<ProgramDescriptiveName>|
+Item-010=|ProductVersion|<ProgramVersion>|
+Item-011=|LastCompile||
+Item-012=|OriginalFileName||
+Item-013=|PrivateBuildStr||
+Item-014=|SpecialBuildStr||
+CopyIconFromTargetExe=0
+CopyIconFromOtherApp=1
+OtherIconAppFileName=C:\zeztech\Release\Product\EZInstallXP\EZLoader.ico
+Spin1=0
+Spin2=0
+
+[Execute]
+ExecuteDllCheckBox=0
+ExecutionDllFileName=
+Exec-000=*||Test EZClient.dll (PT)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-000-1=<InstallDir>EZClient.dll
+Arg-000-2==
+Arg-000-5=Portuguese(Brazil)
+Arg-000-6==
+Arg-000-9=Portuguese(Brazil)
+Arg-000-10==
+Arg-000-13=EZForecourt não está instalado.<P><P>Execute a instalação do EZForecourt.
+Exec-001=*||Test EZClient.dll (EN)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-001-1=<InstallDir>EZClient.dll
+Arg-001-2==
+Arg-001-5=English
+Arg-001-6==
+Arg-001-9=English
+Arg-001-10==
+Arg-001-13=EZForecourt is not installed.<P><P>Run the EZForecourt Instalation.
+Exec-002=*||Test EZClient.dll (SP)|Before Copy|10|Conditional|0|1|File Found||1|0|0|Selected Language is in||0|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-002-1=<InstallDir>EZClient.dll
+Arg-002-2==
+Arg-002-5=Spanish
+Arg-002-6==
+Arg-002-9=English
+Arg-002-10==
+Arg-002-13=EZForecourt is not installed.<P><P>Run the EZForecourt Instalation.
+Exec-003=*||Stop EZPasso Service|Before Copy|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-003-1=EZForecourt USB Drivers
+Arg-003-2==
+Arg-003-5=EZForecourt Upgrade
+Arg-003-6==
+Arg-003-10==
+Arg-003-13=EZPasso
+Arg-003-16=ezlogger
+Arg-003-19=ezdbclient
+Arg-003-22=ezserver
+Arg-003-25=ezpasso
+Exec-004=*||Rename ini file (EZPasso Scanner)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-004-1=Passo Scanner
+Arg-004-2==
+Arg-004-6==
+Arg-004-10==
+Arg-004-13=<Application Folder>\Passo\EZPasso_Scanner.ini
+Arg-004-14=<Application Folder>\Passo\EZPasso.ini
+Exec-005=*||Rename ini file (EZPasso Placa)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-005-1=Passo Placa
+Arg-005-2==
+Arg-005-6==
+Arg-005-10==
+Arg-005-13=<Application Folder>\Passo\EZPasso_Placa.ini
+Arg-005-14=<Application Folder>\Passo\EZPasso.ini
+Exec-006=*||Rename ini file (GBR)|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Move File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-006-1=GBR
+Arg-006-2==
+Arg-006-6==
+Arg-006-10==
+Arg-006-13=<Application Folder>\Passo\EZPasso_GBR.ini
+Arg-006-14=<Application Folder>\Passo\EZPasso.ini
+Exec-007=*||IP Configuration (PT)|Before Complete|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||0|0|0|Group Selected||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-007-1=Upgrade
+Arg-007-2==
+Arg-007-5=Portuguese(Brazil)
+Arg-007-6==
+Arg-007-9=GBR
+Arg-007-10==
+Arg-007-13=<InstallDir>\EZIPConfig.exe
+Arg-007-14=/LPT
+Arg-007-19=<InstallDir>\EZIPConfig.exe
+Arg-007-20=/LPT
+Exec-008=*||IP Configuration (EN)|Before Complete|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-008-1=Upgrade
+Arg-008-2==
+Arg-008-5=English
+Arg-008-6==
+Arg-008-10==
+Arg-008-13=<InstallDir>\EZIPConfig.exe
+Arg-008-14=/LEN
+Arg-008-19=<InstallDir>\EZIPConfig.exe
+Arg-008-20=/LPT
+Exec-009=*||IP Configuration (SP)|Before Complete|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-009-1=Upgrade
+Arg-009-2==
+Arg-009-5=Spanish
+Arg-009-6==
+Arg-009-10==
+Arg-009-13=<InstallDir>\EZIPConfig.exe
+Arg-009-14=/LEN
+Arg-009-19=<InstallDir>\EZIPConfig.exe
+Arg-009-20=/LPT
+Exec-010=*||Install Passo DLL drivers|Before Complete|10|Conditional|0|0|Group Selected||2|0|0|Group Selected||0|0|0|File Found||1|Run Executable||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-010-1=Passo Scanner
+Arg-010-2==
+Arg-010-5=Passo Placa
+Arg-010-6==
+Arg-010-10==
+Arg-010-13=<InstallDir>\Passo\port95nt.exe
+Exec-011=*||Register EZPasso Service|Before Complete|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-011-2==
+Arg-011-6==
+Arg-011-10==
+Arg-011-13=<InstallDir>\Passo\EZPasso.exe
+Arg-011-14=-i
+Arg-011-15=SW_HIDE
+Exec-012=*||Start EZPasso Service|Before Complete|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Start Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-012-1=EZForecourt USB Drivers
+Arg-012-2==
+Arg-012-5=EZForecourt Upgrade
+Arg-012-6==
+Arg-012-10==
+Arg-012-13=EZPasso
+Arg-012-16=ezlogger
+Arg-012-19=ezdbclient
+Arg-012-22=ezserver
+Arg-012-25=ezpasso
+Exec-013=*||Stop EZPasso service|UnInstall Start|10|UnConditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Stop Service||0|Display Message||0|
+Arg-013-1=EZForecourt USB Drivers
+Arg-013-2==
+Arg-013-5=EZForecourt Upgrade
+Arg-013-6==
+Arg-013-10==
+Arg-013-13=EZPasso
+Arg-013-16=ezlogger
+Arg-013-19=ezdbclient
+Arg-013-22=ezserver
+Arg-013-25=ezpasso
+Exec-014=*||Uninstall EZPasso service|UnInstall Start|10|UnConditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-014-1=EZForecourt Full
+Arg-014-2==
+Arg-014-6==
+Arg-014-10==
+Arg-014-13=<InstallDir>EZPasso.exe
+Arg-014-14=-u
+Arg-014-15=SW_HIDE
+
+[MSI]
+Version=1
+AddMergeModule=0
+Msm2MsiData=|MSM2MSI_EZForecourt.msi|1|1|1|0|
+
+[GroupNames]
+Group-000=Passo Scanner
+Group-001=Passo Placa
+Group-002=GBR
+Group-003=Upgrade
+
+[Group-000]
+TypicalCompactData=6619139
+Description=Install the Passo terminal comunication driver when using  scanner.<P>Instala os drives de comunicação do terminal Passo para uso com scanner.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZIPConfig.exe
+Item-003=Dir*<Application Folder>\Passo[1]
+Item-004=Fil*<PATH_1>\Passo\EZPasso_GBR.ini
+Item-005=Fil*<PATH_1>\Passo\EZPasso_Placa.ini
+Item-006=Fil*<PATH_1>\Passo\EZPasso_Scanner.ini
+Item-007=Fil*<PATH_1>\atl90.dll
+Item-008=Fil*<PATH_1>\EZClient.dll
+Item-009=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-010=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-011=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-012=Fil*<PATH_1>\msvcm90.dll
+Item-013=Fil*<PATH_1>\msvcp90.dll
+Item-014=Fil*<PATH_1>\msvcr90.dll
+Item-015=Fil*<PATH_1>\msvcrt.dll
+Item-016=Fil*<PATH_1>\Passo\ca100.dll
+Item-017=Fil*<PATH_1>\Passo\EZPasso.exe
+Item-018=Fil*<PATH_1>\Passo\pc100.cfg
+Item-019=Fil*<PATH_1>\Passo\port95nt.exe
+Item-020=Fil*<PATH_1>\Passo\WAYNE.TRO
+Item-021=Fil*<PATH_1>\Passo\Wcf100.exe
+
+[Group-001]
+TypicalCompactData=6619139
+Description=Install the Passo terminal comunication driver when using a keyboard.<P>Instala os drives de comunicação do terminal Passo para uso com teclado.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZIPConfig.exe
+Item-003=Dir*<Application Folder>\Passo[1]
+Item-004=Fil*<PATH_1>\Passo\EZPasso_GBR.ini
+Item-005=Fil*<PATH_1>\Passo\EZPasso_Placa.ini
+Item-006=Fil*<PATH_1>\Passo\EZPasso_Scanner.ini
+Item-007=Fil*<PATH_1>\atl90.dll
+Item-008=Fil*<PATH_1>\EZClient.dll
+Item-009=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-010=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-011=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-012=Fil*<PATH_1>\msvcm90.dll
+Item-013=Fil*<PATH_1>\msvcp90.dll
+Item-014=Fil*<PATH_1>\msvcr90.dll
+Item-015=Fil*<PATH_1>\msvcrt.dll
+Item-016=Fil*<PATH_1>\Passo\ca100.dll
+Item-017=Fil*<PATH_1>\Passo\EZPasso.exe
+Item-018=Fil*<PATH_1>\Passo\pc100.cfg
+Item-019=Fil*<PATH_1>\Passo\port95nt.exe
+Item-020=Fil*<PATH_1>\Passo\WAYNE.TRO
+Item-021=Fil*<PATH_1>\Passo\Wcf100.exe
+
+[Group-002]
+TypicalCompactData=6619139
+Description=Install the GBR terminal comunication driver.<P>Instala os drives de comunicação do terminal GBR.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\EZLoader.ico
+Item-002=Fil*<PATH_1>\EZIPConfig.exe
+Item-003=Dir*<Application Folder>\Passo[1]
+Item-004=Fil*<PATH_1>\Passo\EZPasso_GBR.ini
+Item-005=Fil*<PATH_1>\Passo\EZPasso_Placa.ini
+Item-006=Fil*<PATH_1>\Passo\EZPasso_Scanner.ini
+Item-007=Fil*<PATH_1>\atl90.dll
+Item-008=Fil*<PATH_1>\EZClient.dll
+Item-009=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-010=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-011=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-012=Fil*<PATH_1>\msvcm90.dll
+Item-013=Fil*<PATH_1>\msvcp90.dll
+Item-014=Fil*<PATH_1>\msvcr90.dll
+Item-015=Fil*<PATH_1>\msvcrt.dll
+Item-016=Fil*<PATH_1>\Passo\ca100.dll
+Item-017=Fil*<PATH_1>\Passo\EZPasso.exe
+Item-018=Fil*<PATH_1>\Passo\pc100.cfg
+Item-019=Fil*<PATH_1>\Passo\port95nt.exe
+Item-020=Fil*<PATH_1>\Passo\WAYNE.TRO
+Item-021=Fil*<PATH_1>\Passo\Wcf100.exe
+
+[Group-003]
+TypicalCompactData=6619143
+Description=Upgrade the Passo and GBR terminal comunication drivers.<P>Atualiza os drives de comunicação dos terminais Passo e GBR.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Dir*<Application Folder>\Passo[1]
+Item-002=Fil*<PATH_1>\atl90.dll
+Item-003=Fil*<PATH_1>\EZClient.dll
+Item-004=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-005=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-006=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-007=Fil*<PATH_1>\msvcm90.dll
+Item-008=Fil*<PATH_1>\msvcp90.dll
+Item-009=Fil*<PATH_1>\msvcr90.dll
+Item-010=Fil*<PATH_1>\msvcrt.dll
+Item-011=Fil*<PATH_1>\Passo\ca100.dll
+Item-012=Fil*<PATH_1>\Passo\EZPasso.exe
+Item-013=Fil*<PATH_1>\Passo\pc100.cfg
+Item-014=Fil*<PATH_1>\Passo\port95nt.exe
+Item-015=Fil*<PATH_1>\Passo\WAYNE.TRO
+Item-016=Fil*<PATH_1>\Passo\Wcf100.exe
+

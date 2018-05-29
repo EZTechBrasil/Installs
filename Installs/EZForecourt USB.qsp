@@ -1,0 +1,802 @@
+[General]
+FileVersion=1.1
+FileType=QSetupIniFile
+OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
+ProcessorNameString=Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+ComputerRAM=32592 MB
+ProjectDrive=C:\  (462.79 GB Free)
+DateTime=29-MAY-2018 10:31:26
+OutputType=EXE
+Language=ENGLISH
+ComposerVersion=11.0.0.2
+License=DEMO
+
+[Project]
+ProjectName=EZForecourt USB
+ProjectDirectory=C:\zeztech\Release\Installs
+NonSFXDirectory=C:\zeztech\Release\Installs\NonSFX
+MediaFileName=EZForecourt USB 25b01B6
+CopyMediaToFName=
+ProgramDescriptiveName=EZForecourt USB
+ProgramVersion=2.5build 01B6
+CompanyName=EZTech Tecnologia e Automação
+ProgVerLiveUpdate=0
+RegisterAsApp=1
+RegisterProject=1
+LanguageFlag=6
+LanguageNames=|English|Portuguese(Brazil)|Spanish|
+UseNonSFXDir=0
+ClrNonSFXDir=0
+BuildNonSFXTree=0
+CompressNonSFXFiles=0
+ForceCopyNonSFXFiles=0
+CompressionLevel=1
+SetupWillExpire=0
+ExpireByDate=0
+ExpireByDays=1
+ExpireDate=2010-11-18
+ExpireDays=90
+SpanCDs=0
+SpanCDsSize=650
+DebugWindow=0
+DebugOnThisPC=1
+DebugOnEveryPC=0
+MSI_ProductCode={209B00EF-B44B-4312-B73D-1D9F3739662D}
+MSI_UpgradeCode={B1B72A36-E2A5-4C19-960D-D0EA43A36401}
+
+[Language]
+Portuguese(Brazil)=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-PT.txt|||||||
+English=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-EN.txt|||||||
+Spanish=||C:\zeztech\Release\Installs\Readme\ReadmePlusClient-SP.txt|||||||
+
+[LanguageShortcut]
+
+[LanguageCustomDLG]
+
+[Display]
+AddSetupBackground=0
+SetupBackground3D=0
+TopLabel=1
+TopLabelVer=1
+TopLabel2=1
+BottomLabel=1
+TopLabelText="Intalação do EZForecourt"
+TopLabel2Text="Módulos servidor e cliente local"
+BottomLabelText="Copyright © 2012 EzTech"
+BackgroundDesign=Gradient
+TopBackgroundColor=16777215
+BottomBackgroundColor=16777215
+AddBottomColor=1
+DlgBmp3DFrame=1
+DialogStyle=Modern
+AddDialogBitmap=1
+AddDialogBitmapSmall=1
+DialogBitmapFileName=C:\ZEZTech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+DialogBitmapSmallFileName=C:\ZEZTech\Release\Images\Icons\Install\Install.bmp
+AddBackgroundBitmap=1
+BackgroundBitmapFileName=C:\Work200\Icons\Instalação\Background.bmp
+BackgroundBitmapLocation=|Entire Screen|0|0|
+AddBackgroundWave=0
+BgBmpTransparent=1
+BackgroundWaveFileName=
+BackgroundWaveLocation=|Center|300|0|
+BackgroundWaveLoop=1
+BackgroundWaveDelay=0
+AddBackgroundWaveSlider=1
+BackgroundWaveSliderType=Fixed
+TopLabelSide=Left
+TopLabel2Side=Left
+BottomLabelSide=Right
+DialogLocation=|Center|0|0|
+TopLabelFont=|Trebuchet MS|32|128|1|1|0|0|
+TopLabel2Font=|Arial Black|16|8421504|1|0|0|0|
+BottomLabelFont=|Tahoma|12|16777215|1|0|1|0|
+CompanyUrl=www.eztech.ind.br
+HideQSetupWaterMark=1
+
+[TargetExe]
+TargetDirectory=<AbsoluteDir>C:\EZForecourt
+CommonDirectory=<AbsoluteDir>C:\EZForecourt
+AuxDirectory=<FontDir>
+TargetExeName=
+
+[Dialogs]
+SelectedDialogs=*Welcome,License,*Readme,User Information,Setup Type,*Custom,Destination,Associate,Shortcuts,Confirm Setup,*Copy Files,*Complete
+LicenseTextFile=
+ReadmeTextFile=
+ReadmeTextFile2=
+UseNotepad=0
+SpaceReqOnDriveCheckBox=0
+SpaceReqOnDrive=
+RequestUserName=1
+RequestCompanyName=1
+RequestSerialNumberAlso=0
+MandatoryUserName=1
+MandatoryCompanyName=1
+MandatorySerialNumber=1
+FromPcUserName=0
+FromPcCompanyName=0
+RequestSerialCheckDLL=0
+SerialCheckDll=
+RequestPredefinedSerial=0
+CaseSensitiveSerial=0
+RequestTokenizedSerial=0
+CDSetup=0
+ShowCompactSetupAlso=1
+ForcePartialSetup=0
+ShowProgBar2=0
+SilentSetup=0
+EnableCancelButton=1
+HiddenSetup=0
+ProposeReadme=0
+ProposeLaunch=0
+ProposeRestart=0
+ProposeReadmeChecked=0
+ProposeLaunchChecked=0
+ForceRestart=0
+ShowCloseRecommendation=1
+ShowAdwareDisclaimer=0
+ShowCopyrightWarning=1
+Image-000=Welcome=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+Image-001=Readme=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-002=Custom=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-003=Copy Files=C:\zeztech\Release\Images\Icons\Install\Install.bmp
+Image-004=Complete=C:\zeztech\Release\Images\Icons\Install\BackgroundBoardCD.bmp
+
+[Shortcuts]
+AddMainShortCut=0
+ForceRemoveShortcutFolder=0
+ProgramLinkFolder=EZForecourt
+ProgramLinkName=
+ProgramLinkParam=
+ProgramLinkWorkDir=
+ProgramLinkRun=Normal Window
+ProgramLinkIconFile=
+ProgramLinkIconNum=0
+ProgramLinkRunAsAdmin=0
+StartMenuLinkName=Intalação do EZForecourt
+DesktopLinkName=Intalação do EZForecourt
+SendToLinkName=Intalação do EZForecourt
+StartUpLinkName=Intalação do EZForecourt
+QuickLaunchLinkName=Intalação do EZForecourt
+StartMenuCheckBox=0
+DesktopCheckBox=0
+SendToCheckBox=0
+StartUpCheckBox=0
+QuickLaunchCheckBox=0
+StartMenuChecked=1
+DesktopChecked=1
+SendToChecked=1
+StartUpChecked=1
+QuickLaunchChecked=1
+SetAllUsers=1
+SelectedByEndUser=0
+AddUninstallShortcut=0
+UnInstallSubFolder=0
+UnInstallSubFolderText=
+Item-000=*|EZMonitor|<Application Folder>\EZMonitor\EZMonitor.exe|EZForecourt|||Normal Window||0|1||0|0|||
+Item-001=*|EZConfig|<Application Folder>\EZConfig.exe|EZForecourt|||Normal Window||0|1||0|0|||
+Item-002=*|EZLicense|<Application Folder>\EZLicense.exe|EZForecourt|||Normal Window||0|1||0|0|||
+Item-003=*|EZIPConfig|<Application Folder>\EZIPConfig.exe|EZForecourt|||Normal Window||0|1||0|0|||
+
+[Billboard]
+AddBillboard=1
+Item-000=|1|0|0|1|0|Center|0|0|8388608|16711680|Verdana|14|16777215|1|0|360|360|0|1|0|1|
+
+[SplitSetup]
+SplitSetup=0
+ForceDownload=1
+DownloadURL_SPLIT=http://
+ConfirmSplitDownload=0
+
+[AutoUpdate]
+AutoUpdate=0
+CheckAUSetupEnd=0
+RunAutoUpdate=1
+AddAutoUpdateShortcut=1
+AutoUpdateLog=0
+AutoUpdateSubFolder=0
+AutoUpdateSubFolderText=
+AutoUpdateShortcutIcon=0
+AutoUpdateShortcutIconText=
+AutoUpdateRunAsAdmin=1
+ReqConfirmDownload=0
+ReqConfirmDownloadForce=0
+ReqConfirmInstall=0
+ReqConfirmInstallForce=0
+ShutDownMethod=Don't Shut Down
+BackgroundUpdate=0
+RestartProcess=0
+InformFinish=0
+AddKnownExtensions=0
+UpdateProjectFName=
+DownloadURL_UPDATE=http:
+NameOfUpdateFile=
+RunningProcess=
+VersionOriginal=1
+ValidVersions=
+VersionNew=1
+ReAskDays=0
+AutoUpdateProbeSpin=1
+AutoUpdateProbeText=Only at Agent Start
+SelectInformFile=1
+DownloadUrlInform=1
+DownloadURL_INFORM=http://
+NameOfInformFile=
+UpdateSetupPageIndex=0
+AutoInformW=360
+AutoInformH=360
+
+[Switches]
+OperatingSystems=2003,XP,Vista,7,2008,8,XP.64,Vista.64,7.64,2008.64,2008R2.64,8.64,2012.64
+Create64BitSetup=0
+OverwriteFlag=1
+CreateLogFile=1
+ConfirmExtract=0
+ShowActivityBar=0
+TestAdminRights=1
+TestAdminRightsUnInstall=1
+IgnoreAdminTestVista=1
+RequestElevation=1
+SetAllowFullAccess=1
+TestDotNetFramework=1
+InstallDotNetFx=0
+InstallDotNetFxText=
+InstallDotNetFxUrl=0
+InstallDotNetFxUrlText=http://www.microsoft.com/downloads/en/confirmation.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7
+DotNetFrameworkReqVer=3.5
+TestExeBeforeInstall=1
+TestExeBeforeUnInstall=1
+AutorunCreateInfFile=0
+AutorunTest=0
+AutorunStartApp=0
+AddAppToRunOnce=0
+AddAppToRun=0
+IfPreviousInstallationFound=1
+PreviousInstallationOp=Inform and Continue Setup
+UnInstallPreviousMode=Silent
+UsePrevInstallDir=1
+CreateUnInstall=1
+ScrambleUnInstallData=0
+SilentUnInstall=0
+HiddenUnInstall=0
+HideErrMsgUnInstall=0
+HideLogBtnUnInstall=0
+AddRemoveProgramsUnInstall=1
+AddChangeButtonUnInstall=1
+UnInstallExeStampSwitch=1
+UnInstallExeStamp=UninstallEZForecourt
+UnInstallExeDirSwitch=0
+UnInstallExeDir=
+
+[UnInstall]
+UnInstallDisplayName=EZForecourt
+UnInstallDisplayIcon=<Application Folder>\EZLoader.ico
+UnInstallDisplayIconNum=0
+UnInstallHelpLink=
+UnInstallInfoAboutURL=
+
+[Registry]
+
+[IniFile]
+
+[XmlFile]
+
+[Environment]
+
+[Association]
+OpenWith=0
+OpenWithName=
+OpenWithMenuText=Open with
+OpenWithExtensions=
+
+[VerInfo]
+CopyFromExe=0
+DefineManually=1
+Item-001=|Comments|Instalation of <ProgramDescriptiveName>|
+Item-002=|CompanyName|<VendorCompanyName>|
+Item-003=|FileDescription||
+Item-004=|FileVersion|2.5.0.1.6|
+Item-005=|InternalName||
+Item-006=|LegalCopyright|<VendorCompanyName> (C) 2018|
+Item-007=|LegalTrademarks||
+Item-008=|OriginalFilename||
+Item-009=|ProductName|<ProgramDescriptiveName>|
+Item-010=|ProductVersion|<ProgramVersion>|
+Item-011=|LastCompile||
+Item-012=|OriginalFileName||
+Item-013=|PrivateBuildStr||
+Item-014=|SpecialBuildStr||
+CopyIconFromTargetExe=0
+CopyIconFromOtherApp=1
+OtherIconAppFileName=C:\zeztech\Release\Product\EZInstallXP\EZLoader.ico
+Spin1=0
+Spin2=0
+
+[Execute]
+ExecuteDllCheckBox=0
+ExecutionDllFileName=
+Exec-000=*||Stop services|Before Copy|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||0|
+Arg-000-1=EZForecourt USB Drivers
+Arg-000-2==
+Arg-000-5=EZForecourt Upgrade
+Arg-000-6==
+Arg-000-10==
+Arg-000-13=ez2serial
+Arg-000-16=ezlogger
+Arg-000-19=ezdbclient
+Arg-000-22=ezserver
+Arg-000-25=ezpasso
+Exec-001=*||Test EZClient.dll (PT)|Before Copy|10|Conditional|0|1|Group Selected||1|0|0|File is Locked||1|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-001-1=EZForecourt USB Drivers
+Arg-001-2==
+Arg-001-5=<InstallDir>EZClient.dll
+Arg-001-6==
+Arg-001-9=Portuguese(Brazil)
+Arg-001-10==
+Arg-001-13=EZClient.dll está em uso.<P><P>Feche todos os aplicativos da EZTech e parceiros.
+Exec-002=*||Test EZClient.dll (EN)|Before Copy|10|Conditional|0|1|Group Selected||1|0|0|File is Locked||1|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-002-1=EZForecourt USB Drivers
+Arg-002-2==
+Arg-002-5=<InstallDir>EZClient.dll
+Arg-002-6==
+Arg-002-9=English
+Arg-002-10==
+Arg-002-13=EZClient.dll is in use.<P><P>Close all EZTech and partner applications.
+Exec-003=*||Test EZClient.dll (SP)|Before Copy|10|Conditional|0|1|Group Selected||1|0|0|File is Locked||1|0|0|Selected Language is in||1|Display Message||1|Exit||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-003-1=EZForecourt USB Drivers
+Arg-003-2==
+Arg-003-5=<InstallDir>EZClient.dll
+Arg-003-6==
+Arg-003-9=Spanish
+Arg-003-10==
+Arg-003-13=EZClient.dll está en uso. <P> <P> Cerrar todas las aplicaciones EZTech y socios.
+Exec-004=*||Remove EZLoader Error Log|Before Copy|10|Conditional|0|1|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Delete File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-004-1=EZForecourt USB Drivers
+Arg-004-2==
+Arg-004-6==
+Arg-004-10==
+Arg-004-13=<InstallDir>EZLoader.err
+Arg-004-14=Now
+Exec-005=*||Delete Log files|After Copy|10|Conditional|0|1|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Delete File(s)||0|Delete File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-005-1=EZForecourt USB Drivers
+Arg-005-2==
+Arg-005-6==
+Arg-005-10==
+Arg-005-13=<InstallDir>log /q
+Arg-005-14=Now
+Arg-005-16=<InstallDir>*.old /q
+Arg-005-17=Now
+Exec-006=*||Update EZMod Firmware (PT)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-006-1=EZForecourt USB Drivers
+Arg-006-2==
+Arg-006-5=Portuguese(Brazil)
+Arg-006-6==
+Arg-006-10==
+Arg-006-13=<InstallDir>EZLoader.exe
+Arg-006-14=<InstallDir>EZMod /LPT
+Arg-006-15=SW_SHOWNORMAL
+Arg-006-19=<InstallDir>EZLoader.exe
+Arg-006-20=<InstallDir>EZMod /LEN
+Arg-006-21=SW_SHOWNORMAL
+Exec-007=*||Update EZMod Firmware (EN)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-007-1=EZForecourt USB Drivers
+Arg-007-2==
+Arg-007-5=English
+Arg-007-6==
+Arg-007-10==
+Arg-007-13=<InstallDir>EZLoader.exe
+Arg-007-14=<InstallDir>EZMod /LEN
+Arg-007-15=SW_SHOWNORMAL
+Arg-007-19=<InstallDir>EZLoader.exe
+Arg-007-20=<InstallDir>EZMod /LPT
+Arg-007-21=SW_SHOWNORMAL
+Exec-008=*||Update EZMod Firmware (SP)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-008-1=EZForecourt USB Drivers
+Arg-008-2==
+Arg-008-5=Spanish
+Arg-008-6==
+Arg-008-10==
+Arg-008-13=<InstallDir>EZLoader.exe
+Arg-008-14=<InstallDir>EZMod /LEN
+Arg-008-15=SW_SHOWNORMAL
+Arg-008-19=<InstallDir>EZLoader.exe
+Arg-008-20=<InstallDir>EZMod /LPT
+Arg-008-21=SW_SHOWNORMAL
+Exec-009=*||Test EZLoader connection (PT)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|File Found||1|0|0|Selected Language is in||1|Display Message||0|Remove Environment Variable||0|Display Message||0|Display Message||0|Exit||0|Display Message||0|
+Arg-009-1=EZForecourt USB Drivers
+Arg-009-2==
+Arg-009-5=<InstallDir>EZLoader.err
+Arg-009-6==
+Arg-009-9=Portuguese(Brazil)
+Arg-009-10==
+Arg-009-13=O EZForecourt não foi encontrado.<P>Conecte o EZForecourt à uma porta usb e reinicie a instalação.
+Arg-009-15=FALSE
+Arg-009-16=EZLoaderError
+Arg-009-17=User
+Exec-010=*||Test EZLoader connection (EN)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|File Found||1|0|0|Selected Language is in||1|Display Message||0|Remove Environment Variable||0|Display Message||0|Display Message||0|Exit||0|Display Message||0|
+Arg-010-1=EZForecourt USB Drivers
+Arg-010-2==
+Arg-010-5=<InstallDir>EZLoader.err
+Arg-010-6==
+Arg-010-9=English
+Arg-010-10==
+Arg-010-13=EZForecourt was not found.<P>Connect EZForecourt to a usb port and restart the installation.
+Arg-010-15=FALSE
+Arg-010-16=EZLoaderError
+Arg-010-17=User
+Exec-011=*||Test EZLoader connection (SP)|After Copy|10|Conditional|0|1|Group Selected||1|0|0|File Found||1|0|0|Selected Language is in||1|Display Message||0|Remove Environment Variable||0|Display Message||0|Display Message||0|Exit||0|Display Message||0|
+Arg-011-1=EZForecourt USB Drivers
+Arg-011-2==
+Arg-011-5=<InstallDir>EZLoader.err
+Arg-011-6==
+Arg-011-9=Spanish
+Arg-011-10==
+Arg-011-13=EZForecourt no fue encontrado. <P> Conectar EZForecourt a un puerto USB y reinicie la instalación.
+Arg-011-15=FALSE
+Arg-011-16=EZLoaderError
+Arg-011-17=User
+Exec-012=*||Create Ini Files|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Copy File(s)||1|Copy File(s)||1|Copy File(s)||0|Display Message||1|Copy File(s)||0|Display Message||0|
+Arg-012-1=EZForecourt Full
+Arg-012-2==
+Arg-012-6==
+Arg-012-10==
+Arg-012-13=<InstallDir>EZ2SerialXP.ini
+Arg-012-14=<InstallDir>EZSerial.ini
+Arg-012-15=TRUE
+Arg-012-16=<InstallDir>EZClientXP.ini
+Arg-012-17=<InstallDir>EZClient.ini
+Arg-012-18=TRUE
+Arg-012-19=<InstallDir>\EZMonitor\EZMonitorXP.ini
+Arg-012-20=<InstallDir>EZMonitor\Ezmonitor.ini
+Arg-012-21=TRUE
+Arg-012-25=<InstallDir>EZLicenseXP.ini
+Arg-012-26=<InstallDir>EZLicense.ini
+Arg-012-27=TRUE
+Exec-013=*||Register EZServer service|After Copy|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-013-1=EZForecourt Full
+Arg-013-2==
+Arg-013-6==
+Arg-013-10==
+Arg-013-13=<InstallDir>EZServer.exe
+Arg-013-14=-i
+Arg-013-15=SW_HIDE
+Exec-014=*||Install 64 bit dlls|After Copy|10|Conditional|0|1|Group Selected||1|0|0|Running on 64 Bit OS||0|0|0|File Found||1|Copy File(s)||1|Copy File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-014-1=EZForecourt USB Drivers
+Arg-014-2==
+Arg-014-6==
+Arg-014-10==
+Arg-014-13=<InstallDir>\x64\*.*
+Arg-014-14=<InstallDir>
+Arg-014-16=<InstallDir>\x64\*.*
+Arg-014-17=<InstallDir>\EZMonitor
+Exec-015=*||Start services|Before Complete|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Start Service||1|Start Service||1|Start Service||1|Start Service||1|Start Service||0|Display Message||0|
+Arg-015-1=EZForecourt USB Drivers
+Arg-015-2==
+Arg-015-5=EZForecourt Upgrade
+Arg-015-6==
+Arg-015-10==
+Arg-015-13=ezserver
+Arg-015-16=ezdbclient
+Arg-015-19=ezlogger
+Arg-015-22=ez2serial
+Arg-015-25=ezpasso
+Exec-016=*||Enter License Key (PT)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||0|Run Executable and Wait||0|Display Message||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-016-1=EZForecourt Full
+Arg-016-2==
+Arg-016-5=Portuguese(Brazil)
+Arg-016-6==
+Arg-016-10==
+Arg-016-13=<InstallDir><Application Folder>\EZLicense.exe
+Arg-016-14=/LEN
+Arg-016-19=<InstallDir><Application Folder>\EZLicense.exe
+Arg-016-20=/LPT
+Exec-017=*||Enter License Key (EN)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-017-1=EZForecourt Full
+Arg-017-2==
+Arg-017-5=English
+Arg-017-6==
+Arg-017-10==
+Arg-017-13=<InstallDir><Application Folder>\EZLicense.exe
+Arg-017-14=/LEN
+Arg-017-19=<InstallDir><Application Folder>\EZLicense.exe
+Arg-017-20=/LPT
+Exec-018=*||Enter License Key (SP)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-018-1=EZForecourt Full
+Arg-018-2==
+Arg-018-5=Spanish
+Arg-018-6==
+Arg-018-10==
+Arg-018-13=<InstallDir><Application Folder>\EZLicense.exe
+Arg-018-14=/LEN
+Arg-018-19=<InstallDir><Application Folder>\EZLicense.exe
+Arg-018-20=/LPT
+Exec-019=*||Remove EZLoader Error Log|Before Complete|10|Conditional|0|1|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Delete File(s)||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-019-1=EZForecourt USB Drivers
+Arg-019-2==
+Arg-019-6==
+Arg-019-10==
+Arg-019-13=<InstallDir>EZLoader.err
+Arg-019-14=Now
+Exec-020=*||IP Configuration (PT)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||0|Run Executable and Wait||0|Display Message||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-020-1=EZForecourt Plus
+Arg-020-2==
+Arg-020-5=Portuguese(Brazil)
+Arg-020-6==
+Arg-020-10==
+Arg-020-13=<InstallDir>\EZIPConfig.exe
+Arg-020-14=/LEN
+Arg-020-19=<InstallDir>\EZIPConfig.exe
+Arg-020-20=/LPT
+Exec-021=*||IP Configuration (EN)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-021-1=EZForecourt Plus
+Arg-021-2==
+Arg-021-5=English
+Arg-021-6==
+Arg-021-10==
+Arg-021-13=<InstallDir>\EZIPConfig.exe
+Arg-021-14=/LEN
+Arg-021-19=<InstallDir>\EZIPConfig.exe
+Arg-021-20=/LPT
+Exec-022=*||IP Configuration (SP)|Before Complete|10|Conditional|0|0|Group Selected||1|0|0|Selected Language is in||2|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
+Arg-022-1=EZForecourt Plus
+Arg-022-2==
+Arg-022-5=Spanish
+Arg-022-6==
+Arg-022-10==
+Arg-022-13=<InstallDir>\EZIPConfig.exe
+Arg-022-14=/LEN
+Arg-022-19=<InstallDir>\EZIPConfig.exe
+Arg-022-20=/LPT
+Exec-023=*||Stop services|UnInstall Start|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||0|
+Arg-023-1=EZForecourt USB Drivers
+Arg-023-2==
+Arg-023-5=EZForecourt Upgrade
+Arg-023-6==
+Arg-023-10==
+Arg-023-13=ez2serial
+Arg-023-16=ezlogger
+Arg-023-19=ezdbclient
+Arg-023-22=ezserver
+Arg-023-25=ezpasso
+Exec-024=*||Uninstall EZserver service|UnInstall Start|10|Conditional|0|0|Group Selected||0|0|0|File Found||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|Display Message||0|Display Message||1|
+Arg-024-1=EZForecourt Full
+Arg-024-2==
+Arg-024-6==
+Arg-024-10==
+Arg-024-13=<InstallDir>EZServer.exe
+Arg-024-14=-u
+Arg-024-15=SW_HIDE
+
+[MSI]
+Version=1
+AddMergeModule=0
+Msm2MsiData=|MSM2MSI_EZForecourt.msi|1|1|1|0|
+
+[GroupNames]
+Group-000=EZForecourt USB Drivers
+Group-001=EZForecourt Upgrade
+Group-002=EZForecourt Full
+
+[Group-000]
+TypicalCompactData=6619139
+Description=Install the EZForecourt USB drivers. Install before performing  the full install.<P>Instala os drives USB do EZForecourt. Instale antes de executar a instalação completa.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Dir*<Application Folder>\Driver
+Item-002=Fil*<PATH_1>\Driver\ezforecourt.cat
+Item-003=Fil*<PATH_1>\Driver\EZForecourt.inf
+Item-004=Dir*<Application Folder>\Driver\amd64
+Item-005=Fil*<PATH_1>\Driver\amd64\EZForecourt.sys
+Item-006=Dir*<Application Folder>\Driver\i386
+Item-007=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
+
+[Group-001]
+TypicalCompactData=6619143
+Description=Upgrade the full version of the EZForecourt product. The drivers must had been installed.<P>Atualiza a versão completa do produto EZForecourt. Os drivers precisam ter sido instalados
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\ABL.dll
+Item-002=Fil*<PATH_1>\Aspro.dll
+Item-003=Fil*<PATH_1>\atl90.dll
+Item-004=Fil*<PATH_1>\Bennet.dll
+Item-005=Fil*<PATH_1>\Ceibo.dll
+Item-006=Fil*<PATH_1>\Daruma.dll
+Item-007=Fil*<PATH_1>\EZ2Serial.exe
+Item-008=Fil*<PATH_1>\EZClient.dll
+Item-009=Fil*<PATH_1>\EZClient.ocx[2]
+Item-010=Fil*<PATH_1>\EZClient64.dll
+Item-011=Fil*<PATH_1>\EZClientCE.ini
+Item-012=Fil*<PATH_1>\EZClientFP.dll
+Item-013=Fil*<PATH_1>\EZClientXP.ini
+Item-014=Fil*<PATH_1>\EZConfig.exe
+Item-015=Fil*<PATH_1>\EZCoord.B2G
+Item-016=Fil*<PATH_1>\EZDriver.ini
+Item-017=Fil*<PATH_1>\EZExtract.exe
+Item-018=Fil*<PATH_1>\EZHOWSC.exe
+Item-019=Fil*<PATH_1>\EZHOWSC.ini
+Item-020=Fil*<PATH_1>\EZIPConfig.exe
+Item-021=Fil*<PATH_1>\EZLicense.exe
+Item-022=Fil*<PATH_1>\EZLicenseXP.ini
+Item-023=Fil*<PATH_1>\EZLoader.dll
+Item-024=Fil*<PATH_1>\EZLoader.exe
+Item-025=Fil*<PATH_1>\EZLoader.ico
+Item-026=Fil*<PATH_1>\EZLogger.exe
+Item-027=Fil*<PATH_1>\EZLogViewer.exe
+Item-028=Fil*<PATH_1>\ezmod.ARM
+Item-029=Fil*<PATH_1>\EZMOD.B2G
+Item-030=Fil*<PATH_1>\ezmod.BIN
+Item-031=Fil*<PATH_1>\EZPriceSign.exe
+Item-032=Fil*<PATH_1>\EZPump.ocx[2]
+Item-033=Fil*<PATH_1>\EZRemote.B2G
+Item-034=Fil*<PATH_1>\EZServer.exe
+Item-035=Fil*<PATH_1>\EZSoftSim.dll
+Item-036=Fil*<PATH_1>\EZTankGauge.ini
+Item-037=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-038=Fil*<PATH_1>\G180.dll
+Item-039=Fil*<PATH_1>\GC21.dll
+Item-040=Fil*<PATH_1>\Gilbarco.dll
+Item-041=Fil*<PATH_1>\LT.dll
+Item-042=Fil*<PATH_1>\MedLiq.dll
+Item-043=Fil*<PATH_1>\mfc90.dll
+Item-044=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-045=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-046=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-047=Fil*<PATH_1>\ModBus.dll
+Item-048=Fil*<PATH_1>\msvcm90.dll
+Item-049=Fil*<PATH_1>\msvcp90.dll
+Item-050=Fil*<PATH_1>\msvcr90.dll
+Item-051=Fil*<PATH_1>\msvcrt.dll
+Item-052=Fil*<PATH_1>\NP.dll
+Item-053=Fil*<PATH_1>\PumpDrv.dll
+Item-054=Fil*<PATH_1>\RSPS2.dll
+Item-055=Fil*<PATH_1>\Safe.dll
+Item-056=Fil*<PATH_1>\TankDrv.dll
+Item-057=Fil*<PATH_1>\Tatsuno.dll
+Item-058=Fil*<PATH_1>\TeleMed.dll
+Item-059=Fil*<PATH_1>\Tokheim.dll
+Item-060=Fil*<PATH_1>\VRTLS350.dll
+Item-061=Fil*<PATH_1>\Wayne.dll
+Item-062=Fil*<PATH_1>\EZIBM.dll
+Item-063=Fil*<PATH_1>\EZIBr.B2G
+Item-064=Fil*<PATH_1>\EZOdo.B2G
+Item-065=Fil*<PATH_1>\EZPriceSign.B2G
+Item-066=Dir*<Application Folder>\Driver[1]
+Item-067=Fil*<PATH_1>\Driver\ezforecourt.cat
+Item-068=Fil*<PATH_1>\Driver\EZForecourt.inf
+Item-069=Dir*<Application Folder>\Driver\amd64
+Item-070=Fil*<PATH_1>\Driver\amd64\EZForecourt.sys
+Item-071=Dir*<Application Folder>\Driver\i386
+Item-072=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
+Item-073=Dir*<Application Folder>\EZMonitor[1]
+Item-074=Fil*<PATH_1>\atl90.dll
+Item-075=Fil*<PATH_1>\EZClient.dll
+Item-076=Fil*<PATH_1>\EZClient64.dll
+Item-077=Fil*<PATH_1>\EZMonitor\EZMonitor.exe
+Item-078=Fil*<PATH_1>\EZMonitor\EZMonitorCE.ini
+Item-079=Fil*<PATH_1>\EZMonitor\EZMonitorXP.ini
+Item-080=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-081=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-082=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-083=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-084=Fil*<PATH_1>\msvcm90.dll
+Item-085=Fil*<PATH_1>\msvcp90.dll
+Item-086=Fil*<PATH_1>\msvcr90.dll
+Item-087=Fil*<PATH_1>\msvcrt.dll
+Item-088=Dir*<Application Folder>\EZMonitor\es
+Item-089=Fil*<PATH_1>\EZMonitor\es\EZMonitor.resources.dll
+Item-090=Dir*<Application Folder>\EZMonitor\pt-BR
+Item-091=Fil*<PATH_1>\EZMonitor\pt-BR\EZMonitor.resources.dll
+Item-092=Dir*<Application Folder>\EZSim[1]
+Item-093=Fil*<PATH_1>\EZSim\EZSim.exe
+Item-094=Fil*<PATH_1>\EZSim\EZSim.ini
+Item-095=Dir*<Application Folder>\Log
+Item-096=Dir*<Application Folder>\x64[1]
+Item-097=Fil*<PATH_1>\x64\EZTech.dll
+
+[Group-002]
+TypicalCompactData=6619139
+Description=Install the full version of EZForecourt product. The drivers must had been installed.<P>Instala a versão completa do produto EZForecourt. Os drives precisam ter sido instalados.
+SizeInKB=0
+Item-000=Fol*<Application Folder>[48]
+Item-001=Fil*<PATH_1>\ABL.dll
+Item-002=Fil*<PATH_1>\Aspro.dll
+Item-003=Fil*<PATH_1>\atl90.dll
+Item-004=Fil*<PATH_1>\Bennet.dll
+Item-005=Fil*<PATH_1>\BMConfig.ini
+Item-006=Fil*<PATH_1>\Ceibo.dll
+Item-007=Fil*<PATH_1>\Daruma.dll
+Item-008=Fil*<PATH_1>\EZ2Serial.exe
+Item-009=Fil*<PATH_1>\EZATG.ini
+Item-010=Fil*<PATH_1>\EZClient.dll
+Item-011=Fil*<PATH_1>\EZClient.ocx[2]
+Item-012=Fil*<PATH_1>\EZClient64.dll
+Item-013=Fil*<PATH_1>\EZClientCE.ini
+Item-014=Fil*<PATH_1>\EZClientFP.dll
+Item-015=Fil*<PATH_1>\EZClientXP.ini
+Item-016=Fil*<PATH_1>\EZConfig.exe
+Item-017=Fil*<PATH_1>\EZCoord.B2G
+Item-018=Fil*<PATH_1>\EZDriver.ini
+Item-019=Fil*<PATH_1>\EZExtract.exe
+Item-020=Fil*<PATH_1>\EZHOWSC.exe
+Item-021=Fil*<PATH_1>\EZHOWSC.ini
+Item-022=Fil*<PATH_1>\EZIPConfig.exe
+Item-023=Fil*<PATH_1>\EZLicense.exe
+Item-024=Fil*<PATH_1>\EZLicenseXP.ini
+Item-025=Fil*<PATH_1>\EZLoader.dll
+Item-026=Fil*<PATH_1>\EZLoader.exe
+Item-027=Fil*<PATH_1>\EZLoader.ico
+Item-028=Fil*<PATH_1>\EZLogger.exe
+Item-029=Fil*<PATH_1>\EZLogViewer.exe
+Item-030=Fil*<PATH_1>\ezmod.ARM
+Item-031=Fil*<PATH_1>\EZMOD.B2G
+Item-032=Fil*<PATH_1>\EZPriceSign.exe
+Item-033=Fil*<PATH_1>\EZPriceSign.ini
+Item-034=Fil*<PATH_1>\EZPump.ocx[2]
+Item-035=Fil*<PATH_1>\EZRemote.B2G
+Item-036=Fil*<PATH_1>\EZServer.exe
+Item-037=Fil*<PATH_1>\EZServer.ini
+Item-038=Fil*<PATH_1>\EZSoftSim.dll
+Item-039=Fil*<PATH_1>\EZTankGauge.ini
+Item-040=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-041=Fil*<PATH_1>\G180.dll
+Item-042=Fil*<PATH_1>\GC21.dll
+Item-043=Fil*<PATH_1>\Gilbarco.dll
+Item-044=Fil*<PATH_1>\LT.dll
+Item-045=Fil*<PATH_1>\MedLiq.dll
+Item-046=Fil*<PATH_1>\mfc90.dll
+Item-047=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-048=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-049=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-050=Fil*<PATH_1>\ModBus.dll
+Item-051=Fil*<PATH_1>\msvcm90.dll
+Item-052=Fil*<PATH_1>\msvcp90.dll
+Item-053=Fil*<PATH_1>\msvcr90.dll
+Item-054=Fil*<PATH_1>\msvcrt.dll
+Item-055=Fil*<PATH_1>\NP.dll
+Item-056=Fil*<PATH_1>\PumpDrv.dll
+Item-057=Fil*<PATH_1>\RSPS2.dll
+Item-058=Fil*<PATH_1>\Safe.dll
+Item-059=Fil*<PATH_1>\TankDrv.dll
+Item-060=Fil*<PATH_1>\Tatsuno.dll
+Item-061=Fil*<PATH_1>\TeleMed.dll
+Item-062=Fil*<PATH_1>\Tokheim.dll
+Item-063=Fil*<PATH_1>\VRTLS350.dll
+Item-064=Fil*<PATH_1>\Wayne.dll
+Item-065=Fil*<PATH_1>\EZIBM.dll
+Item-066=Fil*<PATH_1>\EZIBr.B2G
+Item-067=Fil*<PATH_1>\EZOdo.B2G
+Item-068=Fil*<PATH_1>\EZPriceSign.B2G
+Item-069=Dir*<Application Folder>\Driver[1]
+Item-070=Fil*<PATH_1>\Driver\ezforecourt.cat
+Item-071=Fil*<PATH_1>\Driver\EZForecourt.inf
+Item-072=Dir*<Application Folder>\Driver\amd64
+Item-073=Fil*<PATH_1>\Driver\amd64\EZForecourt.sys
+Item-074=Dir*<Application Folder>\Driver\i386
+Item-075=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
+Item-076=Dir*<Application Folder>\EZMonitor[1]
+Item-077=Fil*<PATH_1>\atl90.dll
+Item-078=Fil*<PATH_1>\EZClient.dll
+Item-079=Fil*<PATH_1>\EZClient64.dll
+Item-080=Fil*<PATH_1>\EZMonitor\EZMonitor.exe
+Item-081=Fil*<PATH_1>\EZMonitor\EZMonitorCE.ini
+Item-082=Fil*<PATH_1>\EZMonitor\EZMonitorXP.ini
+Item-083=Fil*<PATH_1>\EZTech.dll[536870912]
+Item-084=Fil*<PATH_1>\Microsoft.VC90.ATL.manifest
+Item-085=Fil*<PATH_1>\Microsoft.VC90.CRT.manifest
+Item-086=Fil*<PATH_1>\Microsoft.VC90.MFC.manifest
+Item-087=Fil*<PATH_1>\msvcm90.dll
+Item-088=Fil*<PATH_1>\msvcp90.dll
+Item-089=Fil*<PATH_1>\msvcr90.dll
+Item-090=Fil*<PATH_1>\msvcrt.dll
+Item-091=Dir*<Application Folder>\EZMonitor\es
+Item-092=Fil*<PATH_1>\EZMonitor\es\EZMonitor.resources.dll
+Item-093=Dir*<Application Folder>\EZMonitor\pt-BR
+Item-094=Fil*<PATH_1>\EZMonitor\pt-BR\EZMonitor.resources.dll
+Item-095=Dir*<Application Folder>\EZSim[1]
+Item-096=Fil*<PATH_1>\EZSim\EZSim.exe
+Item-097=Fil*<PATH_1>\EZSim\EZSim.ini
+Item-098=Dir*<Application Folder>\Log[2]
+Item-099=Dir*<Application Folder>\x64[1]
+Item-100=Fil*<PATH_1>\x64\EZTech.dll
+
