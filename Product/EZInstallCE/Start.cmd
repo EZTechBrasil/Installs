@@ -1,6 +1,6 @@
 setdate
 settime
-ezloader \ndflash\ezforecourt\EZMOD
+ezloader EZMOD
 attrib -R \NDFlash\EZForecourt\*.ini
 eznet start all
 exit
