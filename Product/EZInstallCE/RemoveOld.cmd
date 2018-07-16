@@ -1,4 +1,6 @@
-eznet stop all
+md \NDFlash\SQLite
+EZExtract export \NDFlash\SQLite\config.ini 
+EZNet stop all
 cd \NDFLash\EZForecourt
 del *.old
 ren EZServer.dll EZServer.old
@@ -9,6 +11,8 @@ ren Wayne.dll Wayne.old
 ren Gilbarco.dll Gilbarco.old
 ren Tokheim.dll Tokheim.old
 ren TankDrv.dll TankDrv.old
+ren EZHOWSC.dll EZHOWSC.old 
+ren SQLite.dll SQLite.old 
 del *.old
 exit
 

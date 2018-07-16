@@ -15,7 +15,8 @@ del ini\EZPriceSign.ini
 del ini\EZProductGroup.ini
 @echo on
 EZTelnet\EZTelnet -C RemoveOld.cmd -O logs\Upgrade.log 
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install2.log -m \NDFlash\Log          \EZServerCE\log\*.ini
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log -m \NDFlash\Log          \EZServerCE\logs\*.ini
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade2.log -m \NDFlash\SQLite       \EZServerCE\INI\SQLite\*.ini
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade3.log -m \NDFlash\EZForecourt  \EZServerCE\Release\*.*
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade4.log \NDFlash\EZForecourt     \EZServerCE\INI\*.ini
 EZTelnet\EZTelnet -C WriteProtect.cmd -O logs\WriteProtect.log 
