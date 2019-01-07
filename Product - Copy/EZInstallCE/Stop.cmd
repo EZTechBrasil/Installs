@@ -1,0 +1,3 @@
+eznet stop all
+exit
+

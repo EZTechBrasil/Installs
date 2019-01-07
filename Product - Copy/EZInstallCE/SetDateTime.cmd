@@ -1,0 +1,3 @@
+setdate
+settime
+exit

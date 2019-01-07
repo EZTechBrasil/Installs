@@ -1,0 +1,268 @@
+[General]
+Version=3.0
+Language=Portuguese
+Locale=Brazil
+LangID=22
+Charset=0
+Author=Tiago Ramalho
+Date=17-SEP-2008
+AutoDate=04-FEB-2009
+FontSize=8
+FontName=Tahoma
+
+[Buttons]
+Back=< &Voltar
+Next=&Avançar >
+Cancel=&Cancelar
+Finish=&Finalizar
+Browse=&Procurar...
+Resume=&Retornar
+ExitSetup=&Interromper
+OK=&OK
+Close=Fechar
+
+[BeforeInstall]
+IsRunningCaption=Atenção
+IsRunningText=<b>PROG_NAME</b> --- está em execução!<p><p>Por favor feche o programa e depois clique em OK para continuar a Instalação.
+DotNetFramework=<B>PROG_NAME</B> requer o .NET Framework<P><P>Instale o .NET Framework e depois execute esta instalação
+PreviousCopy=Já existe uma cópia de <B>PROG_NAME</B> instalada no computador
+PreviousCopyAbort=Já existe uma cópia de <B>PROG_NAME</B> instalada no computador<P><P>Instalação Interrompida!
+PreviousCopyContinue=Já existe uma cópia de <B>PROG_NAME</B> instalada no computador<P><P>Continuar a Instalação?
+AdminRights=Impossível instalar o programa<P>Certifique-se de que tem Permissões de ADMINISTRADOR neste computador!
+WinVer=<B>PROG_NAME</B> não pode ser executado em <WIN_VER><P><P>Instalação Interrompida!
+ExpireMsg=A Instalação de <B>PROG_NAME</B> expirou<P><P>Instalação Interrompida!
+RunTimeDirMsg=À Procura da Pasta --- Aguarde!
+DotNetFramework=<B>PROG_NAME</B> requer o .NET Framework<P><P>Instale o .NET Framework e depois execute esta instalação
+DownloadDotNetFramework=<B>PROG_NAME</B> requer o .NET Framework<P><P>Deseja baixar e instalar o .NET Framework?
+
+[Welcome]
+Caption=Bem Vindo
+s1=Bem vindo ao programa de instalação do software <b>PROG_NAME</b>. Este programa irá conduzí-lo durante o processo de instalação deste software em seu computador.<p><p>
+s2=É altamente recomendável encerrar todos os programas abertos antes de prosseguir esta instalação.<p><p>Clique em <b>Cancelar</b> para sair e fechar qualquer programa aberto, ou clique em <b>Avançar</b> para prosseguir com o programa de instala ção.<p>
+s3=ATENÇÃO: Este programa está protegido por leis de direito autoral e tratados internacionais.A reprodução ou distribuição não autorizada deste programa, ou de qualquer parte dele, resultará em penalidades criminais e civis, e os infratores serão respon sabilizados na maior extensão legal possível.
+s4=<b>AVISO:</b> Será instalado um software que poderá ocasionalmente fazer uso da sua conexão de Internet.<p><p>
+
+[License]
+Caption=Contrato de Licença de Uso
+Description=Contrato de Licença de Uso
+s1=Por favor leia atentamente o Contrato de Licença de Uso a seguir.
+s2=Pressione a tecla PAGE DOWN para visualizar o restante do contrato.
+s3=SIM - Aceito os termos do Contrato de Licença.
+s4=NÃO - NÃO Aceito os termos do Contrato de Licença.
+s5=Aceita todos os termos do Contrato de Licença acima?
+s6=Para instalar este software é necessário aceitar este contrato!
+
+[Readme]
+Caption=Aviso importante
+Description=LEIA ANTES DE PROSSEGUIR
+s1=
+
+[UserInfo]
+Caption=Informações do usuário
+Description=Informações do usuário
+s1=Digite seu nome.
+s2=Digite o nome da sua empresa.
+s3=Digite seu nome e o nome da sua empresa.
+s4=Digite o número de série do produto.
+s5=Digite seu nome e o número de série do produto.
+s6=Digite o nome da sua empresa e o número de série do produto.
+s7=Digite seu nome, o nome da sua empresa e o número de série do produto.
+s11=Nome:
+s12=Empresa:
+s13=Número de série:
+s21=Por favor informe o seu nome!
+s22=Por favor informe o nome da empresa!
+s23=Por favor informe o número de série!
+s24=Número de série incorreto!
+
+[Destination]
+Caption=Pasta de Instalação
+Description=Pasta de Instalação
+s1=O programa de instalação irá instalar o software <b>PROG_NAME</b> na seguinte pasta.<p><p>Para instalar nesta pasta, clique em <b>Avançar</b>.<p><p>Para instalar em uma pasta diferente, clique em <b>Procurar</b> e selecione a pasta desejada.
+s2=Pasta de Destino
+s3=Espaço necessário no disco:
+s4=Espaço disponível no disco:
+
+[SetupType]
+Caption=Tipo de instalação
+Description=Tipo de instalação
+s1=Selecione o tipo de instalação desejada, e em seguida clique em <b>Avançar</b>.
+s11=Típica
+s12=Compacta
+s13=Personalizada
+s14=Completa
+s15=Parcial
+s21=O programa será instalado com as opções mais comuns. Recomendado para a maioria dos usuários.
+s22=O programa será instalado com o mínimo de opções requerido.
+s23=Podem ser escolhidas quais opções instalar. Recomendado para usuários avançados.
+s24=O programa será instalado com todas as opções no seu disco rígido.
+s25=Apenas alguns arquivos serão instalados no seu disco rígido. Será necessário o CD toda vez que for executar o programa.
+
+[Components]
+Caption=Seleção dos componentes
+Description=Seleção dos componentes
+s1=Selecione quais componentes deseja instalar, limpe os boxes relacionados aos componentes que não deseja instalar.
+s2=Componentes:
+s3=Descrição:
+
+[Associate]
+Caption=Associação de tipos de arquivos
+Description=Associação de tipos de arquivos
+s1=O programa de instalação irá associar determinados tipos de arquivos ao software <b>PROG_NAME</b>.<p>Selecione o tipo de arquivo ao qual deseja associar, limpe os boxes relacionados aos tipos de arquivos aos quais não deseja associar.
+s2=Tipos de arquivos:
+
+[Shortcuts]
+Caption=Configurando atalhos
+Description=Configurando atalhos
+s1=O programa de instalação adicionará um atalho ao menu <b>Iniciar/Programas</b>.
+s2=É possível também optar por atalhos adicionais para o seu computador.
+s3=Menu Iniciar/Programas
+s11=Adicionar atalho ao menu Iniciar
+s12=Criar atalho na Área de Trabalho
+s13=Adicionar atalho ao menu Enviar Para
+s14=Criar atalho na pasta Iniciar
+s15=Adicionar atalho à Barra de Inicialização Rápida
+s4=Verificar Actualizações
+s5=Desinstalar PROG_NAME
+s6=Atalhos disponíveis para - Utilizador Actual
+s7=Atalhos disponíveis para - Todos os Utilizadores
+
+[Confirm]
+Caption=Confirmando configurações do programa de instalação
+Description=Confirmando configurações do programa de instalação
+s1=O programa de instalação já tem as informações necessárias para iniciar a cópia dos arquivos do programa.<p><p>Desejando revisar/alterar qualquer informação, clique em <b>Voltar</b>.
+s2=Clique em AVANÇAR para iniciar a cópia dos arquivos...
+s11=Pasta de Instalação:
+s12=Grupo do Menu Iniciar/Programas:
+s13=Atalho do Menu Iniciar:
+s14=Atalho da Área de Trabalho:
+s15=Atalho Enviar Para:
+s16=Atalho da pasta Iniciar:
+s17=Atalho da Barra de Inicialização Rápida:
+s30=Informações do usuário:
+s31=Nome:
+s32=Empresa:
+
+[CopyFiles]
+Caption=Copiando arquivos
+Description=Copiando arquivos
+File=Arquivo:
+Folder=Pasta:
+s1=Registrando Componentes...
+
+[Complete]
+Caption=Instalação concluída
+s0=O programa de instalação finalizou a cópia dos arquivos para o seu computador.
+s1=O programa de instalação poderá agora iniciar o software. Selecione sua opção a seguir.
+s2=Para utilizar o software, é necessário reiniciar seu computador.
+s3=Sim, inicie o software.
+s4=Reiniciar
+s5=Sim, desejo reiniciar meu computador agora.
+s6=Não, eu reiniciarei meu computador mais tarde.
+s7=Clique Finalizar para encerrar o programa de instalação.
+s8=Mostrar o arquivo Leia-me.
+
+[ExitSetup]
+Caption=Cancelando o programa de instalação...
+s1=O programa de instalação não foi concluído. Se programa de instalação for interrompido agora, o software não será instalado.<p><p>O programa de instalação poderá ser posteriormente executado para completar a instalação.<p><p>Para continuar instalando o software, clique em Retornar. Para sair do programa de instalação, clique em Interromper.
+
+[Messages]
+Caption=Erro
+s1=%s<p>Arquivo não encontrado!<p><p>Corrija o problema e execute o programa de instalação novamente!
+s2=Impossível criar pasta:<p>%s<p><p>O programa de instalação será finalizado.<p>Corrija o problema e execute o programa de instalação novamente!
+s3=Selecione a pasta de destino
+s4=Erro na autovalidação do arquivo de instalação.
+
+[UnInstall]
+ConfirmCaption=Confirme desinstalação
+ConfirmText=Está absolutamente certo de que deseja desinstalar o software <b>PROG_NAME?</b>
+IsRunningCaption=Atenção
+IsRunningText=O software <b>PROG_NAME</b> --- está em execução!<p><p>Por favor, feche o programa e clique em OK para continuar esta instalação.
+ButtonClose=Fechar
+ButtonLog=Ver Log
+s1=A desinstalação irá remover o software <b>PROG_NAME</b> de seu computador. Por favor aguarde enquando cada um dos seguintes componentes é removido...
+Label1=Arquivos compartilhados...
+Label2=Arquivos padrão...
+Label3=Itens de pastas...
+Label4=Pastas de programas...
+Label5=Diretórios de programas...
+Label6=Entradas de Registro...
+s2=Desinstalação concluída com sucesso !
+AdminRights=Impossível Desinstalar o programa<P>Certifique-se de que tem Permissões de ADMINISTRADOR neste computador!
+Err1=Impossível remover uma ou mais entradas de Registo
+Err2=Impossível remover uma ou mais entradas de Ficheiros INI
+Err3=Impossível remover uma ou mais entradas de Associação de Ficheiros
+Err4=Impossível remover uma ou mais Pastas
+Err5=Impossível remover um ou mais Ficheiros
+Err6=Impossível executar uma ou mais Operações
+Err7=Para completar a Desinstalação, remova-as manualmente.
+Err8=Para completar a Desinstalação, remova-as manualmente.
+Err9=Para completar a Desinstalação, execute-as manualmente.
+Caption=Desinstalção
+
+[MsgBox]
+BtnText=|OK|Cancelar|Sim|Não|Desistir|Repetir|Ignorar|
+Error=Erro
+Attention=Atenção
+Confirm=Confirme
+
+[AutoUpdate]
+s1=<b>ATUALIZAÇÃO PELA INTERNET</b><p><p>O programa de instalação irá transferir o arquivo de instalação da Internet...<p>Por favor certifique-se de que sua  conexão de Internet esteja corretamente configurada.<p><p>Continuar com a instalação?<p>
+s2=Conexão de Internet inválida.<p>Não é possível transferir o arquivo de instalação!
+s3=Transferência do arquivo de instalação cancelada!
+s4=<p><p>Arquivo não localizado!
+s5=<p><p>Não é possível transferir o arquivo de instalação!
+s11=Uma nova atualização está disponível para: <b>PROG_NAME</b><p><p>
+s12=Deseja transferir e instalar esta nova atualização?
+s13=Deseja transferir esta nova atualização?
+s14=Uma nova atualização está disponível para: <b>PROG_NAME</b><p><p>Deseja instalar esta nova atualização?
+s15=O software <b>PROG_NAME</b> está em execução.<p><p>O programa precisa ser encerrado para que o processo de atualização possa prosseguir.<p><p>Por favor, ENCERRE o programa e pressione o botão <b>OK</b>!
+s16=<b>PARABÉNS!</b><p><p>O software <b>PROG_NAME</b> - foi atualizado com sucesso!
+s17=<p><p>Gostaria de executar a aplicação agora?
+s18=<b>LAMENTO</b><p><p>Não há novas atualizações disponíveis!
+s21=<b>LAMENTO</b><p><p>Não há novas atualizações disponíveis!
+s22=<b>NOVA ATUALIZAÇÃO</b><p><p>O programa de instalação irá verificar se existem atualizações disponíveis para o software: <b>PROG_NAME</b><p>
+s23=Por favor certifique-se de que sua conexão de Internet esteja corretamente configurada.<p>
+s24=<p>Deseja verificar e instalar esta nova atualização?
+s31=Download do arquivo INFO...
+s32=Download do arquivo UPDATE...
+s33=Download do arquivo INFORM...
+s34=Nova Versão
+s35=Download
+s19=Clique OK baixar as novas atualizações.
+s20=Uma nova atualização está disponível para: <b>PROG_NAME</b><p><p>Clique OK para instalar a nova atulização!
+
+[OneOfMany]
+Caption=Selecionar
+
+[Autorun]
+Run=Executar <b>PROG_NAME?</b>
+
+[Extract]
+s0=Pacote de Instalação EZTech
+s1=Extraindo arquivos...
+s2=Os arquivos serão extraídos para a pasta temporária (<DRIVE>)<P>
+s3=Espaço insuficiente para extrair os arquivos! (<DRIVE>)<P>
+s4=<P>O espaço estimado no seu dispositivo temporário é: <T>  <SPACE_REQ> MB<P>
+s5=O espaço disponível no seu dispositivo temporário é: <T>  <SPACE_AVAIL> MB<P>
+s6=<P>Continuar com a instalação ?<P>
+s7=CRC Inválido!<P>Isso indica que o seu aplicativo de instalação pode estar corrompido...
+s8=Insira o <B>disco #<DISK_NUM></B> e clique em OK para continuar.
+
+[Split]
+s10=Descarregando o Arquivo...
+s11=<b>INTERNET DOWNLOAD</b><p><p>O Arquivo de Instalação da Internet será descarregado.<p>Certifique-se de que a ligação à Internet está conectada.<p><p>Continuar a Instalação?<P><P>Tamanho: <SIZE> MB<P>
+s12=A Ligação à Internet está desconectada.<p>Não foi possível descarregar o arquivo!
+
+[InputText]
+Caption=Introduza Texto
+
+[NT-Service]
+Caption=NT Service
+s1=Criando o Serviço:
+s2=Removendo o Serviço:
+s3=Iniciando o Serviço:
+s4=Parando o Serviço:
+s5=Pausando o Serviço:
+s6=Continuado o Serviço:
+

@@ -1,0 +1,12 @@
+?
+help open
+(line omitted from history because it contained sensitive information)
+dir 
+?
+cd ndflash
+dir
+lcd \ezserverce\release
+cd ezforecourt
+put *.*
+?
+quit
