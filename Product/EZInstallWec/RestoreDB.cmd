@@ -6,6 +6,5 @@ cd \
 del *.zip 
 del *.L00
 EZNet start all
-EZExtract import \NDFlash\SQLite\config.ini 
 exit
 
