@@ -1,0 +1,4 @@
+Install/Upgrade EZHO client 
+For EZForecourt Plus/2GS version 23b01 or newer.
+Version 3.7.0.0
+Copyright EZTech Ltda. (C) 2020 
