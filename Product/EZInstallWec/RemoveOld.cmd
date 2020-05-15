@@ -1,4 +1,3 @@
-eznet stop all
 cd \NDFLash\EZForecourt
 del *.old
 ren EZServer.dll EZServer.old

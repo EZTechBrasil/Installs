@@ -1,4 +1,5 @@
 md \NDFlash\SQLite
+delete \NDFlash\SQLite\config.ini
 EZExtract export \NDFlash\SQLite\config.ini 
 EZNet stop all
 cd \NDFLash\EZForecourt

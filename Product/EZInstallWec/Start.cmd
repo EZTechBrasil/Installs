@@ -1,4 +1,5 @@
 attrib -R \ndflash\ezforecourt\*.ini
+attrib -R \ndflash\SQlite\*.ini
 setdate
 settime
 ezloader EZMOD

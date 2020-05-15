@@ -1,3 +1,6 @@
+md \NDFlash\SQLite
+delete \NDFlash\SQLite\config.ini
+EZExtract export \NDFlash\SQLite\config.ini 
 eznet stop all 
 eznet user add EZAdmin EZTechOnly
 eznet telnet unlock 
