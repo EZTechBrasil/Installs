@@ -1,8 +1,8 @@
 Install/Upgrade EZHO client 
-Version 3.7.0.1 For EZForecourt Plus/2GS version 23b01 or newer.
+Version 3.7.0.2 For EZForecourt Plus/2GS version 23b01 or newer.
 
 Sera instalado a conexao do concentrador com os servidores da EZTech.
-Versao 3.7.0.1 para EZForecourt Plus/2GS.
+Versao 3.7.0.2 para EZForecourt Plus/2GS.
 
 Copyright EZTech Ltda. (C) 2020.
 

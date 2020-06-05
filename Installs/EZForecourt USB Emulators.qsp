@@ -4,8 +4,8 @@ FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
 ProcessorNameString=Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
 ComputerRAM=32631 MB
-ProjectDrive=C:\  (455.87 GB Free)
-DateTime=14-APR-2020 16:09:25
+ProjectDrive=C:\  (494.38 GB Free)
+DateTime=03-JUN-2020 15:38:48
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -15,10 +15,10 @@ License=STUDIO
 ProjectName=EZForecourt USB Emulators
 ProjectDirectory=C:\ZEZTech\Release\Installs
 NonSFXDirectory=C:\ZEZTech\Release\Installs\NonSFX
-MediaFileName=EZForecourt USB Emulators 25b66B2
+MediaFileName=EZForecourt USB Emulators 25b68B2
 CopyMediaToFName=
 ProgramDescriptiveName=EZForecourt Emulators
-ProgramVersion=2.5 build 66 B2
+ProgramVersion=2.5 build 68 B2
 CompanyName=EZTech Tecnologia e Automação
 ProgVerLiveUpdate=0
 RegisterAsApp=1
@@ -292,7 +292,7 @@ DefineManually=1
 Item-001=|Comments|Instalation of <ProgramDescriptiveName>|
 Item-002=|CompanyName|<VendorCompanyName>|
 Item-003=|FileDescription||
-Item-004=|FileVersion|2.5.6.6.B.2|
+Item-004=|FileVersion|2.5.6.8.B.2|
 Item-005=|InternalName||
 Item-006=|LegalCopyright|<VendorCompanyName> (C) 2020|
 Item-007=|LegalTrademarks||
@@ -425,7 +425,7 @@ SizeInKB=0
 Item-000=Fol*<Application Folder>
 Item-001=Fil*<PATH_1>\EZLoader.ico
 Item-002=Fil*<PATH_1>\EZ2Serial.exe
-Item-003=Fil*<PATH_1>\EZ2Serial_CompanyRS232.ini
+Item-003=Fil*<PATH_3>\INI\Install\EZ2Serial_CompanyRS232.ini
 
 [Group-001]
 TypicalCompactData=6619139
@@ -434,7 +434,7 @@ SizeInKB=0
 Item-000=Fol*<Application Folder>
 Item-001=Fil*<PATH_1>\EZLoader.ico
 Item-002=Fil*<PATH_1>\EZ2Serial.exe
-Item-003=Fil*<PATH_1>\EZ2Serial_CompanyTCPIP.ini
+Item-003=Fil*<PATH_3>\INI\Install\EZ2Serial_CompanyTCPIP.ini
 
 [Group-002]
 TypicalCompactData=6619139
@@ -443,7 +443,7 @@ SizeInKB=0
 Item-000=Fol*<Application Folder>
 Item-001=Fil*<PATH_1>\EZLoader.ico
 Item-002=Fil*<PATH_1>\EZ2Serial.exe
-Item-003=Fil*<PATH_1>\EZ2Serial_PAM.ini
+Item-003=Fil*<PATH_3>\INI\Install\EZ2Serial_PAM.ini
 
 [Group-003]
 TypicalCompactData=6619143
