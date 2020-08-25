@@ -1,0 +1,8 @@
+Install/Upgrade EZHO client 
+Version 3.7.0.2 For Vision version 23b01 or newer.
+
+Sera instalado a conexao do concentrador com os servidores da EZTech.
+Versao 3.7.0.2 para Vision.
+
+Copyright EZTech Ltda. (C) 2020.
+
