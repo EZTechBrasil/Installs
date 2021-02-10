@@ -100,3 +100,9 @@ sudo mount -t tmpfs -o size=512m ezramdisk /EZForecourt/log
 mount | tail -n 1
 // to remove ramdisk 
 sudo umount /EZForecourt/log
+
+
+// alter lib path 
+cd /etc/ld.so.conf.d
+create EZForecourt.conf
+

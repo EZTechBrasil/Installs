@@ -1,8 +1,8 @@
 Install/Upgrade ConectTec client 
-Version 1.0.2.3 For Vision version 23b01 or newer.
+Version 1.0.2.4 For Vision version 23b01 or newer.
 
 Sera instalado a conexao do concentrador com a ConectTec.
-Versao 1.0.2.3 para Vision.
+Versao 1.0.2.4 para Vision.
 
-Copyright EZTech Ltda. (C) 2020.
+Copyright EZTech Ltda. (C) 2021.
 
