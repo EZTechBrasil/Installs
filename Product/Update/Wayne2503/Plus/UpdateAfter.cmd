@@ -1,0 +1,2 @@
+eznet start all 
+exit
