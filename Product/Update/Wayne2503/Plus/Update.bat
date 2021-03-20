@@ -24,6 +24,5 @@ EZTelnet\EZTelnet -C UpdateBefore.cmd -O logs\UpdateBefore.log
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Wayne.dll
 EZTelnet\EZTelnet -C UpdateAfter.cmd -O logs\UpdateAfter.log 
 echo Instalacao completa, tecla entra para continuar.
-pause
 exit 
 
