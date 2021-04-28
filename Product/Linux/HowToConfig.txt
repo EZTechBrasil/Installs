@@ -4,6 +4,10 @@ sudo apt update
 sudo apt upgrade
 sudo apt full-upgrade
 
+// The USB interface is disabled to save power by default on the CM4 . To enable it you need to add
+sudo nano config.txt
+dtoverlay=dwc2,dr_mode=host
+
 // install gcc 
 ** sudo apt install build-essential
 // install manual 
@@ -92,7 +96,7 @@ sudo service vsftpd restart
 lsb_release -a
 
 // get gcc version 
-gcc -version
+gcc --version
 
 // map EZForecourt/log to ram 
 sudo mount -t tmpfs -o size=512m ezramdisk /EZForecourt/log
