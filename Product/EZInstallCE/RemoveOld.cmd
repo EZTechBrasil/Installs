@@ -12,7 +12,6 @@ ren Wayne.dll Wayne.old
 ren Gilbarco.dll Gilbarco.old
 ren Tokheim.dll Tokheim.old
 ren TankDrv.dll TankDrv.old
-ren EZHOWSC.dll EZHOWSC.old 
 ren SQLite.dll SQLite.old 
 del *.old
 exit
