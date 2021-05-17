@@ -1,6 +1,11 @@
 md \NDFlash\SQLite
 del \NDFlash\SQLite\config.ini
 EZExtract export \NDFlash\SQLite\config.ini 
+eznet stop EZAuth
+eznet stop EZViD
+eznet stop CTF
+eznet stop EZConnect
+eznet stop EZCompany
 EZNet stop all
 cd \NDFLash\EZForecourt
 del *.old
