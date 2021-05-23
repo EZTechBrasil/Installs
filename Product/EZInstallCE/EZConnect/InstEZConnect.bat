@@ -23,9 +23,9 @@ C:
 cd \EZServerCE
 echo Copiando os arquivos para o concentrador.
 EZTelnet\EZTelnet -C InstEZConnectBefore.cmd -O logs\InstEZConnectBefore.log 
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZHOWSC1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.dll
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZHOWSC2.log \NDFlash\EZForecourt  \EZServerCE\Release\EZHOWSCInst.exe
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZHOWSC3.log \NDFlash\EZForecourt  \EZServerCE\INI\Install\EZConnect.ini
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZConnect1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.dll
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZConnect2.log \NDFlash\EZForecourt  \EZServerCE\Release\EZHOWSCInst.exe
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\InstEZConnect3.log \NDFlash\EZForecourt  \EZServerCE\INI\Install\EZConnect.ini
 EZTelnet\EZTelnet -C InstEZConnectAfter.cmd -O logs\InstEZConnectAfter.log 
 echo Instalacao completa, tecla entra para continuar.
 pause
