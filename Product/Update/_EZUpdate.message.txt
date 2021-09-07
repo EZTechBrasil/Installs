@@ -1,4 +1,0 @@
-Update Wayne 2506  
-Version 1.0.0.0 For version 23b01 or newer.
-Copyright EZTech Ltda. (C) 2021.
-

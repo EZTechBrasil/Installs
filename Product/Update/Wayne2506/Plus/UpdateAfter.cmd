@@ -1,2 +1,0 @@
-eznet start all 
-exit
