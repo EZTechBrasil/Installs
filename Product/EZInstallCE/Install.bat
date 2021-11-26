@@ -3,7 +3,7 @@ CD \EZServerCE
 @echo off
 c:
 cd \EZServerCE
-EZConfirm.exe "Are you sure you want to install the EZForecourt Plus ?" 
+.\EZConfirm.exe "Are you sure you want to install the EZForecourt Plus ?" 
 if not errorlevel 0 goto exit_install 
 del install.log
 EZTelnet\EZTelnet -C RemoveOld.cmd -O logs\install.log 

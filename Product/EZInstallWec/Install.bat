@@ -1,7 +1,7 @@
 @echo off
 c:
 cd \Vision
-EZConfirm.exe "Are you sure you want to install the EZForecourt Plus ?" 
+.\EZConfirm.exe "Are you sure you want to install the EZForecourt Plus ?" 
 if not errorlevel 0 goto exit_install 
 del install.log
 EZTelnet\EZTelnet -C InitBBBBefore.cmd -O logs\InitBBBBefore.log 

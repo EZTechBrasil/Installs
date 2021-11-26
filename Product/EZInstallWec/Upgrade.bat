@@ -1,7 +1,7 @@
 @echo off
 c:
 cd \Vision
-EZConfirm.exe "Are you sure you want to upgrade the EZTech Vision ?" 
+.\EZConfirm.exe "Are you sure you want to upgrade the EZTech Vision ?" 
 if not errorlevel 0 goto exit_upgrade 
 del Upgrade.log
 del ini\EZlicense.ini

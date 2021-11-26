@@ -1,7 +1,7 @@
 @echo off
 c:
 cd \EZServerCE
-EZConfirm.exe "Are you sure you want to upgrade the EZForecourt Plus ?" 
+.\EZConfirm.exe "Are you sure you want to upgrade the EZForecourt Plus ?" 
 if not errorlevel 0 goto exit_upgrade 
 del Upgrade.log
 del ini\EZlicense.ini
