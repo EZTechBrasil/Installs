@@ -13,4 +13,4 @@ NcFTP\NcFTPPut -f Vision.cfg -d logs\install4.log -m \NDFlash\EZApps       \Visi
 NcFTP\NcFTPPut -f Vision.cfg -d logs\install5.log \NDFlash\EZForecourt     \Vision\INI\*.ini
 NcFTP\NcFTPPut -f Vision.cfg -d logs\install6.log \NDFlash\EZForecourt     \Vision\INI\Install\*.ini
 EZTelnet\EZTelnet -C start.cmd -O logs\install.log 
-exit_install:
+:exit_install

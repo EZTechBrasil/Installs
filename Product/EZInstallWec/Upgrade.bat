@@ -23,5 +23,6 @@ EZTelnet\EZTelnet -C WriteProtect.cmd -O logs\WriteProtect.log
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade2.log -m \NDFlash\SQLite       \Vision\INI\SQLite\*.ini
 NcFTP\NcFTPPut -f Vision.cfg -d logs\install5.log \NDFlash\EZForecourt     \Vision\INI\Install\*.ini
 EZTelnet\EZTelnet -C Start.cmd -O logs\Upgrade.log 
-exit_upgrade:
+:exit_upgrade
+echo All done. 
 
