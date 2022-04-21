@@ -10,7 +10,11 @@ eznet stop EZCompany
 eznet stop EZ3Serial
 EZNet stop all
 cd \NDFLash\EZForecourt
+attrib -R *.dll
+attrib -R *.old
 del *.old
+ren EZConnect.dll EZConnect.old
+ren EZHOWSC.dll EZHOWSC.old
 ren EZServer.dll EZServer.old
 ren EZ2Serial.dll EZ2Serial.old
 ren EZClient.dll EZClient.old
