@@ -26,6 +26,7 @@ NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\Gilbarco.dll
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZConnect.dll
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZConnect.ini
+NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZATG.ini
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\ezhowscinst.exe 
 EZTelnet\EZTelnet -C UpdateAfter.cmd -O logs\UpdateAfter.log 
 echo Instalacao completa, tecla entra para continuar.

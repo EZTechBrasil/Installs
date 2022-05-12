@@ -14,6 +14,9 @@ attrib -R *.dll
 attrib -R *.old
 del *.old
 ren EZConnect.dll EZConnect.old
+ren EZVid.dll EZVid.old
+ren EZAuth.dll EZAuth.old
+ren CTF.dll CTF.old
 ren EZHOWSC.dll EZHOWSC.old
 ren EZServer.dll EZServer.old
 ren EZ2Serial.dll EZ2Serial.old

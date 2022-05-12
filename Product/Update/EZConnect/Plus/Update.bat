@@ -26,6 +26,7 @@ NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZS
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Gilbarco.dll
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.dll
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.ini
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZATG.ini
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZHowscinst.exe 
 EZTelnet\EZTelnet -C UpdateAfter.cmd -O logs\UpdateAfter.log 
 echo Instalacao completa, tecla entra para continuar.

@@ -13,4 +13,4 @@ NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install3.log -m \NDFlash\EZForecourt  \
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install4.log \NDFlash\EZForecourt     \EZServerCE\INI\*.ini
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install5.log \NDFlash\EZForecourt     \EZServerCE\INI\Install\*.ini
 EZTelnet\EZTelnet -C start.cmd -O logs\install.log 
-exit_install:
+:exit_install

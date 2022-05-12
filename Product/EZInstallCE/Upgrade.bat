@@ -22,5 +22,5 @@ EZTelnet\EZTelnet -C WriteProtect.cmd -O logs\WriteProtect.log
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install5.log \NDFlash\EZForecourt     \EZServerCE\INI\Install\*.ini
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade2.log -m \NDFlash\SQLite       \EZServerCE\INI\SQLite\*.ini
 EZTelnet\EZTelnet -C Start.cmd -O logs\Upgrade.log 
-exit_upgrade:
+:exit_upgrade
 
