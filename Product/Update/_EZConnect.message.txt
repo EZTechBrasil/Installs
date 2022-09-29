@@ -1,8 +1,8 @@
 Install/Upgrade ConectTec client 
-Version 1.0.4.8 For EZForecourt version 25b18 or newer.
+Version 1.0.4.9 For EZForecourt version 25b18 or newer.
 
 Sera instalado a conexao do concentrador com a ConectTec.
-Versao 1.0.4.8 para EZForecourt.
+Versao 1.0.4.9 para EZForecourt.
 
 Copyright EZTech Ltda. (C) 2022.
 
