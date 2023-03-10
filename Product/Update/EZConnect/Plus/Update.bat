@@ -20,15 +20,16 @@ copy *.cmd C:\EZServerCE
 C:
 cd \EZServerCE
 echo Copiando os arquivos para o concentrador.
-EZTelnet\EZTelnet -C UpdateBefore.cmd -O logs\UpdateBefore.log 
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Wayne.dll
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZServer.dll
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Gilbarco.dll
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.dll
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.ini
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZATG.ini
-NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZHowscinst.exe 
-EZTelnet\EZTelnet -C UpdateAfter.cmd -O logs\UpdateAfter.log 
+NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \  \EZServerCE\Release\Release.zip
+rem EZTelnet\EZTelnet -C UpdateBefore.cmd -O logs\UpdateBefore.log 
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Wayne.dll
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZServer.dll
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\Gilbarco.dll
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.dll
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZConnect.ini
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZATG.ini
+rem NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \EZServerCE\Release\EZHowscinst.exe 
+EZTelnet\EZTelnet -C Update.cmd -O logs\Update.log 
 echo Instalacao completa, tecla entra para continuar.
 exit 
 

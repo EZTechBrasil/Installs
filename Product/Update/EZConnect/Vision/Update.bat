@@ -20,15 +20,8 @@ copy *.cmd C:\Vision
 C:
 cd \Vision
 echo Copiando os arquivos para o concentrador.
-EZTelnet\EZTelnet -C UpdateBefore.cmd -O logs\UpdateBefore.log 
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\Wayne.dll
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZServer.dll
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\Gilbarco.dll
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZConnect.dll
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZConnect.ini
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\EZATG.ini
-NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \NDFlash\EZForecourt  \Vision\Release\ezhowscinst.exe 
-EZTelnet\EZTelnet -C UpdateAfter.cmd -O logs\UpdateAfter.log 
+NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \  \Vision\Release\Release.zip
+EZTelnet\EZTelnet -C Update.cmd -O logs\Update.log 
 echo Instalacao completa, tecla entra para continuar.
 exit 
 
