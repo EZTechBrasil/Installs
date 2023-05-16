@@ -12,6 +12,7 @@ attrib -R *.upg
 attrib -R EZConnect.*
 attrib -R EZHOWSC.*
 del *.old
+del *.upg
 del EZHOWSC.*
 del EZConnect.*
 ren EZServer.dll EZServer.upg
@@ -26,11 +27,11 @@ cd \
 copy \Temp\* \NDFlash\EZForecourt
 attrib +R \NDFlash\EZForecourt\EZConnect.dll
 ezhowscinst /EZC /DNS 
+eznet service add EZConnect 33
 eznet start all 
 del \Temp\*.dll
 del \Temp\*.exe
 del \Temp\*.ini
 del \NDFlash\EZForecourt\*.old
 del \NDFlash\EZForecourt\*.upg
-
 exit
