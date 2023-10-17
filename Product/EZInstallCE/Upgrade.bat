@@ -14,7 +14,7 @@ del ini\BMConfig.ini
 del ini\EZPriceSign.ini
 del ini\EZProductGroup.ini
 @echo on
-EZTelnet\EZTelnet -V "v 5.00" -C RemoveOld.cmd -O logs\Upgrade.log 
+EZTelnet\EZTelnet -V "v 5.0" -C RemoveOld.cmd -O logs\Upgrade.log 
 if not errorlevel 0 goto wrong_version 
 
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\Upgrade1.log -m \NDFlash\Log          \EZServerCE\logs\*.ini

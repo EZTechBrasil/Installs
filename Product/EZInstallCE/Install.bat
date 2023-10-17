@@ -5,7 +5,7 @@ cd \EZServerCE
 if not errorlevel 0 goto exit_install 
 
 del install.log
-EZTelnet\EZTelnet -V "v 5.00" -C RemoveOld.cmd -O logs\install.log 
+EZTelnet\EZTelnet -V "v 5.0" -C RemoveOld.cmd -O logs\install.log 
 if not errorlevel 0 goto wrong_version 
 
 NcFTP\NcFTPPut -f EZServerCE.cfg -d logs\install1.log -m \NDFlash\Log          \EZServerCE\logs\*.ini
