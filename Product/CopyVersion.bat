@@ -1,3 +1,9 @@
+
+cd \Work200\EZMod\TI
+call .\hex.bat
+cd \Work200\EZMod\STR711
+call .\hex.bat
+
 copy \EZServerCE\Release\*.B2G \zeztech\Release\Product\EZInstallCE\Release
 copy \EZServerCE\Release\*.ARM \zeztech\Release\Product\EZInstallCE\Release
 copy \EZServerCE\Release\*.exe \zeztech\Release\Product\EZInstallCE\Release
@@ -26,3 +32,5 @@ copy \Work200\EZClientDLL\Linux\Release\EZClient.so.1 \zeztech\Release\Product\L
 copy \Work200\EZClientDLL\Centos7\Release\EZClient.so.1 \zeztech\Release\Product\Centos7 
 copy \Work200\EZClientDLL\Centos6\Release\EZClient.so.1 \zeztech\Release\Product\Centos6 
 pause
+
+cd \zeztech\Release\Product
