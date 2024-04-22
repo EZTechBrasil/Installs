@@ -27,6 +27,7 @@ pause
 
 copy \Work200\EZServer\Linux\Release\ezserver \zeztech\Release\Product\Linux64 
 copy \Work200\EZExtract\Linux\Release\ezextract \zeztech\Release\Product\Linux64 
+copy \Work200\EZ2ShellBox\Linux\Release\ez2shellbox \zeztech\Release\Product\Linux64 
 copy \Work200\EZClientDLL\Linux64\Release\EZClient.so.1 \zeztech\Release\Product\Linux64 
 copy \Work200\EZClientDLL\Linux\Release\EZClient.so.1 \zeztech\Release\Product\Linux 
 copy \Work200\EZClientDLL\Centos7\Release\EZClient.so.1 \zeztech\Release\Product\Centos7 
