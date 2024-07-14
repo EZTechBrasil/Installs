@@ -1,0 +1,8 @@
+Install/Upgrade EZServer for Carrefour 
+Version 25b68 B16 EZServer 
+
+Sera instalado a conexao do concentrador para Carrefour.
+Versao 25b68 B16 EZServer 
+
+Copyright EZTech Ltda. (C) 2024.
+
