@@ -36,16 +36,17 @@ copy \Temp\* \NDFlash\EZForecourt
 cd \NDFLash\EZForecourt
 copy EZConnect.dll EZVid.dll
 rem copy EZConnect.dll EZAuth.dll
-rem copy EZConnect.dll CTF.dll
+copy EZConnect.dll CTF.dll
 cd \NDFlash\SQLite
 del EzDB.bu
 ren EzDB.SQL EzDB.bu
 cd \
 eznet start all 
+eznet start EZVid 
+eznet start CTF 
 del \Temp\*.dll
 del \Temp\*.exe
 del \Temp\*.ini
 del \NDFlash\EZForecourt\*.old
 del \NDFlash\EZForecourt\*.upg
-
 exit

@@ -28,6 +28,8 @@ del EzDB.bu
 ren EzDB.SQL EzDB.bu
 cd \
 eznet start all 
+eznet start ezhowsc
+eznet start ezconnect
 del \Temp\*.dll
 del \Temp\*.exe
 del \Temp\*.ini
