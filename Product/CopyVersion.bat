@@ -25,12 +25,28 @@ xcopy \Work200\EZInstall\Passo\* \zeztech\Release\Product\EZInstallXP\Passo /s /
 pause 
 
 
-copy \Work200\EZServer\Linux\Release\ezserver \zeztech\Release\Product\Linux64 
-copy \Work200\EZExtract\Linux\Release\ezextract \zeztech\Release\Product\Linux64 
-copy \Work200\EZ2ShellBox\Linux\Release\ez2shellbox \zeztech\Release\Product\Linux64 
-copy \Work200\EZPing\Linux\Release\ezping \zeztech\Release\Product\Linux64 
-copy \Work200\EZClientDLL\Linux64\Release\EZClient.so.1 \zeztech\Release\Product\Linux64 
+copy \Work200\EZServer\Linux\Release\ezserver \zeztech\Release\Product\Linux
+copy \Work200\EZConnect\Linux\Release\ezconnect \zeztech\Release\Product\Linux 
+copy \Work200\EZExtract\Linux\Release\ezextract \zeztech\Release\Product\Linux 
+copy \Work200\EZCompany\Linux\Release\ezcompany \zeztech\Release\Product\Linux 
+copy \Work200\EZ2Serial\Linux\Release\ez2serial \zeztech\Release\Product\Linux 
+copy \Work200\EZPing\Linux\Release\ezping \zeztech\Release\Product\Linux 
+copy \Work200\EZ2ShellBox\Linux\Release\ez2shellbox \zeztech\Release\Product\Linux 
 copy \Work200\EZClientDLL\Linux\Release\EZClient.so.1 \zeztech\Release\Product\Linux 
+copy \Work200\SQLite\SQLBackup\Linux\Release\sqlbackup \zeztech\Release\Product\Linux
+copy \Work200\SQLite\SQLiteCmd\Linux\Release\sqlitecmd \zeztech\Release\Product\Linux
+
+copy \Work200\EZServer\Linux64\Release\ezserver \zeztech\Release\Product\Linux64
+copy \Work200\EZConnect\Linux64\Release\ezconnect \zeztech\Release\Product\Linux64 
+copy \Work200\EZExtract\Linux64\Release\ezextract \zeztech\Release\Product\Linux64 
+copy \Work200\EZCompany\Linux64\Release\ezcompany \zeztech\Release\Product\Linux64 
+copy \Work200\EZ2Serial\Linux64\Release\ez2serial \zeztech\Release\Product\Linux64 
+copy \Work200\EZPing\Linux64\Release\ezping \zeztech\Release\Product\Linux64 
+copy \Work200\EZ2ShellBox\Linux64\Release\ez2shellbox \zeztech\Release\Product\Linux64 
+copy \Work200\EZClientDLL\Linux64\Release\EZClient.so.1 \zeztech\Release\Product\Linux64 
+copy \Work200\SQLite\SQLBackup\Linux64\Release\sqlbackup \zeztech\Release\Product\Linux64
+copy \Work200\SQLite\SQLiteCmd\Linux64\Release\sqlitecmd \zeztech\Release\Product\Linux64
+
 copy \Work200\EZClientDLL\Centos7\Release\EZClient.so.1 \zeztech\Release\Product\Centos7 
 copy \Work200\EZClientDLL\Centos6\Release\EZClient.so.1 \zeztech\Release\Product\Centos6 
 pause
