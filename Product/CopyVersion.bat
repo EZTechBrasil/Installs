@@ -49,6 +49,10 @@ copy \Work200\SQLite\SQLiteCmd\Linux64\Release\sqlitecmd \zeztech\Release\Produc
 
 copy \Work200\EZClientDLL\Centos7\Release\EZClient.so.1 \zeztech\Release\Product\Centos7 
 copy \Work200\EZClientDLL\Centos6\Release\EZClient.so.1 \zeztech\Release\Product\Centos6 
+
+copy \Work200\EZClientDLL\AARCH64\Release\EZClient.so.1 \zeztech\Release\Product\AARCH64 
+copy \Work200\EZClientDLL\ARM\Release\EZClient.so.1 \zeztech\Release\Product\ARM 
+
 pause
 
 cd \zeztech\Release\Product
