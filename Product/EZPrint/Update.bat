@@ -16,8 +16,12 @@ ren C:\EZForecourt\EZPrint.exe C:\EZForecourt\EZPrint.old
 del C:\EZForecourt\EZPrint.old
 :newinstall
 copy EZForecourt\* C:\EZForecourt
+md C:\EZForecourt\x86
+copy EZForecourt\x86\* C:\EZForecourt\x86
+md C:\EZForecourt\x64
+copy EZForecourt\x64\* C:\EZForecourt\x64
 C:
-cd EZForecourt
+cd \EZForecourt
 start .\EZPrint /install
 exit 
 

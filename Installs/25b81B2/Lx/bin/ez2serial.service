@@ -1,0 +1,13 @@
+[Unit]
+Description=EZ2Serial service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=eztechlx
+ExecStart=/usr/ezlx/bin/ez2serial -s
+
+[Install]
+WantedBy=multi-user.target

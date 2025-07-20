@@ -1,8 +1,8 @@
 Install/Upgrade EZPrint 
-Version 1.2.0.0 For EZForecourt version 25b18 or newer.
+Version 1.2.3.0 For EZForecourt version 25b18 or newer.
 
 Sera instalado o EZPrint.
-Versao 1.2.0.0 para EZForecourt.
+Versao 1.2.3.0 para EZForecourt.
 
 Copyright EZTech Ltda. (C) 2025.
 
