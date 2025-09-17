@@ -1,0 +1,3 @@
+ezprobe
+exit
+

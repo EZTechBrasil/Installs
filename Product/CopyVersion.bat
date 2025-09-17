@@ -12,7 +12,7 @@ pause
 copy \Vision\Release\*.B2G \zeztech\Release\Product\EZInstallWec\Release
 copy \Vision\Release\*.exe \zeztech\Release\Product\EZInstallWec\Release
 copy \Vision\Release\*.dll \zeztech\Release\Product\EZInstallWec\Release
-copy \WINCE800\Osdesign\AM33X_BBB8\AM33X_BBB8\RelDir\AM33X_BBB_BSP_ARMV7_Release\Wec*.exe \zeztech\Release\Product\EZInstallWec\EZApps
+rem copy \WINCE800\Osdesign\AM33X_BBB8\AM33X_BBB8\RelDir\AM33X_BBB_BSP_ARMV7_Release\Wec*.exe \zeztech\Release\Product\EZInstallWec\EZApps
 pause 
 copy \Work200\EZInstall\*.B2G \zeztech\Release\Product\EZInstallXP
 copy \Work200\EZInstall\*.ARM \zeztech\Release\Product\EZInstallXP
