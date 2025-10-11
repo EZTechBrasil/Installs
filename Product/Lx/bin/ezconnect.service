@@ -8,6 +8,8 @@ Restart=always
 RestartSec=1
 User=eztechlx
 ExecStart=/usr/ezlx/bin/ezconnect -s
+LimitRTPRIO=infinity
+
 
 [Install]
 WantedBy=multi-user.target

@@ -1,0 +1,92 @@
+#!/bin/bash
+# ====================================================================
+# Script de Compactação de Logs EZLX
+# ====================================================================
+
+LOG_ARCHIVE_DIR="../"
+LOG_ARCHIVE_PREFIX="ezlxlogs"
+
+# Caminhos dos diretórios (relativos ao diretório bin)
+EZLX_ETC_DIR="../etc"
+EZLX_VAR_LOGS_DIR="../var/log"
+EZLX_VAR_DIR="../var"
+
+# Cores e estilos
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m' # Sem cor
+BOLD='\033[1m'
+
+create_archive_name() {
+    local datetime
+    datetime=$(date +"%Y-%m-%d_%H-%M")
+    printf "%s%s_%s.tar.gz" "$LOG_ARCHIVE_DIR" "$LOG_ARCHIVE_PREFIX" "$datetime"
+}
+
+remove_existing_archives() {
+    local files
+    files=($LOG_ARCHIVE_DIR${LOG_ARCHIVE_PREFIX}_*.tar.gz)
+    
+    if [ -e "${files[0]}" ]; then
+        printf "${YELLOW}[INFO]${NC} Removendo arquivos antigos...\n"
+        for f in "${files[@]}"; do
+            if ! rm -f "$f"; then
+                printf "${RED}[ERRO]${NC} Falha ao remover arquivo %s\n" "$f" >&2
+                return 1
+            fi
+        done
+        printf "${GREEN}[OK]${NC} Arquivos antigos removidos\n"
+    else
+        printf "${CYAN}[INFO]${NC} Nenhum arquivo antigo encontrado\n"
+    fi
+}
+
+compress_logs() {
+    local archive
+    archive=$(create_archive_name) || return 1
+    
+    printf "${BLUE}[INFO]${NC} Compactando logs...\n"
+    
+    if ! tar -czvf "$archive" "$EZLX_VAR_LOGS_DIR" "$EZLX_VAR_DIR"/*.ini "$EZLX_ETC_DIR"/*.ini 2>/dev/null; then
+        printf "${RED}[ERRO]${NC} Falha ao comprimir arquivos\n" >&2
+        return 1
+    fi
+    
+    if ! chmod 666 "$archive"; then
+        printf "${RED}[ERRO]${NC} Falha ao ajustar permissões do arquivo %s\n" "$archive" >&2
+        return 1
+    fi
+    
+    printf "${GREEN}[SUCESSO]${NC} Arquivo criado: ${BOLD}%s${NC}\n" "$archive"
+}
+
+main() {
+    printf "${MAGENTA}${BOLD}=== INICIANDO RECUPERAÇÃO DE LOGS EZLX ===${NC}\n"
+    
+    # Verificação dos diretórios
+    if [[ ! -d "$EZLX_VAR_LOGS_DIR" ]]; then
+        printf "${RED}[ERRO]${NC} Diretório %s não encontrado\n" "$EZLX_VAR_LOGS_DIR" >&2
+        return 1
+    fi
+    
+    if [[ ! -d "$EZLX_ETC_DIR" ]]; then
+        printf "${RED}[ERRO]${NC} Diretório %s não encontrado\n" "$EZLX_ETC_DIR" >&2
+        return 1
+    fi
+    
+    if ! remove_existing_archives; then
+        return 1
+    fi
+    
+    if ! compress_logs; then
+        return 1
+    fi
+    
+    printf "${MAGENTA}${BOLD}=== Finalizado! ===${NC}\n"
+}
+
+main "$@"

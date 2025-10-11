@@ -147,138 +147,104 @@ MinimumTankDropVolume=30.0
 [GradeType00] 
 Name=Outra
 Density20=0.8
-FloatOffset=45
+FloatOffset=45 
 EZFloatOffset=-11
-ColorCode=#ABCDEF 
-Code=OT
 
 [GradeType01] 
 Name=Etanol 
 Density20=0.8
-FloatOffset=32
+FloatOffset=32 
 EZFloatOffset=-14
-ColorCode=#F1F1F1 
-Code=EL
 
 [GradeType02] 
 Name=Etanol Aditivada
 Density20=0.8
-FloatOffset=32
+FloatOffset=32 
 EZFloatOffset=-14
-ColorCode=#F5F5F5 
-Code=EA
 
 [GradeType03] 
 Name=Etanol Premium
 Density20=0.8
 FloatOffset=32 
 EZFloatOffset=-14
-ColorCode=#FBFBFB 
-Code=EP
 
 [GradeType04] 
 Name=Etanol Premium Aditivada
 Density20=0.8
 FloatOffset=32 
 EZFloatOffset=-14
-ColorCode=#FBFBFB 
-Code=EAP
 
 [GradeType05] 
 Name=Gasolina  
 Density20=0.75
 FloatOffset=37 
 EZFloatOffset=-11
-ColorCode=#FF5700
-Code=GC
 
 [GradeType06] 
 Name=Gasolina Aditivada 
 Density20=0.75
-FloatOffset=37
+FloatOffset=37 
 EZFloatOffset=-11
-ColorCode=#00B1FF
-Code=GA
 
 [GradeType07] 
 Name=Gasolina Premium 
 Density20=0.75
-FloatOffset=37
+FloatOffset=37 
 EZFloatOffset=-11
-ColorCode=#F2C21B 
-Code=GP
 
 [GradeType08] 
 Name=Gasolina Premium Aditivada 
 Density20=0.75
-FloatOffset=37
+FloatOffset=37 
 EZFloatOffset=-11
-ColorCode=#F2C21B 
-Code=GAP
 
 [GradeType09] 
 Name=Diesel S10
 Density20=0.8425
-FloatOffset=27
+FloatOffset=27 
 EZFloatOffset=-16
-ColorCode=#6A44F2
-Code=S10
 
 [GradeType10] 
 Name=Diesel S50
 Density20=0.8425
-FloatOffset=27
+FloatOffset=27 
 EZFloatOffset=-16
-ColorCode=#3113F2
-Code=S50
 
 [GradeType11] 
 Name=Diesel S500
 Density20=0.8425
-FloatOffset=27
+FloatOffset=27 
 EZFloatOffset=-16
-ColorCode=#15038C 
-Code=S500
 
 [GradeType12] 
 Name=Diesel S1200
 Density20=0.8425
-FloatOffset=27
+FloatOffset=27 
 EZFloatOffset=-16
-ColorCode=#9379F2 
-Code=S1200
 
 [GradeType13] 
 Name=Diesel Maritimo
 Density20=0.8425
-FloatOffset=27
+FloatOffset=27 
 EZFloatOffset=-16
-ColorCode=#10D47E 
-Code=SMAR
 
 [GradeType14] 
 Name=Querosene 
 Density20=0.804 
-FloatOffset=37
+FloatOffset=37 
 EZFloatOffset=-11
-ColorCode=#CC9F00 
-Code=QUE
 
 [GradeType15] 
 Name=GNV 
 Density20=1.00
-FloatOffset=45
+FloatOffset=45 
 EZFloatOffset=-11
-ColorCode=#ABABAB 
-Code=GNV
 
 [GradeType16] 
 Name=Arla
 Density20=0.8
-FloatOffset=45
+FloatOffset=45 
 EZFloatOffset=-11
-ColorCode=#80E6E3 
-Code=ARLA
 
 [Log]
 Name=EZATG

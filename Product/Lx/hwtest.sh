@@ -31,3 +31,12 @@ echo "Does the line above show the correct time and date ?"
 echo "Press any key to continue."
 read -r key
 
+echo " "
+echo "Start SSD test"  
+lsblk
+echo " "
+echo "Does the line above show nvme0n1 with  232.9G ?"
+echo "Press any key to continue."
+read -r key
+
+
