@@ -1,0 +1,109 @@
+2025-09-18 11:49:10 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)>
+2025-09-18 11:49:15,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 11:49:15 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:18:30)>
+2025-09-18 11:53:41 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:18:30)>
+2025-09-18 11:53:42,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 11:53:42 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)>
+2025-09-18 12:07:08 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+2025-09-18 12:07:08 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:02)>
+2025-09-18 12:07:08 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:02)>
+2025-09-18 12:09:39 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+2025-09-18 12:09:39 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:09:43,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 12:09:43 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:14:57 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:14:46)>
+2025-09-18 12:14:57 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:02)>
+2025-09-18 12:14:57 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:02)>
+2025-09-18 12:14:57 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:14:57,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 12:14:57 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:15:45 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:14:46)>
+2025-09-18 12:15:45 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:15:50,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 12:15:50 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:18:20 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:18:10)>
+2025-09-18 12:18:20 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:17:48)>
+2025-09-18 12:18:20 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:17:48)>
+2025-09-18 12:18:20 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:18:20,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 12:18:20 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:18:52 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:18:10)>
+2025-09-18 12:18:52 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:18:57,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 12:18:57 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:20:40 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:20:22)>
+2025-09-18 12:20:40 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:20:00)>
+2025-09-18 12:20:40 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:20:00)>
+2025-09-18 12:20:40 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:20:40,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 12:20:40 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:21:15 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:20:22)>
+2025-09-18 12:21:15 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:21:20,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 12:21:20 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 13:56:06 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:28:20)>
+2025-09-18 13:56:06 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:27:57)>
+2025-09-18 13:56:06 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 12:27:57)>
+2025-09-18 13:56:06 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 13:56:06,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 13:56:06 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 13:56:28 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:28:20)>
+2025-09-18 13:56:28 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 13:56:32,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 13:56:32 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 14:04:16 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 14:00:28)>
+2025-09-18 14:04:16 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:00:06)>
+2025-09-18 14:04:17 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:00:06)>
+2025-09-18 14:04:17 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 14:04:17,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 14:04:17 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:04:29 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 14:00:28)>
+2025-09-18 14:04:29 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:04:34,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 14:04:34 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 14:07:56 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:08:00,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 14:08:00 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:12:51 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 14:12:51 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 14:12:51 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 14:12:51 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:12:51,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 14:12:51 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:02 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 14:13:02 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:07,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 14:13:07 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:13:21 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:13:21,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 14:13:21 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:29 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 14:13:29 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 14:13:29 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 14:13:44 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 14:13:44 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:48,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 14:13:48 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:06:30 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+2025-09-18 15:06:30 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 15:06:31 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 15:06:31 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:06:31,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 15:06:31 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:06:38 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+2025-09-18 15:06:38 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:06:43,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 15:06:43 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:06:57 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:06:57,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 15:06:57 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:07:07 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+2025-09-18 15:07:07 ***START <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 15:07:07 ****STOP <EZServer client DLL Version(2,5,8,1:B3) Built(Sep 18 2025 at 14:11:39)>
+2025-09-18 15:07:14 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+2025-09-18 15:07:14 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:07:18,SRVC,INIT,     0,     0,"EZServer service started."
+2025-09-18 15:07:19 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 17:08:30 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 17:08:31,SRVC,TERM,     0,     0,"service stopped."
+2025-09-18 17:08:31 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>

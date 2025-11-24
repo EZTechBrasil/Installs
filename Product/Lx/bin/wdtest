@@ -1,0 +1,104 @@
+#!/bin/bash
+
+CONN=$(nmcli -t -f NAME,TYPE connection show --active | grep ethernet | cut -d: -f1)
+
+show_info() {
+  IFACE=$(nmcli -g connection.interface-name connection show "$CONN")
+  METHOD=$(nmcli -g ipv4.method connection show "$CONN")
+
+  IP_MANUAL=$(nmcli -g ipv4.addresses connection show "$CONN")
+  IPS=($(ip -4 addr show "$IFACE" | grep -oP '(?<=inet\s)\d+(\.\d+){3}'))
+
+  GATEWAY_MANUAL=$(nmcli -g ipv4.gateway connection show "$CONN")
+  GATEWAY_DHCP=$(ip route | grep default | grep "$IFACE" | awk '{print $3}')
+
+  DNS_MANUAL=$(nmcli -g ipv4.dns connection show "$CONN")
+  DNS_DHCP=$(grep '^nameserver' /etc/resolv.conf | awk '{print $2}' | paste -sd ',' -)
+
+  echo "===== Status atual da conexão cabeada ====="
+  echo "Conexão: $CONN"
+  echo "Interface: $IFACE"
+  echo "Método IPv4: $METHOD"
+
+  if [ "$METHOD" = "auto" ]; then
+    echo "IP DHCP ativo: ${IPS[0]}"
+    echo "DNS DHCP em uso: $DNS_DHCP"
+    echo "Gateway DHCP em uso: $GATEWAY_DHCP"
+  else
+    echo "IP manual configurado: $IP_MANUAL"
+    echo "Gateway manual configurado: $GATEWAY_MANUAL"
+    echo "DNS manual configurado: $DNS_MANUAL"
+  fi
+  echo "=================================="
+}
+
+edit_ip() {
+  read -rp "Digite o novo IP manual com máscara (ex: 192.168.1.116/24): " NEW_IP
+  # Se o IP não contém uma barra "/", adiciona /24
+  if [[ "$NEW_IP" != */* ]]; then
+    NEW_IP="${NEW_IP}/24"
+  fi
+  sudo nmcli con mod "$CONN" ipv4.addresses "$NEW_IP"
+  sudo nmcli con mod "$CONN" ipv4.method manual
+  sudo nmcli con up "$CONN"
+  echo "IP manual alterado."
+}
+
+edit_dns() {
+  read -rp "Digite o novo DNS (ex: 8.8.8.8): " NEW_DNS
+  sudo nmcli con mod "$CONN" ipv4.dns "$NEW_DNS"
+  sudo nmcli con up "$CONN"
+  echo "DNS alterado."
+}
+
+edit_gateway() {
+  read -rp "Digite o novo gateway (ex: 192.168.1.1): " NEW_GATEWAY
+  sudo nmcli con mod "$CONN" ipv4.gateway "$NEW_GATEWAY"
+  sudo nmcli con up "$CONN"
+  echo "Gateway alterado."
+}
+
+toggle_dhcp() {
+  METHOD=$(nmcli -g ipv4.method connection show "$CONN")
+  if [ "$METHOD" = "auto" ]; then
+    echo "Desativando DHCP e ativando IP manual..."
+    sudo nmcli con mod "$CONN" ipv4.method manual
+    sudo nmcli con up "$CONN"
+  else
+    echo "Ativando DHCP..."
+    sudo nmcli con mod "$CONN" ipv4.method auto
+    sudo nmcli con up "$CONN"
+  fi
+}
+
+reboot_system() {
+  echo "Reiniciando sistema..."
+  sudo reboot
+}
+
+while true; do
+  clear
+  show_info
+  echo ""
+  echo "Escolha uma opção:"
+  echo "1) Editar IP manual"
+  echo "2) Editar DNS"
+  echo "3) Editar gateway"
+  echo "4) Ativar/desativar DHCP"
+  echo "5) Reboot"
+  echo "0) Sair (Ctrl+C)"
+  read -rp "Opção: " OPCAO
+
+  case $OPCAO in
+    1) edit_ip ;;
+    2) edit_dns ;;
+    3) edit_gateway ;;
+    4) toggle_dhcp ;;
+    5) reboot_system ;;
+    0) echo "Saindo..."; kill -SIGINT $$ ;;
+    *) echo "Opção inválida!"; sleep 2 ;;
+  esac
+
+  echo "Pressione Enter para continuar..."
+  read
+done

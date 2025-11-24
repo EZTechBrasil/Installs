@@ -1,0 +1,1617 @@
+2025-09-18 11:49:10 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)>
+     5ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     5ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    15ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     0ms PriceResetDelay = 0ms
+    13ms Ini pars loaded 13ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     1ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 2
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     1ms DB: 0 Attendants loaded, 1ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 4ms
+     2ms Set event < Server > ID 3, date 2025-09-18 11:49:15, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+    13ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026805554344405.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    22ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     4ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    15ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  3198ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 11:53:41 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)>
+263152ms Stop Terminated-15 received.
+     2ms Shutdown received.
+    96ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 96 ms.
+     1ms EZServer service stopped
+     2ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 11:53:42 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:19:03)>
+2025-09-18 12:09:39 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     4ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 9ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 3
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     1ms DB: 0 CardClients loaded, 1ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 2ms
+     2ms Set event < Server > ID 4, date 2025-09-18 12:09:43, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     8ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026817836105336.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     1ms Client [201] is a HoseDrv Client
+    20ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8086ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 12:14:46 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+294316ms EZMod - power bad -> good. 222ms 
+ 11143ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026817836105337.
+    50ms Client [105] Logoff, session ID 134026817836105337.
+   219ms Stop Terminated-15 received.
+     3ms Shutdown received.
+    91ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 91 ms.
+     1ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 12:14:57 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:15:45 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     3ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4510ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    10ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     0ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 8ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 4
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     1ms DB: 0 ZigBee loaded, 1ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 3ms
+     3ms Set event < Server > ID 5, date 2025-09-18 12:15:50, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     8ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026821504834863.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8093ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 12:17:36 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 97284ms EZMod - power bad -> good. 466ms 
+ 26443ms EZMod - power bad -> good. 251ms 
+ 17601ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026821504834864.
+    50ms Client [105] Logoff, session ID 134026821504834864.
+   214ms Stop Terminated-15 received.
+     2ms Shutdown received.
+    78ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 78 ms.
+     1ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 12:18:20 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:18:52 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     3ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 9ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 5
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     1ms DB: 0 Pumps loaded, 1ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     1ms Config loaded 3ms
+     1ms Set event < Server > ID 6, date 2025-09-18 12:18:57, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     8ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026823371376552.
+   101ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    20ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8095ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+ 41956ms EZMod - power bad -> good. 272ms 
+2025-09-18 12:20:14 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 26674ms EZMod - power bad -> good. 273ms 
+ 26345ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026823371376553.
+    50ms Client [105] Logoff, session ID 134026823371376553.
+   219ms Stop Terminated-15 received.
+     3ms Shutdown received.
+   118ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 118 ms.
+     1ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 12:20:40 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 12:21:15 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     4ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 9ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 6
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     1ms DB: 0 Products loaded, 1ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     1ms DB: 0 Deliveries loaded, 1ms.
+     0ms Config loaded 3ms
+     1ms Set event < Server > ID 7, date 2025-09-18 12:21:20, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     9ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026824804022929.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8094ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 12:27:44 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+376332ms EZMod - power bad -> good. 464ms 
+ 26652ms EZMod - power bad -> good. 192ms 
+2025-09-18 13:05:30 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2238901ms EZMod - power bad -> good. 191ms 
+2025-09-18 13:56:06 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+3035961ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CInterface     19
+     0ms CServerSocket   6
+     0ms CSocket         6
+     0ms CTimer         35
+     0ms CStr          103     0
+     0ms CDate          15
+     0ms CHFile          5     2
+     0ms CClient         2
+     0ms CPort           1
+     0ms CLogEvent       1
+     0ms CEZTermPrompt  41
+     0ms =======================
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026824804022930.
+    50ms Client [105] Logoff, session ID 134026824804022930.
+   220ms Stop Terminated-15 received.
+     4ms Shutdown received.
+   126ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 126 ms.
+     2ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 13:56:06 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 13:56:28 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     3ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     5ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    14ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+    13ms Ini pars loaded 14ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     1ms DB: next LogEvent ID 7
+     0ms DB: 0 LogEvents loaded, 1ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     1ms DB: 0 Pumps loaded, 1ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     1ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 1ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 4ms
+     4ms Set event < Server > ID 8, date 2025-09-18 13:56:32, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     1ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+    12ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026881929291079.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    22ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     4ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    13ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8105ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 13:57:34 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 52943ms EZMod - power bad -> good. 202ms 
+ 26841ms EZMod - power bad -> good. 272ms 
+2025-09-18 13:59:53 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+112619ms EZMod - power bad -> good. 567ms 
+ 26793ms EZMod - power bad -> good. 302ms 
+2025-09-18 14:04:16 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+236379ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026881929291080.
+    51ms Client [105] Logoff, session ID 134026881929291080.
+   221ms Stop Terminated-15 received.
+     2ms Shutdown received.
+   136ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 136 ms.
+     1ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 14:04:17 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:04:29 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     5ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 9ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 8
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     1ms DB: 0 CardClients loaded, 1ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     1ms Config loaded 3ms
+     3ms Set event < Server > ID 9, date 2025-09-18 14:04:34, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     9ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026886740819118.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8078ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 14:05:51 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 68926ms EZMod - power bad -> good. 202ms 
+  4578ms EZMod - power bad -> good. 181ms 
+ 41578ms EZMod - power bad -> good. 2034ms 
+2025-09-18 14:07:00 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 22888ms EZMod - power bad -> good. 344ms 
+ 34929ms EZMod - power bad -> good. 255ms 
+2025-09-18 14:07:56 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+    10ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    10ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     5ms PriceResetDelay = 0ms
+     9ms Ini pars loaded 14ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 9
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     1ms DB: 0 Tanks loaded, 1ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     1ms Config loaded 4ms
+     6ms Set event < Server > ID 10, date 2025-09-18 14:08:00, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     0ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+    11ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026888809156038.
+   102ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    13ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8087ms Assumed location [BR]
+     6ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 14:11:26 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+197685ms EZMod - power bad -> good. 172ms 
+ 27349ms EZMod - power bad -> good. 546ms 
+2025-09-18 14:12:51 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 56906ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026888809156039.
+    50ms Client [105] Logoff, session ID 134026888809156039.
+   219ms Stop Terminated-15 received.
+     2ms Shutdown received.
+    54ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 54 ms.
+     1ms EZServer service stopped
+     2ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 14:12:51 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:02 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     3ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4511ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 9ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 10
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     1ms DB: 0 Products loaded, 1ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     0ms DB: 0 Hoses loaded, 0ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     1ms DB: 0 Deliveries loaded, 1ms.
+     0ms Config loaded 3ms
+     2ms Set event < Server > ID 11, date 2025-09-18 14:13:07, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     9ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026891874105041.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  8094ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+  5556ms Stop Terminated-15 received.
+     2ms Shutdown received.
+   131ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 131 ms.
+     1ms EZServer service stopped
+     2ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 14:13:21 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 14:13:44 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     5ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     1ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4510ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    10ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     0ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 8ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     1ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     0ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 11
+     1ms DB: 0 LogEvents loaded, 1ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 3ms
+     3ms Set event < Server > ID 12, date 2025-09-18 14:13:48, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     2ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     9ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026892286655673.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     1ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    20ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  3095ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+2025-09-18 14:35:15 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+1283118ms EZMod - power bad -> good. 130ms 
+2025-09-18 15:06:08 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+1853206ms EZMod - power bad -> good. 777ms 
+ 22612ms Client [105] "EZLoader", mask 00000000, EZTECH, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [105] SINK_MINIMAL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_FULL_PUMP_EVENT events OFF.
+     0ms Client [105] SINK_DELIVERY_EVENT events OFF.
+     0ms Client [105] SINK_CARD_READ_EVENT events OFF.
+     0ms Client [105] SINK_DB_HOSE_ETOTS_EVENT events OFF.
+     0ms Client [105] SINK_DB_TANK_STATUS_EVENT events OFF.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CInterface     19
+     0ms CServerSocket   6
+     0ms CSocket         6
+     0ms CTimer         35
+     0ms CStr          103     0
+     0ms CDate          15
+     0ms CHFile          5     2
+     0ms CClient         2
+     0ms CPort           1
+     0ms CLogEvent       1
+     0ms CEZTermPrompt  41
+     0ms =======================
+     0ms Client [105] <0.0.0.0> logged on, session ID 134026892286655674.
+    51ms Client [105] Logoff, session ID 134026892286655674.
+   219ms Stop Terminated-15 received.
+     3ms Shutdown received.
+    67ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 67 ms.
+     1ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 15:06:31 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:06:38 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     3ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     1ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     0ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  5010ms Power up completed, 8.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     1ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     4ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    12ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     1ms PriceResetDelay = 0ms
+    11ms Ini pars loaded 12ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 12
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     0ms DB: 0 Grades loaded, 0ms.
+     1ms DB: 0 Tanks loaded, 1ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 3ms
+     3ms Set event < Server > ID 13, date 2025-09-18 15:06:43, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     1ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+    11ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026924033174185.
+   103ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     4ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    12ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+ 11124ms Assumed location [BR]
+     6ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+  2533ms Stop Terminated-15 received.
+     1ms Shutdown received.
+   129ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 129 ms.
+     2ms EZServer service stopped
+     2ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         21
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 15:06:57 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2025-09-18 15:07:14 ***START <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+     2ms Starting logging on port 5150, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5150
+     0ms Host = 127.0.0.1
+     0ms HasGPIO = true
+     1ms wiringPi Version 3.14
+     0ms Check power state.
+     0ms Resetting USB hub.
+  4510ms Power up completed, 7.
+     0ms Loading Mem3G [EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)].
+     0ms /EZMem3GMutex opened
+     0ms InitMem3G() MemSize 7764, Opened
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+    10ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+     0ms EZServer service started.
+     0ms PriceResetDelay = 0ms
+     8ms Ini pars loaded 8ms
+     0ms DB: CachedEventsOnly = true, MaxCachedDeliveries = 1000
+     0ms DB: 1 opening /usr/ezlx/var/EzDB.sql ....
+     0ms DB: /usr/ezlx/var/EzDB.sql opened, result 0. LIB Version 3.40.1
+     0ms DB: 1 Command PRAGMA foreign_keys = ON;
+     0ms DB: 2 Command PRAGMA synchronous = NORMAL;
+     1ms DB: 3 Command PRAGMA cache_size = 500;
+     0ms DB: 4 Command PRAGMA temp_store = MEMORY;
+     0ms DB: 5 Command PRAGMA journal_mode = WAL;
+     0ms DB: next LogEvent ID 13
+     0ms DB: 0 LogEvents loaded, 0ms.
+     0ms Set Port < Server > ID  1, No.  1, Name USB1, Protocol 3, SerialNo 
+     0ms DB: 1 ports loaded, 0ms.
+     0ms DB: 0 ZigBee loaded, 0ms.
+     1ms DB: 0 Grades loaded, 1ms.
+     0ms DB: 0 Tanks loaded, 0ms.
+     0ms DB: 0 Attendants loaded, 0ms.
+     0ms DB: 0 Products loaded, 0ms.
+     0ms DB: 0 CardClients loaded, 0ms.
+     0ms DB: 0 Pumps loaded, 0ms.
+     1ms DB: 0 Hoses loaded, 1ms.
+     0ms DB: 0 Sensors loaded, 0ms.
+     0ms DB: next del ID 0
+     0ms DB: Deliveries init, 0ms.
+     0ms DB: next SaleItem ID 0
+     0ms DB: 0 SaleItems loaded, 0ms.
+     0ms DB: 0 Deliveries loaded, 0ms.
+     0ms Config loaded 3ms
+     3ms Set event < Server > ID 14, date 2025-09-18 15:07:19, Device type 0, ID -1,  event type 0 desc Version 2,5,8,1-B3
+     1ms Opening server sockets
+     0ms Server socket IP6/IP4 created for port 5123
+     0ms Server socket IP6/IP4 created for port 5124
+     1ms DLL [/usr/ezlx/lib/libPumpDrv.so] loaded successfully.
+     0ms Port [01] starting, SerialNo , Name USB1, driver </usr/ezlx/lib/libPumpDrv.so>..
+     0ms Thread Port starting.
+     0ms Thread Port pthread_create successfull.
+     9ms Client [201] "Pump driver client", mask 00000C47, PUMP_DRIVER, ks 3, exp 2099-12-31 23:59:59, max 1, sn ??0000/09
+     0ms Client [201] <0.0.0.0> logged on, session ID 134026924390110921.
+   100ms Client [201] is a PortDrv Client
+     0ms Client [201] is a GradeDrv Client
+     0ms Client [201] is a PumpDrv Client
+     0ms Client [201] is a HoseDrv Client
+    21ms PORT USB1 opened
+     0ms ZB coordinator turned on.
+     3ms EZServer       licensed = Yes
+     0ms EZHO           licensed = Yes
+     0ms ZigBee         licensed = Yes
+     0ms TankManagement licensed = Yes
+     0ms EZMonitor      licensed = Yes
+     0ms Automation     licensed = Yes
+     0ms XPert          licensed = No
+     0ms EZAPIs         licensed = Yes
+     0ms EZEmbedded     licensed = Yes
+     0ms Ambiental      licensed = Yes
+     0ms EZFleet        licensed = Yes
+     0ms EZTag          licensed = Yes
+     0ms Products       licensed = Yes
+     0ms EZOdo          licensed = Yes
+     9ms _serialNoLicensed 6000/25 
+     0ms _licensedStandalone false 
+     0ms KeySerialNo ??6000/25 
+     0ms HashKey max clients 5 
+     0ms Checking location key
+  6157ms Assumed location [BR]
+    10ms Location license key [2CFF-D1A3-4E6E-9CFA-3E43-78FB]
+     0ms Key location good [BR]
+     0ms License key validation MR6000/25 found, wanted 6000/25, 1 
+     0ms Alarm beep <local> -1
+     0ms ZigBee Coordinator PAN ID 0x6000
+     0ms ZigBee Coordinator key part A 0x0123456789ABCDEF key part B 0x0123456789ABCDEF
+ 13090ms EZMod - power bad -> good. 689ms 
+2025-09-18 15:55:55 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+2897130ms EZMod - power bad -> good. 322ms 
+2025-09-18 16:07:01 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+666418ms EZMod - power bad -> good. 151ms 
+2025-09-18 17:07:20 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+3618662ms EZMod - power bad -> good. 171ms 
+ 10172ms EZMod - power bad -> good. 171ms 
+2025-09-18 17:08:30 ****TIME <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>
+ 60167ms Stop Terminated-15 received.
+     2ms Shutdown received.
+    84ms shut down successful
+     0ms WD LED off 
+     0ms Shutdown in 84 ms.
+     2ms EZServer service stopped
+     1ms DB: /usr/ezlx/var/EzDB.sql closed, 0.
+     0ms DB: shutdown, 0, Stmnt Count 0.
+     0ms CEZServerProcess::Destroyed.
+     0ms =======================
+     0ms Object      Count   Ref
+     0ms =======================
+     0ms CServerSocket   4
+     0ms CSocket         4
+     0ms CTimer         20
+     0ms CStr           39     0
+     0ms CDate           5
+     0ms CHFile          5     2
+     0ms =======================
+     0ms DLL [/usr/ezlx/lib/libPumpDrv.so] unloaded.
+     0ms Watchdog closed
+2025-09-18 17:08:31 ****STOP <EZServer service executable Version(2,5,8,1:B3) Built(Sep 18 2025 at 11:55:31)>

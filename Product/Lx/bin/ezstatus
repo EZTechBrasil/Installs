@@ -1,0 +1,6 @@
+echo -e "PID\tCPU%\tMEM%\tPROCESS"
+ps -eo pid,%cpu,%mem,cmd --sort=-%cpu | grep -E "/usr/ezlx/bin/ez(server|connect|ez2serail|ezhowsc)" | grep -v grep | awk '{
+  split($4,a,"/");
+  process=a[length(a)];
+  print $1"\t"$2"\t"$3"\t"process
+}'

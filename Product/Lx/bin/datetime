@@ -1,0 +1,81 @@
+#!/bin/bash
+
+echo "Obtendo timezone atual pela internet..."
+TIMEZONE=$(curl -s ipinfo.io/timezone)
+
+if [ -z "$TIMEZONE" ]; then
+  echo "Não foi possível obter o timezone pela internet."
+  echo "Você poderá escolher manualmente a seguir."
+  
+  # Lista timezones e deixa o usuário escolher
+  TIMEZONES=($(timedatectl list-timezones))
+  echo "Selecione seu timezone:"
+  
+  # Exibe menu numerado
+  for i in "${!TIMEZONES[@]}"; do
+    printf "%3d) %s\n" $((i+1)) "${TIMEZONES[$i]}"
+  done
+  
+  while true; do
+    read -p "Digite o número do timezone desejado (1-${#TIMEZONES[@]}): " choice
+    if [[ "$choice" =~ ^[0-9]+$ ]] && [ "$choice" -ge 1 ] && [ "$choice" -le "${#TIMEZONES[@]}" ]; then
+      TIMEZONE=${TIMEZONES[$((choice-1))]}
+      break
+    else
+      echo "Opção inválida. Tente novamente."
+    fi
+  done
+else
+  echo "Timezone detectado pela internet: $TIMEZONE"
+fi
+
+echo "Atualizando timezone do sistema para: $TIMEZONE"
+sudo timedatectl set-timezone "$TIMEZONE"
+
+echo
+echo "Configuração de data e hora:"
+echo "1) Configurar data/hora manualmente"
+echo "2) Pegar data e hora automaticamente"
+read -p "Escolha uma opção [1-2]: " opt
+
+if [ "$opt" = "1" ]; then
+  CURRENT_DATE=$(date +"%Y-%m-%d")
+  CURRENT_TIME=$(date +"%H:%M:%S")
+  
+  read -p "Digite a data no formato AAAA-MM-DD [$CURRENT_DATE]: " input_date
+  input_date=${input_date:-$CURRENT_DATE}
+  
+  read -p "Digite a hora no formato HH:MM:SS [$CURRENT_TIME]: " input_time
+  input_time=${input_time:-$CURRENT_TIME}
+  
+  DATETIME="$input_date $input_time"
+  
+  echo "Definindo data e hora manualmente: $DATETIME"
+  sudo timedatectl set-ntp false
+  sudo date -s "$DATETIME"
+  
+elif [ "$opt" = "2" ]; then
+  echo "Ativando sincronização para pegar data e hora automaticamente..."
+
+  # Verifica se NTP já está ativo
+  NTP_STATUS=$(timedatectl show -p NTPSynchronized --value)
+  
+  if [ "$NTP_STATUS" = "yes" ]; then
+    echo "Sincronização NTP já está ativa. Reiniciando serviço para garantir sincronização..."
+    sudo systemctl restart systemd-timesyncd.service
+  else
+    echo "NTP não está ativo. Ativando NTP..."
+    sudo timedatectl set-ntp true
+    sudo systemctl restart systemd-timesyncd.service
+    sleep 5
+  fi
+
+  echo "NTP ativado e serviço sincronizado."
+else
+  echo "Opção inválida. Saindo."
+  exit 1
+fi
+
+echo
+echo "Timezone, data e hora atualizados com sucesso!"
+echo "Data/Hora atual: $(date)"

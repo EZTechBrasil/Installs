@@ -1,0 +1,284 @@
+#!/bin/bash
+
+SERVICOS=("ez2serial" "ezhowsc" "ezconnect" "ezserver" "ezlx-rest-api")
+
+add_service_suffix() {
+  local svc="$1"
+  [[ "$svc" != *.service ]] && svc="${svc}.service"
+  echo "$svc"
+}
+
+service_exists() {
+  local svc="$1"
+  systemctl list-unit-files | grep -q "^$svc"
+}
+
+is_active() {
+  local svc="$1"
+  systemctl is-active --quiet "$svc"
+}
+
+start_all() {
+  echo "Iniciando todos os serviços ezlx..."
+  local svc=$(add_service_suffix "ezserver")
+  echo "Iniciando $svc..."
+  if service_exists "$svc"; then
+    if is_active "$svc"; then
+      echo "🔄 Serviço $svc já está rodando."
+    else
+       systemctl start "$svc" 
+     echo "✅ Serviço $svc iniciado com sucesso."
+    fi
+  else
+    echo "⚠️  Serviço $svc não encontrado. Pulando..."
+  fi
+
+  for servico in "${SERVICOS[@]}"; do
+    [[ "$servico" == "ezserver" ]] && continue
+    svc=$(add_service_suffix "$servico")
+    echo "Iniciando $svc..."
+    if service_exists "$svc"; then
+      if is_active "$svc"; then
+        echo "🔄 Serviço $svc já está rodando."
+      else
+        systemctl start "$svc"
+        echo "✅ Serviço $svc iniciado com sucesso."
+      fi
+    else
+      echo "⚠️  Serviço $svc não encontrado. Pulando..."
+    fi
+  done
+  echo "✅ Todos os serviços foram iniciados."
+}
+
+stop_all() {
+  echo "Parando todos os serviços ezlx..."
+  for servico in "${SERVICOS[@]}"; do
+    [[ "$servico" == "ezserver" ]] && continue
+    svc=$(add_service_suffix "$servico")
+    echo "Parando $svc..."
+    if service_exists "$svc"; then
+      if is_active "$svc"; then
+        systemctl stop "$svc"
+        echo "✅ Serviço $svc parado com sucesso."
+      else
+        echo "⏸️ Serviço $svc já está parado."
+      fi
+    else
+      echo "⚠️  Serviço $svc não encontrado. Pulando..."
+    fi
+  done
+
+  svc=$(add_service_suffix "ezserver")
+  echo "Parando $svc..."
+  if service_exists "$svc"; then
+    if is_active "$svc"; then
+      systemctl stop "$svc"
+      echo "✅ Serviço $svc parado com sucesso."
+    else
+      echo "⏸️ Serviço $svc já está parado."
+    fi
+  else
+    echo "⚠️  Serviço $svc não encontrado. Pulando..."
+  fi
+  echo "✅ Todos os serviços foram parados."
+}
+
+restart_all() {
+  echo "Reiniciando todos os serviços ezlx..."
+  for servico in "${SERVICOS[@]}"; do
+    [[ "$servico" == "ezserver" ]] && continue
+    svc=$(add_service_suffix "$servico")
+    echo "Reiniciando $svc..."
+    if service_exists "$svc"; then
+      systemctl restart "$svc"
+      echo "✅ Serviço $svc reiniciado com sucesso."
+    else
+      echo "⚠️  Serviço $svc não encontrado. Pulando..."
+    fi
+  done
+
+  svc=$(add_service_suffix "ezserver")
+  echo "Reiniciando $svc..."
+  if service_exists "$svc"; then
+    systemctl restart "$svc"
+    echo "✅ Serviço $svc reiniciado com sucesso."
+  else
+    echo "⚠️  Serviço $svc não encontrado. Pulando..."
+  fi
+  echo "✅ Todos os serviços foram reiniciados."
+}
+
+start_service() {
+  echo "Serviços disponíveis para iniciar:"
+  select servico in "${SERVICOS[@]}" "Cancelar"; do
+    if [[ "$servico" == "Cancelar" ]]; then
+      echo "Operação cancelada."
+      break
+    elif [[ -n "$servico" ]]; then
+      svc=$(add_service_suffix "$servico")
+      echo "Iniciando $svc..."
+      if service_exists "$svc"; then
+        if is_active "$svc"; then
+          echo "🔄 Serviço $svc já está rodando."
+        else
+          systemctl start "$svc"
+          echo "✅ Serviço $svc iniciado com sucesso."
+        fi
+      else
+        echo "⚠️  Serviço $svc não encontrado."
+      fi
+      break
+    else
+      echo "Opção inválida. Tente novamente."
+    fi
+  done
+}
+
+stop_service() {
+  echo "Serviços disponíveis para parar:"
+  select servico in "${SERVICOS[@]}" "Cancelar"; do
+    if [[ "$servico" == "Cancelar" ]]; then
+      echo "Operação cancelada."
+      break
+    elif [[ -n "$servico" ]]; then
+      svc=$(add_service_suffix "$servico")
+      echo "Parando $svc..."
+      if service_exists "$svc"; then
+        if is_active "$svc"; then
+          systemctl stop "$svc"
+          echo "✅ Serviço $svc parado com sucesso."
+        else
+          echo "⏸️ Serviço $svc já está parado."
+        fi
+      else
+        echo "⚠️  Serviço $svc não encontrado."
+      fi
+      break
+    else
+      echo "Opção inválida. Tente novamente."
+    fi
+  done
+}
+
+restart_service() {
+  echo "Serviços disponíveis para reiniciar:"
+  select servico in "${SERVICOS[@]}" "Cancelar"; do
+    if [[ "$servico" == "Cancelar" ]]; then
+      echo "Operação cancelada."
+      break
+    elif [[ -n "$servico" ]]; then
+      svc=$(add_service_suffix "$servico")
+      echo "Reiniciando $svc..."
+      if service_exists "$svc"; then
+        systemctl restart "$svc"
+        echo "✅ Serviço $svc reiniciado com sucesso."
+      else
+        echo "⚠️  Serviço $svc não encontrado."
+      fi
+      break
+    else
+      echo "Opção inválida. Tente novamente."
+    fi
+  done
+}
+
+status_service() {
+  echo "Serviços disponíveis para ver status:"
+  select servico in "${SERVICOS[@]}" "Cancelar"; do
+    if [[ "$servico" == "Cancelar" ]]; then
+      echo "Operação cancelada."
+      break
+    elif [[ -n "$servico" ]]; then
+      svc=$(add_service_suffix "$servico")
+      if service_exists "$svc"; then
+        systemctl status "$svc"
+      else
+        echo "⚠️  Serviço $svc não encontrado."
+      fi
+      break
+    else
+      echo "Opção inválida. Tente novamente."
+    fi
+  done
+}
+
+# Argumentos de linha de comando
+if [[ "$1" == "start" && "$2" == "all" ]]; then
+  start_all; exit 0
+elif [[ "$1" == "stop" && "$2" == "all" ]]; then
+  stop_all; exit 0
+elif [[ "$1" == "restart" && "$2" == "all" ]]; then
+  restart_all; exit 0
+elif [[ "$1" == "start" && -n "$2" ]]; then
+  svc=$(add_service_suffix "$2")
+  if service_exists "$svc"; then
+    if is_active "$svc"; then
+      echo "🔄 Serviço $svc já está rodando."
+    else
+      systemctl start "$svc"
+      echo "✅ Serviço $svc iniciado com sucesso."
+      
+    fi
+  else
+    echo "⚠️  Serviço $svc não encontrado."
+  fi
+  exit 0
+elif [[ "$1" == "stop" && -n "$2" ]]; then
+  svc=$(add_service_suffix "$2")
+  if service_exists "$svc"; then
+    if is_active "$svc"; then
+      systemctl stop "$svc"
+      echo "✅ Serviço $svc parado com sucesso."
+    else
+      echo "⏸️ Serviço $svc já está parado."
+    fi
+  else
+    echo "⚠️  Serviço $svc não encontrado."
+  fi
+  exit 0
+elif [[ "$1" == "restart" && -n "$2" ]]; then
+  svc=$(add_service_suffix "$2")
+  if service_exists "$svc"; then
+    systemctl restart "$svc"
+    echo "✅ Serviço $svc reiniciado com sucesso."
+  else
+    echo "⚠️  Serviço $svc não encontrado."
+  fi
+  exit 0
+elif [[ "$1" == "status" && -n "$2" ]]; then
+  svc=$(add_service_suffix "$2")
+  if service_exists "$svc"; then
+    systemctl status "$svc"
+  else
+    echo "⚠️  Serviço $svc não encontrado."
+  fi
+  exit 0
+fi
+
+# Menu interativo
+while true; do
+  echo ""
+  echo "Escolha uma opção:"
+  echo "1) Iniciar todos os serviços"
+  echo "2) Parar todos os serviços"
+  echo "3) Reiniciar todos os serviços"
+  echo "4) Iniciar serviço individual"
+  echo "5) Parar serviço individual"
+  echo "6) Reiniciar serviço individual"
+  echo "7) Ver status de serviço individual"
+  echo "0) Sair"
+  read -rp "Opção: " opcao
+
+  case $opcao in
+    1) start_all ;;
+    2) stop_all ;;
+    3) restart_all ;;
+    4) start_service ;;
+    5) stop_service ;;
+    6) restart_service ;;
+    7) status_service ;;
+    0) echo "Saindo..."; exit 0 ;;
+    *) echo "❌ Opção inválida, tente novamente." ;;
+  esac
+done

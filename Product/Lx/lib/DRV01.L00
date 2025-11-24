@@ -1,0 +1,1936 @@
+2025-10-29 13:38:40 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 29 2025 at 13:21:21)>
+     6ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    12ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140733207343488
+    14ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    26ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+   120ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   515ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 24250ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-29 13:50:38 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 29 2025 at 13:21:21)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    12ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140734065799552
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     1ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    40ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+  5040ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   519ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   498ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+2025-10-30 10:21:37 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 29 2025 at 13:21:21)>
+ 19328ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-30 13:08:50 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 29 2025 at 13:21:21)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140734818939264
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     1ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 29 2025 at 13:21:54)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+  2973ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   505ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   517ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 21382ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+ 11593ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    65ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     1ms Watchdog closed
+2025-10-30 13:09:31 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 29 2025 at 13:21:21)>
+2025-10-30 14:49:47 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:37:56)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140732276863360
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:39:27)).
+     1ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:39:27)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+  6024ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   503ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   503ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 18355ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-30 14:52:34 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140732608475520
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:39:27)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:39:27)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     1ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    40ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+  6034ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   507ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   506ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   497ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   505ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   497ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   506ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   496ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   506ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   529ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 18313ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-30 14:53:38 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   106ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140735614480768
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:53:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:53:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+  6428ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   505ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   503ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   535ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 17739ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    40ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-30 14:54:07 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+2025-10-30 14:57:29 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   106ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140734864159104
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:53:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 14:53:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+  4894ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   504ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   503ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   498ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 19478ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-30 16:26:36 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+5318379ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    77ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-30 16:26:36 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 14:52:11)>
+2025-10-30 16:32:42 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    12ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140732460822912
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+  3020ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   537ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 21332ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-30 16:41:48 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+516822ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+     2ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-30 16:41:48 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+2025-10-30 16:43:35 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140735157629312
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+ 28294ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+    85ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+   450ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   531ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+2025-10-30 16:53:36 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   106ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    13ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140735500841344
+    11ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     1ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 30 2025 at 16:30:32)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    28ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    45ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+     3ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+   485ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   503ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   498ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   504ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   497ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+2025-10-31 09:29:42 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+ 24385ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-31 09:54:04 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+1462221ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    95ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-31 09:54:04 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 30 2025 at 16:29:13)>
+2025-10-31 11:21:57 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 09:55:14)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    14ms USB port opened version [mT2.00*/ Apr  6 2025]-[mR2649*GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140733538431360
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 09:55:45)).
+     1ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 09:55:45)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms [FFFFFFFF] 1/1 error EXTERNAL_RESET - 03
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+  5879ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 18488ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+  9126ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    38ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-31 11:22:36 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 09:55:14)>
+2025-10-31 11:46:13 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2651<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140733132632448
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 11:33:31)).
+     1ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 11:33:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    29ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms Slot1: Unknown   Slot2: Unknown   Slot3: Unknown   Slot4: Unknown
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+    64ms Addr[01] started responding
+     0ms Addr[01] initialized extended.
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[02] started responding
+     0ms Addr[02] initialized extended.
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[01] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   456ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:2, PPU DP 3:2, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   224ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E2 E4 E5 E7 E3 E0 FA E3 E3 E0 E0 E3 E0 FB E6 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   440ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:2, PPU DP 3:2, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   224ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E8 E3 E7 E2 E0 E0 FA E5 E9 E0 E1 E0 E0 FB E4 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E0 E8 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E1 E1 E1 FB ED F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [61]
+     0ms Addr[01] state change IDLE -> IDLE [06] Hose 0 
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   232ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E0 E4 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E1 E1 E1 FB ED F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [62]
+     0ms Addr[02] state change IDLE -> IDLE [06] Hose 0 
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   336ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+     0ms Addr[01] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[01] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     2ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] prices reload pending
+     0ms Addr[01] get density pending
+     0ms Addr[01] get e-totals pending
+     0ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] disable pump pending
+     0ms Addr[02] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[02] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     8ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] prices reload pending
+     0ms Addr[02] get density pending
+     0ms Addr[02] get e-totals pending
+     0ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] disable pump pending
+    86ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   404ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+    20ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+    48ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   184ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+     0ms Hose 1 GetETotals()
+   362ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    62ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+    15ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   409ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+    91ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   333ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   168ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   264ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   224ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+     0ms Hose 3 GetETotals()
+    50ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   182ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+     0ms Hose 1 GetETotals()
+   232ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+     0ms Hose 3 GetETotals()
+   100ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   132ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   224ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+   188ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 15359ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    87ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     1ms Watchdog closed
+2025-10-31 11:46:40 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+2025-10-31 11:47:37 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+     4ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2651<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+     0ms Process priority policy 1 priority 6 ID 140734676529536
+    10ms grade 1 * Grade 1 added
+     0ms grade 2 * Grade 2 added
+     0ms DLL [/usr/ezlx/lib/libGilbarco.so] loaded successfully.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 11:33:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Pump driver loaded (Gilbarco pump driver DLL Version(2,6,2,2:B4) Built(Oct 31 2025 at 11:33:31)).
+     0ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.2, $6.2, $/L4.2
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:10:10 ZB FFFFFFFF installed.
+     0ms Addr[01] hose 1 added, grade 1
+     0ms Addr[01] hose 2 added, grade 2
+     0ms Addr[02] hose 1 added, grade 1
+     0ms Addr[02] hose 2 added, grade 2
+     0ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+     8ms Slot1: Unknown   Slot2: Unknown   Slot3: Unknown   Slot4: Unknown
+     8ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    48ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+     8ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+     8ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+    72ms Addr[01] started responding
+     0ms Addr[01] initialized extended.
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[02] started responding
+     0ms Addr[02] initialized extended.
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[01] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   416ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:2, PPU DP 3:2, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   232ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E4 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   432ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:2, PPU DP 3:2, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   224ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   224ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   432ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   111ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+     0ms Addr[01] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[01] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     2ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] prices reload pending
+     0ms Addr[01] get density pending
+     0ms Addr[01] get e-totals pending
+     0ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] disable pump pending
+     0ms Addr[02] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[02] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     8ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] prices reload pending
+     0ms Addr[02] get density pending
+     0ms Addr[02] get e-totals pending
+     0ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] disable pump pending
+   303ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   188ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   236ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   267ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   157ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   378ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    38ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    24ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+    56ms Addr[01] state change IDLE -> IDLE [06] Hose 0 
+   176ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   212ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   212ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   290ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   134ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   367ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    65ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+    11ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   413ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   100ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   132ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+   208ms Addr[02] state change IDLE -> IDLE [06] Hose 0 
+   200ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+ 19688ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-31 11:50:08 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+122129ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.3, $6.2, $/L4.3
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] stopped responding 2
+     0ms Addr[01] type 2, Physical 1:1 Displays 2:9:10 ZB FFFFFFFF installed.
+     0ms Addr[01] prices reload pending
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+    15ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+    56ms Addr[01] started responding
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[01] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+     2ms Addr[01] disable pump pending
+   414ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   232ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E4 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   262ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.3, $6.2, $/L4.3
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] stopped responding 2
+     0ms Addr[02] type 2, Physical 1:2 Displays 2:9:10 ZB FFFFFFFF installed.
+     0ms Addr[02] prices reload pending
+   162ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   200ms Addr[02] started responding
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] state change NOT_RESPONDING -> IDLE [06] Hose 0 
+     0ms Addr[02] disable pump pending
+   216ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+    16ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   432ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   232ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   232ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   416ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   276ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.3, $6.2, $/L4.3
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] stopped responding 2
+     0ms Addr[01] type 2, Physical 1:1 Displays 1:9:10 ZB FFFFFFFF installed.
+     0ms Addr[01] prices reload pending
+   140ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   160ms Addr[01] started responding
+     0ms Addr[01] ScheduleDrvSpecific 2, 4  
+     0ms Addr[01] state change NOT_RESPONDING -> IDLE [0D] Hose 0 
+     0ms Addr[01] disable pump pending
+   264ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[01] Remove device 1.
+    16ms Addr[01] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[01] Add device 1 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[01] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   440ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   224ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E4 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   208ms DigitMode = 6 LEtot 8.2, $Etot 8.2, L6.3, $6.2, $/L4.3
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] stopped responding 2
+     0ms Addr[02] type 2, Physical 1:2 Displays 1:9:10 ZB FFFFFFFF installed.
+     0ms Addr[02] prices reload pending
+   216ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   416ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 01]
+   240ms Addr[02] started responding
+     0ms Addr[02] ScheduleDrvSpecific 2, 4  
+     0ms Addr[02] state change NOT_RESPONDING -> IDLE [0D] Hose 0 
+     0ms Addr[02] disable pump pending
+   184ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state INITIALISE_ISTATE, sub state 01
+     0ms Addr[02] Remove device 2.
+    16ms Addr[02] poll state INITIALISE_ISTATE, sub state 02
+     0ms Addr[02] Add device 2 type 2 uart mode 4, loop type 3.
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   440ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   232ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   224ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] Price change, hose 1 value $1.110/L blocked
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   350ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+    66ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E2 FB EB F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+   120ms Addr[01] state change IDLE -> IDLE [06] Hose 0 
+     0ms Addr[02] state change IDLE -> IDLE [06] Hose 0 
+  1652ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+2025-10-31 11:53:04 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+162060ms Logging client accepted 1, closed 0 -> 1
+ 27164ms Hose 1 CHoseDrv::SetPrice(1,1.100,0.000,0.000,0.000) SetPricesPending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    20ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   248ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB E1 F0]
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E0 E1 E1 FB EE F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [61]
+     0ms return to IDLE_ISTATE
+  2382ms Hose 1 CHoseDrv::SetPrice(1,1.100,1.200,0.000,0.000) SetPricesPending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    18ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   216ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] Price change, hose 1 value $1.100/L blocked
+     0ms return to IDLE_ISTATE
+  2459ms Hose 2 CHoseDrv::SetPrice(1,2.100,0.000,0.000,0.000) SetPricesPending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    21ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   216ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   432ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+   287ms Hose 2 CHoseDrv::SetPrice(1,2.100,2.200,0.000,0.000) SetPricesPending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    17ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   216ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   432ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   424ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+  5737ms Hose 3 CHoseDrv::SetPrice(1,3.100,0.000,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    15ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   232ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EC F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E0 E1 E3 FB EC F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [62]
+     0ms return to IDLE_ISTATE
+  2491ms Hose 3 CHoseDrv::SetPrice(1,3.100,3.200,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    21ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   248ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] Price change, hose 1 value $3.100/L blocked
+     0ms return to IDLE_ISTATE
+  3056ms Hose 4 CHoseDrv::SetPrice(1,4.100,0.000,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   216ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   432ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+  4932ms Hose 4 CHoseDrv::SetPrice(1,4.100,4.200,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    20ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   216ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   416ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   416ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   424ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+2025-10-31 11:56:18 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+133608ms Addr[02] CALLING_PUMP_STATE requesting hose
+     0ms Addr[02] ScheduleDrvSpecific 2, 3  
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 02
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE E0 E1 E0 FB EE F0]
+   368ms Addr[02] Len 019 <-- result 01 [BA B0 B3 B2 B0 B1 B0 B0 B0 B0 B1 B1 B1 B1 B1 C1 C1 8D 8A]
+     0ms Addr[02] get extended hose 1 state CALLING price 3.100
+     0ms return to IDLE_ISTATE
+  5808ms Addr[02] state change CALLING -> IDLE [06] Hose 0 
+2025-10-31 11:59:29 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185532ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+   265ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    88ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-31 11:59:30 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+2025-10-31 11:59:35 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+2025-10-31 11:59:35 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+    52ms Logging client accepted 1, closed 0 -> 1
+   772ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   224ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E4 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   832ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   232ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] Price change, hose 1 value $1.100/L blocked
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+  1120ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+  1120ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   272ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+     0ms Addr[01] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[01] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     2ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] prices reload pending
+     0ms Addr[01] get density pending
+     0ms Addr[01] get e-totals pending
+     0ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] disable pump pending
+     0ms Addr[02] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[02] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     8ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] prices reload pending
+     0ms Addr[02] get density pending
+     0ms Addr[02] get e-totals pending
+     0ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] disable pump pending
+   500ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   338ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   164ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   462ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+    76ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   499ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    43ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+    72ms Addr[02] state change IDLE -> IDLE [06] Hose 0 
+   176ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] Price change, hose 1 value $3.100/L blocked
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+   210ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   417ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+    84ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+  1036ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+  1128ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+  1120ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E4 FB EA F0 02]
+  1120ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   232ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] Price change, hose 1 value $1.100/L blocked
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+   208ms Addr[01] state change IDLE -> IDLE [06] Hose 0 
+ 14376ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-31 12:01:42 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 98102ms Hose 4 CHoseDrv::SetPrice(1,4.110,4.200,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    18ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   216ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+  1128ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+  1120ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+  1128ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+  1120ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+  1128ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+2025-10-31 12:02:43 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 55278ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    96ms DLL [/usr/ezlx/lib/libGilbarco.so] unloaded.
+     0ms Watchdog closed
+2025-10-31 12:02:43 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+2025-10-31 12:02:48 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+2025-10-31 12:02:48 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+    52ms Logging client accepted 1, closed 0 -> 1
+   460ms Addr[01] Len 027 <-- result 01 [BA B0 B7 B1 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C2 C3 8D 8A]
+     0ms Addr[01] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[01] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[01] Len 001 --> try  01 [41]
+   240ms Addr[01] Len 033 <-- result 01 [FF F3 F8 EB E0 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E8 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E4 F0]
+     0ms Addr[01] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 01
+     0ms Addr[02] Len 009 --> try  01 [FF E9 FE EE E0 E0 FB E1 F0]
+   544ms Addr[02] Len 027 <-- result 01 [BA B0 B7 B2 B0 B0 C5 B0 B0 B1 B0 B0 B3 B0 B3 B0 B4 B0 B4 B0 B1 B0 B0 C1 C3 8D 8A]
+     0ms Addr[02] Valid Config true - type 0 units 3, Money DP 2:2, Volume DP 3:3, PPU DP 3:3, digit mode 6 
+     0ms Addr[02] poll state CUSTOM_ISTATE, sub state 06
+     0ms Addr[02] Len 001 --> try  01 [42]
+   240ms Addr[02] Len 033 <-- result 01 [FF F3 F8 EB E1 E0 E0 E0 F6 E0 F4 F7 E0 E0 E0 E4 F9 E0 E0 E0 E0 E0 E0 FA E0 E0 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] Pump display 6:6:4 type 2
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   248ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] Price change, hose 1 value $1.100/L blocked
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   592ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   592ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   592ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   600ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   592ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   240ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] Price change, hose 1 value $3.100/L blocked
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   592ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   592ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   600ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   584ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   600ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+    96ms Addr[01] state change IDLE -> IDLE [06] Hose 0 
+    56ms Addr[02] state change IDLE -> IDLE [06] Hose 0 
+  3041ms AddPriceElement 1, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+     0ms Addr[01] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[01] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+     2ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] prices reload pending
+     0ms Addr[01] get density pending
+     0ms Addr[01] get e-totals pending
+     0ms Hose 1 GetETotals()
+     0ms Hose 2 GetETotals()
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] disable pump pending
+     0ms Addr[02] preset pending, type 8, value 0.000, level 0 , hose 00 Tag[] Preset Yes
+     0ms Addr[02] Sending auth hose 0, level 0, type 3 , limit 0.00 , limit2 0.00 , Tag []
+    11ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] prices reload pending
+     0ms Addr[02] get density pending
+     0ms Addr[02] get e-totals pending
+     0ms Hose 3 GetETotals()
+     0ms Hose 4 GetETotals()
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] disable pump pending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+     5ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+     8ms return to IDLE_ISTATE
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   237ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] Price change, hose 1 value $1.100/L blocked
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57141.38 16776.620L
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   255ms AddPriceElement 2, State 2, $1.220/L decimals 3 OnTime 390 OffTime 1050
+   345ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   158ms AddPriceElement 3, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   434ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+    66ms AddPriceElement 4, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   501ms AddPriceElement 5, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    25ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   511ms AddPriceElement 6, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    81ms Addr[01] Len 001 <-- result 01 [01]
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E0 E1 E2 FB EC F0 01]
+   418ms AddPriceElement 7, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   182ms Addr[01] Len 001 <-- result 01 [01]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   240ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] Price change, hose 1 value $3.100/L blocked
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53648.28 15724.770L
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   100ms AddPriceElement 8, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   500ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+    37ms AddPriceElement 9, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+   502ms AddPriceElement 10, State 2, $1.110/L decimals 3 OnTime 390 OffTime 1050
+    45ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   600ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   592ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E1 F7 E0 E1 E1 E4 FB E9 F0 02]
+   592ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+ 11088ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-10-31 12:04:09 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 52584ms Hose 1 CHoseDrv::SetPrice(1,1.110,1.200,0.000,0.000) SetPricesPending
+     0ms Addr[01] poll state SAVE_PRICES_ISTATE, sub state 01
+    16ms return to IDLE_ISTATE
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+   216ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E2 E6 E6 E7 E7 E6 E1 E0 FA E8 E3 E1 E4 E1 E7 E5 E0 F4 E0 E0 E1 E1 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[01] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[01] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E1 E1 E1 FB ED F0 01]
+   592ms Addr[01] Len 001 <-- result 01 [61]
+     0ms return to IDLE_ISTATE
+ 13741ms Hose 3 CHoseDrv::SetPrice(1,3.110,3.200,0.000,0.000) SetPricesPending
+     0ms Addr[02] poll state SAVE_PRICES_ISTATE, sub state 01
+    19ms return to IDLE_ISTATE
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+   216ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E7 E7 E4 E2 E7 E5 E1 E0 FA E8 E2 E8 E4 E6 E3 E5 E0 F4 E0 E0 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] poll state SET_PRICE_ISTATE, sub state 05
+     0ms Addr[02] Len 014 --> try  01 [FF E5 F4 F6 E0 F7 E0 E1 E1 E3 FB EB F0 02]
+   592ms Addr[02] Len 001 <-- result 01 [62]
+     0ms return to IDLE_ISTATE
+2025-10-31 12:07:19 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+174096ms Addr[02] state change IDLE -> CALLING [07] Hose 1 
+  2193ms Addr[02] enable pump pending
+     0ms Addr[02] auth pending
+     0ms Addr[02] poll state AUTH_ISTATE, sub state 01
+     0ms Addr[02] Sending auth hose 255, level 1, type 0 , limit 0.00 , limit2 0.00 , Tag []
+     7ms return to IDLE_ISTATE
+   416ms Addr[02] state change CALLING -> DELIVERY_STARTING [09] Hose 1 
+  3176ms Addr[02] state change DELIVERY_STARTING -> DELIVERING [09] Hose 1 
+  8184ms Addr[02] state change DELIVERING -> DELIVERY_FINISHED [0B] Hose 1 
+   312ms Addr[02] state change DELIVERY_FINISHED -> IDLE [06] Hose 0 
+     0ms Addr[02] disable pump pending
+    48ms Addr[02] delivery, Hose 1 , Level 1, 3.110$/L, 6.858L, $21.32, tag FFFFFFFFFFFFFFFF
+     0ms Addr[02:FFFFFFFF] Acking del 429 DelCount 0
+     0ms Hose 3 GetETotals()
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+     2ms Addr[02] get density pending
+     0ms Addr[02] disable pump pending
+   230ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E3 E6 E1 E3 E7 E5 E1 E0 FA E0 E6 E9 E6 E6 E3 E5 E0 F4 E0 E1 E1 E3 F5 E0 E0 E0 E0 FB E2 F0]
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53669.60 15731.630L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+ 22840ms Addr[01] state change IDLE -> CALLING [07] Hose 1 
+  5247ms Addr[01] enable pump pending
+     0ms Addr[01] auth pending
+     0ms Addr[01] poll state AUTH_ISTATE, sub state 01
+     0ms Addr[01] Sending auth hose 255, level 1, type 0 , limit 0.00 , limit2 0.00 , Tag []
+     9ms return to IDLE_ISTATE
+   416ms Addr[01] state change CALLING -> DELIVERY_STARTING [09] Hose 1 
+  3176ms Addr[01] state change DELIVERY_STARTING -> DELIVERING [09] Hose 1 
+ 11024ms Addr[01] state change DELIVERING -> DELIVERY_FINISHED [0B] Hose 1 
+   312ms Addr[01] state change DELIVERY_FINISHED -> IDLE [06] Hose 0 
+     0ms Addr[01] disable pump pending
+    48ms Addr[01] delivery, Hose 1 , Level 1, 1.110$/L, 9.545L, $10.59, tag FFFFFFFFFFFFFFFF
+     0ms Addr[01:FFFFFFFF] Acking del 430 DelCount 0
+     0ms Hose 1 GetETotals()
+     0ms Addr[01] get density pending
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[01] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[01] Len 001 --> try  01 [51]
+     2ms Addr[01] disable pump pending
+   230ms Addr[01] Len 034 <-- result 01 [FF F6 E0 F9 E6 E1 E6 E8 E7 E6 E1 E0 FA E7 E9 E1 E5 E1 E7 E5 E0 F4 E0 E1 E1 E1 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[01] e-tots 4:8:8 hose 1 value $57151.97 16786.160L
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+     0ms Addr[01] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[01] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[01] preset blocked.
+     0ms return to IDLE_ISTATE
+2025-10-31 12:08:29 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 12632ms Addr[01] state change IDLE -> CALLING [07] Hose 1 
+  9016ms Addr[02] clear delivery pending
+     1ms Addr[01] clear delivery pending
+ 25415ms Addr[01] state change CALLING -> IDLE [06] Hose 0 
+  8168ms Addr[01] state change IDLE -> CALLING [07] Hose 1 
+2025-10-31 12:09:43 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 31232ms Addr[01] state change CALLING -> IDLE [06] Hose 0 
+ 27248ms Addr[02] state change IDLE -> CALLING [07] Hose 1 
+  1776ms Addr[02] state change CALLING -> IDLE [06] Hose 0 
+  3584ms Addr[02] enable pump pending
+  1778ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] disable pump pending
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+ 11240ms Addr[02] enable pump pending
+  6118ms Addr[02] state change IDLE -> CALLING [07] Hose 1 
+     0ms Addr[02] preset pending, type 2, value 10.000, level 1 , hose 01 Tag[] Preset Yes
+     0ms Addr[02] auth pending
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 05
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F2 F4 F6 E1 E0 F8 E0 E0 E0 E1 E0 E0 FB EF F0 02]
+   712ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F2 F4 F6 E1 E0 F8 E0 E0 E0 E1 E0 E0 FB EF F0 02]
+   736ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F2 F4 F6 E1 E0 F8 E0 E0 E0 E1 E0 E0 FB EF F0 02]
+   728ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state AUTH_ISTATE, sub state 01
+     0ms Addr[02] Sending auth hose 1, level 1, type 0 , limit 10.00 , limit2 0.00 , Tag []
+     8ms return to IDLE_ISTATE
+  1192ms Addr[02] state change CALLING -> DELIVERY_STARTING [09] Hose 1 
+  3176ms Addr[02] state change DELIVERY_STARTING -> DELIVERING [09] Hose 1 
+2025-10-31 12:11:04 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+ 22384ms Addr[02] state change DELIVERING -> DELIVERY_FINISHED [0B] Hose 1 
+   616ms Addr[02] state change DELIVERY_FINISHED -> IDLE [06] Hose 0 
+     0ms Addr[02] disable pump pending
+   616ms Addr[02] delivery, Hose 1 , Level 1, 3.110$/L, 19.763L, $61.46, tag FFFFFFFFFFFFFFFF
+     0ms Addr[02:FFFFFFFF] Acking del 431 DelCount 0
+     0ms Hose 3 GetETotals()
+     0ms Addr[02] get density pending
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+     2ms Addr[02] disable pump pending
+   230ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E9 E3 E1 E5 E7 E5 E1 E0 FA E6 E0 E1 E3 E7 E3 E5 E0 F4 E0 E1 E1 E3 F5 E0 E0 E0 E0 FB E7 F0]
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53731.06 15751.390L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     1ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+2025-10-31 12:14:11 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185719ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:17:17 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185550ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:20:22 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:23:28 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185540ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:26:33 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185574ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:29:39 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:32:45 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:35:50 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185600ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:38:56 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:42:02 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185592ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:45:07 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185594ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:48:13 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185550ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:51:18 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185550ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:54:24 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185522ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 12:57:30 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:00:35 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185592ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:03:41 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:06:47 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:09:52 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185600ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:12:59 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+186338ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:16:05 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185976ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:19:10 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185622ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:22:16 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185600ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:25:22 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:28:27 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185564ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:30:44 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+136355ms Addr[02] clear delivery pending
+2025-10-31 13:33:49 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185645ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:36:55 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185672ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:40:01 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185592ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:43:06 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+185572ms Logging client accepted 1, closed 0 -> 2
+    50ms Logging client closed 1 -> 1
+2025-10-31 13:46:10 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+184030ms Addr[02] enable pump pending
+   551ms Logging client closed 1 -> 0
+2025-10-31 13:46:12 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B4) Built(Oct 31 2025 at 11:32:18)>
+  1002ms Logging client accepted 1, closed 0 -> 1
+ 10767ms Addr[02] state change IDLE -> CALLING [07] Hose 1 
+     0ms Addr[02] preset pending, type 3, value 5.000, level 1 , hose 01 Tag[] Preset Yes
+     0ms Addr[02] auth pending
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 05
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 017 --> try  01 [FF E2 F1 F4 F6 E1 E0 F8 E0 E0 E5 E0 E0 FB EB F0 02]
+   672ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 017 --> try  01 [FF E2 F1 F4 F6 E1 E0 F8 E0 E0 E5 E0 E0 FB EB F0 02]
+   704ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] volume preset rejected!!.
+     0ms Addr[02] trying 6 digit format.
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F1 F4 F6 E1 E0 F8 E0 E0 E0 E5 E0 E0 FB EC F0 02]
+   736ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F1 F4 F6 E1 E0 F8 E0 E0 E0 E5 E0 E0 FB EC F0 02]
+   736ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] volume preset rejected!!.
+     0ms Addr[02] converting to $ preset 5.000L * 3.110$/L = $15.55
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F2 F4 F6 E1 E0 F8 E5 E5 E5 E1 E0 E0 FB E0 F0 02]
+   728ms Addr[02] Len 001 <-- result 01 [02]
+     0ms Addr[02] preset hose loaded 0x01.
+     0ms Addr[02] price level 1 selected.
+     0ms Addr[02] Len 018 --> try  01 [FF E1 F2 F4 F6 E1 E0 F8 E5 E5 E5 E1 E0 E0 FB E0 F0 02]
+   736ms Addr[02] Len 001 <-- result 01 [02]
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] poll state AUTH_ISTATE, sub state 01
+     0ms Addr[02] Sending auth hose 1, level 1, type 0 , limit 5.00 , limit2 0.00 , Tag []
+     8ms return to IDLE_ISTATE
+  1192ms Addr[02] state change CALLING -> DELIVERY_STARTING [09] Hose 1 
+  3168ms Addr[02] state change DELIVERY_STARTING -> DELIVERING [09] Hose 1 
+  3928ms Addr[02] state change DELIVERING -> DELIVERY_FINISHED [0B] Hose 1 
+   312ms Addr[02] state change DELIVERY_FINISHED -> IDLE [06] Hose 0 
+     0ms Addr[02] disable pump pending
+    48ms Addr[02] delivery, Hose 1 , Level 1, 3.110$/L, 2.926L, $9.09, tag FFFFFFFFFFFFFFFF
+     0ms Addr[02:FFFFFFFF] Acking del 432 DelCount 0
+     0ms Hose 3 GetETotals()
+     0ms Addr[02] get density pending
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 01
+     0ms Addr[02] poll state GET_ELEC_TOTALS_ISTATE, sub state 02
+     0ms Addr[02] Len 001 --> try  01 [52]
+     2ms Addr[02] disable pump pending
+   230ms Addr[02] Len 034 <-- result 01 [FF F6 E0 F9 E2 E3 E4 E5 E7 E5 E1 E0 FA E5 E1 E0 E4 E7 E3 E5 E0 F4 E0 E1 E1 E3 F5 E0 E0 E0 E0 FB EB F0]
+     0ms Addr[02] e-tots 4:8:8 hose 1 value $53740.15 15754.320L
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+     0ms Addr[02] preset pending, type 1, value 0.000, level 1 , hose FF Tag[] Preset Yes
+     0ms Addr[02] poll state SET_PRESET_ISTATE, sub state 01
+     0ms Addr[02] preset blocked.
+     0ms return to IDLE_ISTATE
+ 10003ms Addr[02] clear delivery pending

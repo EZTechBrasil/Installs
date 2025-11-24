@@ -1,0 +1,72 @@
+#!/bin/bash
+
+CONFIG_FILE="/usr/ezlx/etc/EZConnect.ini"
+
+# Verifica se o arquivo existe
+if [[ ! -f "$CONFIG_FILE" ]]; then
+  echo "Arquivo de configuração não encontrado: $CONFIG_FILE"
+  exit 1
+fi
+
+show_menu() {
+  echo "===== MQTT EZConnect ====="
+  echo "1) Alterar IP do MQTT"
+  echo "2) Habilitar criptografia (AESKey=true)"
+  echo "3) Desabilitar criptografia (AESKey=false)"
+  echo "4) Ver configuração atual"
+  echo "0) Sair"
+  echo "========================="
+}
+
+reiniciar_servico() {
+  echo "Reiniciando serviço EZConnect..."
+  eznet restart ezconnect
+  echo "Serviço reiniciado."
+}
+
+alterar_ip() {
+  read -p "Digite o novo IP ou DNS do MQTT: " novo_host
+  if [[ -z "$novo_host" ]]; then
+    echo "Entrada inválida. O valor não pode ser vazio."
+    return
+  fi
+  sudo sed -i "/^\[MQTT\]/,/^\[/{s/^Name=.*/Name=$novo_host/}" "$CONFIG_FILE"
+  echo "Host do MQTT atualizado para: $novo_host"
+  reiniciar_servico
+}
+
+
+habilitar_cripto() {
+  sudo sed -i "/^\[MQTT\]/,/^\[/{s/^AESKey=.*/AESKey=true/}" "$CONFIG_FILE"
+  echo "Criptografia habilitada (AESKey=true)"
+  reiniciar_servico
+}
+
+desabilitar_cripto() {
+  sudo sed -i "/^\[MQTT\]/,/^\[/{s/^AESKey=.*/AESKey=false/}" "$CONFIG_FILE"
+  echo "Criptografia desabilitada (AESKey=false)"
+  reiniciar_servico
+}
+
+ver_config() {
+  echo "===== Configuração Atual MQTT ====="
+  awk '
+    /^\[MQTT\]/ {inside=1; print; next}
+    /^\[/ && inside {exit}
+    inside && /^[[:space:]]*(Name|Port|User|Password|AESKey)=/ {print}
+  ' "$CONFIG_FILE"
+  echo "==================================="
+}
+
+while true; do
+  show_menu
+  read -p "Escolha uma opção: " opt
+  case $opt in
+    1) alterar_ip ;;
+    2) habilitar_cripto ;;
+    3) desabilitar_cripto ;;
+    4) ver_config ;;
+    0) echo "Saindo..."; exit 0 ;;
+    *) echo "Opção inválida!" ;;
+  esac
+done

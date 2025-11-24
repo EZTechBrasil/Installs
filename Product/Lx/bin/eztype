@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Diretório onde estão os logs
+LOG_DIR="/usr/ezlx/var/log"
+
+# Arquivos válidos (case-insensitive)
+declare -A logs=(
+  ["ezconnect.l00"]="EZConnect.L00"
+  ["ezserver.l00"]="EZServer.L00"
+  ["ezhowsc.l00"]="EZHOWSC.L00"
+)
+
+# Checa se o primeiro argumento é um log válido
+input=$(echo "$1" | tr '[:upper:]' '[:lower:]')
+
+if [[ -z "$input" || -z "${logs[$input]}" ]]; then
+  echo "Uso: type [ezconnect.l00|ezserver.l00|ezhowsc.l00] [termo_de_busca_opcional]"
+  exit 1
+fi
+
+file="$LOG_DIR/${logs[$input]}"
+
+if [[ ! -f "$file" ]]; then
+  echo "Arquivo de log não encontrado: $file"
+  exit 1
+fi
+
+if [[ "$2" == "-f" ]]; then
+  echo "🔍 Exibindo log em tempo real (tail -f) de $file"
+  tail -f "$file"
+elif [[ -z "$2" ]]; then
+  cat "$file"
+else
+  grep -i --color=always "$2" "$file"
+fi
