@@ -1,0 +1,146 @@
+2025-09-18 12:07:08 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+     4ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+    52ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   758ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 15067ms Port 1 opened, iRet 0, Serial# MR6000/25, Boot mT2.00*/ Apr  6 2025, Driver mC2648<GWAgTDBNtMFbS
+ 12648ms Port 1 opened, iRet 0, Serial# MR6000/25, Boot mT2.00*/ Apr  6 2025, Driver mC2648<GWAgTDBNtMFbS
+     8ms Opening file EZCoordEmb.B2G
+     0ms Bin version mC2648<GWAgTDBNtMFbS successfully loaded.
+
+     0ms Switching to boot... 00000000
+  6020ms Port 1 opened, iRet 12853, Serial# , Boot mT2.00*/ Apr  6 2025, Driver ???????????????????
+     0ms Erasing...
+  2768ms Writing...
+2025-09-18 12:08:14 ****TIME <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+ 27328ms Protecting flash...
+     8ms Switching to driver...
+  6020ms Port 1 opened, iRet 0, Serial# MR6000/25, Boot mT2.00*/ Apr  6 2025, Driver mC2648<GWAgTDBNtMFbS
+     0ms Finished.
+   758ms USB device not found
+  1250ms USB device not found
+  1250ms USB device not found
+  1251ms USB device not found
+  1250ms USB device not found
+  1250ms USB device not found
+  1251ms USB device not found
+  1250ms USB device not found
+  1250ms USB device not found
+   518ms Port 1 opened, iRet 0, Serial# MR6000/25, Boot mT2.00*/ Apr  6 2025, Driver mC2648<GWAgTDBNtMFbS
+2025-09-18 12:09:30 ****TIME <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+ 58328ms Port 1 opened, iRet 0, Serial# MR6000/25, Boot mT2.00*/ Apr  6 2025, Driver mC2648<GWAgTDBNtMFbS
+  8541ms Watchdog closed
+2025-09-18 12:09:39 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 11:56:06)>
+2025-09-18 12:14:57 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:14:46)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   398ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 45848ms Watchdog closed
+2025-09-18 12:15:45 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:14:46)>
+2025-09-18 12:18:20 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:18:10)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   371ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 29779ms Watchdog closed
+2025-09-18 12:18:52 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:18:10)>
+2025-09-18 12:20:40 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:20:22)>
+     5ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   425ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 32694ms Watchdog closed
+2025-09-18 12:21:15 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:20:22)>
+2025-09-18 13:56:06 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:28:20)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   433ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 19051ms Watchdog closed
+2025-09-18 13:56:28 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 12:28:20)>
+2025-09-18 14:04:16 ***START <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 14:00:28)>
+     4ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   442ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+  9931ms Watchdog closed
+2025-09-18 14:04:29 ****STOP <EZLoader application Version(2,6,1,4:B3) Built(Sep 18 2025 at 14:00:28)>
+2025-09-18 14:12:51 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   361ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+  9023ms Watchdog closed
+2025-09-18 14:13:02 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 14:13:29 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+    49ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+ 11803ms Watchdog closed
+2025-09-18 14:13:44 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 14:12:02)>
+2025-09-18 15:06:30 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+     4ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+   376ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+  4652ms Watchdog closed
+2025-09-18 15:06:38 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+2025-09-18 15:07:07 ***START <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>
+     3ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+     0ms EZClient [/usr/ezlx/lib/libEZClient.so] loaded successfully
+    50ms Port 1 SerNo MR6000/25, Boot mT2.00*/ Apr  6 2025, Drvier mC2648<GWAgTDBNtMFbS
+   850ms USB device not found
+     0ms Port 2 res -6
+   750ms USB device not found
+     0ms Port 3 res -6
+   750ms USB device not found
+     0ms Port 4 res -6
+  4168ms Watchdog closed
+2025-09-18 15:07:14 ****STOP <EZLoader application Version(2,6,1,5:B3) Built(Sep 18 2025 at 15:06:08)>

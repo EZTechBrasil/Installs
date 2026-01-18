@@ -1,0 +1,64 @@
+polkit.addRule(function(action, subject) {
+  if (action.id == "org.freedesktop.systemd1.manage-units"  && 
+    ( action.lookup("unit") == "ezserver.service"           ||
+      action.lookup("unit") == "ezconnect.service"          ||
+      action.lookup("unit") == "ezlx-rest-api.service"      ||
+      action.lookup("unit") == "ezhowsc.service"            ||
+      action.lookup("unit") == "ez2serial.service"          ||
+      action.lookup("unit") == "ezlog.service" )            &&
+      subject.user == "eztechlx" ) {
+        return polkit.Result.YES;
+  }
+});
+
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.udisks2.filesystem-unmount" &&
+        subject.isInGroup("ezgroup") &&
+        action.lookup("device").startsWith("/dev/sd")) {
+        return polkit.Result.YES;
+    }
+});
+
+polkit.addRule(function(action, subject) {   
+    if ( ( action.id == "org.freedesktop.NetworkManager.checkpoint-rollback" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-connectivity-check" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-network" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-statistics" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-wifi" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-wimax" ||
+           action.id == "org.freedesktop.NetworkManager.enable-disable-wwan" ||
+           action.id == "org.freedesktop.NetworkManager.network-control" ||
+           action.id == "org.freedesktop.NetworkManager.reload" ||
+           action.id == "org.freedesktop.NetworkManager.settings.modify.global-dns" ||
+           action.id == "org.freedesktop.NetworkManager.settings.modify.hostname" ||
+           action.id == "org.freedesktop.NetworkManager.settings.modify.own" ||
+           action.id == "org.freedesktop.NetworkManager.settings.modify.system" ||
+           action.id == "org.freedesktop.NetworkManager.sleep-wake" ||
+           action.id == "org.freedesktop.NetworkManager.wifi.scan" ||
+           action.id == "org.freedesktop.NetworkManager.wifi.share.open" ||
+           action.id == "org.freedesktop.NetworkManager.wifi.share.protected") &&
+      subject.user == "eztechlx") {
+return polkit.Result.YES;
+  }
+});
+
+polkit.addRule(function(action, subject) {
+    // Check if the action is related to power off
+    if (action.id == "org.freedesktop.login1.power-off" ||
+        action.id == "org.freedesktop.login1.power-off-multiple-sessions" ||
+        action.id == "org.freedesktop.login1.power-off-ignore-inhibit")
+    {
+        // Check if the user is 'seu_usuario'
+        if (subject.isInGroup("ezgroup")) {
+            return polkit.Result.YES;
+        }
+    }
+});
+
+
+polkit.addRule(function(action, subject) {
+    if (subject.isInGroup("ezgroup")) {
+        return polkit.Result.YES;
+    }
+});
+

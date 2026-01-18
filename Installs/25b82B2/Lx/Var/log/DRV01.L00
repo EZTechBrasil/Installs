@@ -1,0 +1,301 @@
+2025-09-18 11:49:15 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:18:30)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   111ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28624ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 11:53:41 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:18:30)>
+237677ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    46ms Watchdog closed
+2025-09-18 11:53:41 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:18:30)>
+2025-09-18 12:09:43 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28624ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 12:14:57 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+285135ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    40ms Watchdog closed
+2025-09-18 12:14:57 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:15:50 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28656ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 12:18:20 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+120973ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    28ms Watchdog closed
+2025-09-18 12:18:20 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:18:57 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28688ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 12:20:40 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+ 74596ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    67ms Watchdog closed
+2025-09-18 12:20:40 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 12:21:20 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   106ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28680ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 13:56:06 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+5657476ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    76ms Watchdog closed
+2025-09-18 13:56:06 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 13:56:32 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   109ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    22ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28648ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 14:04:17 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+435253ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    86ms Watchdog closed
+2025-09-18 14:04:17 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+2025-09-18 14:04:34 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 11:54:58)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28688ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 14:08:00 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+     4ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   109ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28672ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+    16ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 14:12:51 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+261560ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+     3ms Watchdog closed
+2025-09-18 14:12:51 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:13:07 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 13602ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    81ms Watchdog closed
+2025-09-18 14:13:21 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 14:13:48 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   107ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    20ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28648ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 15:06:31 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+3133598ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    16ms Watchdog closed
+2025-09-18 15:06:31 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:06:43 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+     3ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     0ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   111ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 13608ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    79ms Watchdog closed
+2025-09-18 15:06:57 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+2025-09-18 15:07:19 ***START <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+     2ms Starting logging on port 5351, MaxSize 4096000, MaxFiles 10
+     0ms Server socket IP6/IP4 created for port 5351
+     0ms Host = 127.0.0.1
+     0ms Opening port 127.0.0.1:5123 
+     1ms Opening port 127.0.0.1:5124 
+     0ms pump driver started, server 127.0.0.1 , login ID 201, Serial No 
+   106ms EZMod added [FFFFFFFFFFFFFFFF] ID -1, number 0, Type 2.
+    21ms USB port opened version [mT2.00*/ Apr  6 2025]-[mC2648<GWAgTDBNtMFbS] Serial No MR6000/25 Dels 0 ARM7.
+     0ms MaxNoResposes = 5, NotRepsondingPollingRate = 5000, State TO 4000ms, Max state TO 3, ZB error treatment 4
+    10ms ZigBee turned on.
+     0ms Testing model 2G.
+     0ms poll state INIT_EZMOD_ISTATE, sub state 03
+     0ms All EZRemotes removed.
+    30ms poll state INIT_EZMOD_ISTATE, sub state 05
+     0ms [FFFFFFFF] All probes removed.
+    16ms poll state INIT_EZMOD_ISTATE, sub state 07
+     0ms [FFFFFFFF] configuring device, line mode 0.
+    16ms return to IDLE_ISTATE
+ 28680ms [FFFFFFFF] 1/1 error READER_A_ERROR1 - 1B
+     8ms [FFFFFFFF] 1/1 error READER_B_ERROR1 - 1D
+2025-09-18 17:08:30 ****TIME <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
+7243060ms Shutdown in CSocket::IsSocketManagementFtn
+     0ms Shutting down parent
+    34ms Watchdog closed
+2025-09-18 17:08:30 ****STOP <Pump driver abstraction layer DLL Version(2,5,8,3:B3) Built(Sep 18 2025 at 14:07:38)>
