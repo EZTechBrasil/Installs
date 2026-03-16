@@ -2,6 +2,9 @@ attrib -R \NDFlash\ezforecourt\*.ini
 attrib -R \NDFlash\SQlite\*.ini
 copy \NDFlash\Carrefour\*.ini \NDFlash\EZForecourt
 copy \NDFlash\Carrefour\EZSQLite.ini \NDFlash\SQLite
+cd \NDFlash\SQLite
+del EzDBOld.SQL
+ren EzDB.SQL EzDBOld.SQL
 setdate
 settime
 ezloader EZMOD

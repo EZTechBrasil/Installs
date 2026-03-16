@@ -19,7 +19,8 @@ copy \Work200\EZInstall\*.ARM \zeztech\Release\Product\EZInstallXP
 copy \Work200\EZInstall\*.exe \zeztech\Release\Product\EZInstallXP
 copy \Work200\EZInstall\*.dll \zeztech\Release\Product\EZInstallXP
 pause 
-xcopy \Work200\EZInstall\EZmonitor\* \zeztech\Release\Product\EZInstallXP\EZmonitor /s /y
+xcopy \Work200\EZInstall\EZMonitor\* \zeztech\Release\Product\EZInstallXP\EZMonitor /s /y
+xcopy \Work200\EZInstall\GVRMonitor\* \zeztech\Release\Product\EZInstallXP\GVRMonitor /s /y
 xcopy \Work200\EZInstall\x64\* \zeztech\Release\Product\EZInstallXP\x64 /s /y
 xcopy \Work200\EZInstall\Passo\* \zeztech\Release\Product\EZInstallXP\Passo /s /y
 pause 
