@@ -2,10 +2,10 @@
 FileVersion=1.1
 FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
-ProcessorNameString=Intel(R) Core(TM) 5 120U
-ComputerRAM=16049 MB
-ProjectDrive=C:\  (69.80 GB Free)
-DateTime=16-MAR-2026 15:38:56
+ProcessorNameString=Intel(R) Core(TM) Ultra 9 185H
+ComputerRAM=32261 MB
+ProjectDrive=C:\  (538.73 GB Free)
+DateTime=18-MAR-2026 10:33:39
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -177,8 +177,8 @@ UnInstallSubFolder=0
 UnInstallSubFolderText=
 Item-000=*|GVRMonitor|<Application Folder>\EZMonitor\GVRMonitor.exe|Prime Automation|||Normal Window||0|1||0|0||0|
 Item-001=*|GVRConfig|<Application Folder>\GVRConfig.exe|Prime Automation|||Normal Window||0|1||0|0||0|
-Item-002=*|GVRIPConfig|<Application Folder>\EZIPConfig.exe|Prime Automation|||Normal Window|<Application Folder>\GVRLoader.ico|0|1||0|0||0|
-Item-003=*|GVRLoader|<Application Folder>\EZLoader.exe|Prime Automation|||Normal Window|<Application Folder>\GVRLoader.ico|0|1||0|0||0|
+Item-002=*|GVRIPConfig|<Application Folder>\GVRIPConfig.exe|Prime Automation|||Normal Window||0|1||0|0||0|
+Item-003=*|GVRLoader|<Application Folder>\GVRLoader.exe|Prime Automation|||Normal Window||0|1||0|0||0|
 
 [Billboard]
 AddBillboard=1
@@ -456,8 +456,8 @@ Item-007=Fil*<PATH_1>\EZClientXP.ini
 Item-008=Fil*<PATH_1>\GVRConfig.exe
 Item-009=Fil*<PATH_1>\EZDriver.ini
 Item-010=Fil*<PATH_1>\EZExtract.exe
-Item-011=Fil*<PATH_1>\EZIPConfig.exe
-Item-012=Fil*<PATH_1>\EZLoader.exe
+Item-011=Fil*<PATH_1>\GVRIPConfig.exe
+Item-012=Fil*<PATH_1>\GVRLoader.exe
 Item-013=Fil*<PATH_1>\GVRLoader.ico
 Item-014=Fil*<PATH_1>\EZLogViewer.exe
 Item-015=Fil*<PATH_1>\EZPriceSign.exe

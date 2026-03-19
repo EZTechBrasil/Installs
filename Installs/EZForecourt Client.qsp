@@ -2,10 +2,10 @@
 FileVersion=1.1
 FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
-ProcessorNameString=Intel(R) Core(TM) 5 120U
-ComputerRAM=16049 MB
-ProjectDrive=C:\  (69.29 GB Free)
-DateTime=16-MAR-2026 16:32:39
+ProcessorNameString=Intel(R) Core(TM) Ultra 9 185H
+ComputerRAM=32261 MB
+ProjectDrive=C:\  (538.48 GB Free)
+DateTime=18-MAR-2026 11:18:30
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -317,7 +317,7 @@ Spin2=0
 [Execute]
 ExecuteDllCheckBox=0
 ExecutionDllFileName=
-Exec-000=*||Stop services|Before Copy|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||1|
+Exec-000=*||Stop services|Before Copy|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||0|Stop Service||1|Stop Service||0|Stop Service||0|Display Message||1|
 Arg-000-2==
 Arg-000-6==
 Arg-000-10==
@@ -388,7 +388,7 @@ Arg-008-15=TRUE
 Arg-008-16=<InstallDir>\x64\*.*
 Arg-008-17=<InstallDir>\EZMonitor
 Arg-008-18=TRUE
-Exec-009=*||Start services|Before Complete|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Start Service||1|Start Service||0|Display Message||0|Display Message||1|Start Service||0|Display Message||1|
+Exec-009=*||Start services|Before Complete|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||0|Start Service||1|Start Service||0|Display Message||0|Display Message||1|Start Service||0|Display Message||1|
 Arg-009-2==
 Arg-009-6==
 Arg-009-10==
@@ -425,7 +425,7 @@ Arg-012-13=<InstallDir>\EZIPConfig.exe
 Arg-012-14=/LEN
 Arg-012-19=<InstallDir>\EZIPConfig.exe
 Arg-012-20=/LPT
-Exec-013=*||Stop services|UnInstall Start|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||0|Display Message||0|Display Message||1|Stop Service||0|Display Message||1|
+Exec-013=*||Stop services|UnInstall Start|10|UnConditional|0|0|File Found||0|0|0|File Found||0|0|0|File Found||1|Stop Service||1|Stop Service||0|Display Message||0|Display Message||0|Stop Service||0|Display Message||1|
 Arg-013-2==
 Arg-013-6==
 Arg-013-10==

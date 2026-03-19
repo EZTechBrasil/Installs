@@ -2,10 +2,10 @@
 FileVersion=1.1
 FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
-ProcessorNameString=Intel(R) Core(TM) 5 120U
-ComputerRAM=16049 MB
-ProjectDrive=C:\  (69.27 GB Free)
-DateTime=16-MAR-2026 16:41:13
+ProcessorNameString=Intel(R) Core(TM) Ultra 9 185H
+ComputerRAM=32261 MB
+ProjectDrive=C:\  (538.49 GB Free)
+DateTime=18-MAR-2026 11:16:24
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -316,7 +316,7 @@ Spin2=0
 [Execute]
 ExecuteDllCheckBox=0
 ExecutionDllFileName=
-Exec-000=*||Stop services|Before Copy|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||0|
+Exec-000=*||Stop services|Before Copy|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||0|Stop Service||1|Stop Service||0|Stop Service||0|Display Message||0|
 Arg-000-1=EZForecourt USB Drivers
 Arg-000-2==
 Arg-000-5=EZForecourt Upgrade
@@ -470,7 +470,7 @@ Arg-014-13=<InstallDir>\x64\*.*
 Arg-014-14=<InstallDir>
 Arg-014-16=<InstallDir>\x64\*.*
 Arg-014-17=<InstallDir>\EZMonitor
-Exec-015=*||Start services|Before Complete|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Start Service||1|Start Service||1|Start Service||1|Start Service||1|Start Service||0|Display Message||0|
+Exec-015=*||Start services|Before Complete|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Start Service||0|Start Service||1|Start Service||1|Start Service||0|Start Service||0|Display Message||0|
 Arg-015-1=EZForecourt USB Drivers
 Arg-015-2==
 Arg-015-5=EZForecourt Upgrade
@@ -548,7 +548,7 @@ Arg-022-13=<InstallDir>\EZIPConfig.exe
 Arg-022-14=/LEN
 Arg-022-19=<InstallDir>\EZIPConfig.exe
 Arg-022-20=/LPT
-Exec-023=*||Stop services|UnInstall Start|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||1|Stop Service||0|Display Message||0|
+Exec-023=*||Stop services|UnInstall Start|10|Conditional|0|1|Group Selected||0|0|0|Group Selected||0|0|0|File Found||1|Stop Service||1|Stop Service||0|Stop Service||1|Stop Service||0|Stop Service||0|Display Message||0|
 Arg-023-1=EZForecourt USB Drivers
 Arg-023-2==
 Arg-023-5=EZForecourt Upgrade
@@ -591,7 +591,7 @@ Item-006=Dir*<Application Folder>\Driver\i386
 Item-007=Fil*<PATH_1>\Driver\i386\EZForecourt.sys
 
 [Group-001]
-TypicalCompactData=6619139
+TypicalCompactData=6619143
 Description=Install the full version of EZForecourt product. The drivers must had been installed.<P>Instala a versão completa do produto EZForecourt. Os drives precisam ter sido instalados.
 SizeInKB=0
 Item-000=Fol*<Application Folder>[48]
