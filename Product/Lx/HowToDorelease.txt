@@ -1,0 +1,15 @@
+cd ~/ezserver_lx_package
+
+git checkout main   # switch to main branch 
+git pull   #syncronize with the git server
+# update locale files 
+cp /mnt/c/zeztech/Release/Product/Lx/lib/* ~/ezserver_lx_package/ezlx/usr/ezlx/lib/*
+cp /mnt/c/zeztech/Release/Product/Lx/bin/* ~/ezserver_lx_package/ezlx/usr/ezlx/bin/*
+
+git add ezlx/  						#add mnodifies files to staging 
+git commit -m "version 25b83 B1" 	#commit the changes 
+git push  							#update the git server 
+git checkout release  				# switch to the release branch  
+git pull 							#maybe if there are differences
+git merge main						#merge the chnages made to main into release
+git push 

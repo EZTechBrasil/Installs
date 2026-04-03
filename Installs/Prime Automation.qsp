@@ -2,10 +2,10 @@
 FileVersion=1.1
 FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
-ProcessorNameString=Intel(R) Core(TM) Ultra 9 185H
-ComputerRAM=32261 MB
-ProjectDrive=C:\  (538.73 GB Free)
-DateTime=18-MAR-2026 10:33:39
+ProcessorNameString=Intel(R) Core(TM) 5 120U
+ComputerRAM=16049 MB
+ProjectDrive=C:\  (71.61 GB Free)
+DateTime=02-APR-2026 14:56:22
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -91,7 +91,7 @@ DialogLocation=|Center|0|0|
 TopLabelFont=|Trebuchet MS|32|128|1|1|0|0|
 TopLabel2Font=|Arial Black|16|8421504|1|0|0|0|
 BottomLabelFont=|Tahoma|12|16777215|1|0|1|0|
-CompanyUrl=www.gilbarco.com/br
+CompanyUrl=www.gilbarco.com
 HideQSetupWaterMark=0
 
 [TargetExe]
