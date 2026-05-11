@@ -4,8 +4,8 @@ FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
 ProcessorNameString=Intel(R) Core(TM) 5 120U
 ComputerRAM=16049 MB
-ProjectDrive=C:\  (71.61 GB Free)
-DateTime=02-APR-2026 14:56:22
+ProjectDrive=C:\  (79.84 GB Free)
+DateTime=14-APR-2026 11:56:46
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -398,30 +398,30 @@ Arg-009-25=EZ2Serial
 Exec-010=*||IP Configuration (PT)|Before Complete|10|Conditional|0|0|Selected Language is in||1|0|0|Group Selected||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
 Arg-010-1=Portuguese(Brazil)
 Arg-010-2==
-Arg-010-5=EZForecourt Client
+Arg-010-5=Prime Automation
 Arg-010-6==
 Arg-010-10==
-Arg-010-13=<InstallDir>\EZIPConfig.exe
+Arg-010-13=<InstallDir>\GVRIPConfig.exe
 Arg-010-14=/LPT
 Arg-010-19=<InstallDir>\EZIPConfig.exe
 Arg-010-20=/LPT
 Exec-011=*||IP Configuration (EN)|Before Complete|10|Conditional|0|0|Selected Language is in||1|0|0|Group Selected||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
 Arg-011-1=English
 Arg-011-2==
-Arg-011-5=EZForecourt Client
+Arg-011-5=Prime Automation
 Arg-011-6==
 Arg-011-10==
-Arg-011-13=<InstallDir>\EZIPConfig.exe
+Arg-011-13=<InstallDir>\GVRIPConfig.exe
 Arg-011-14=/LEN
 Arg-011-19=<InstallDir>\EZIPConfig.exe
 Arg-011-20=/LPT
 Exec-012=*||IP Configuration (EN)|Before Complete|10|Conditional|0|0|Selected Language is in||1|0|0|Group Selected||0|0|0|File Found||1|Run Executable and Wait||0|Display Message||0|Run Executable and Wait||0|Display Message||0|Display Message||0|Display Message||0|
 Arg-012-1=Spanish
 Arg-012-2==
-Arg-012-5=EZForecourt Client
+Arg-012-5=Prime Automation
 Arg-012-6==
 Arg-012-10==
-Arg-012-13=<InstallDir>\EZIPConfig.exe
+Arg-012-13=<InstallDir>\GVRIPConfig.exe
 Arg-012-14=/LEN
 Arg-012-19=<InstallDir>\EZIPConfig.exe
 Arg-012-20=/LPT

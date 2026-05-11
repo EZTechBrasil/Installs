@@ -2,10 +2,10 @@
 FileVersion=1.1
 FileType=QSetupIniFile
 OperatingSystem=Win8.64  6.2  9200 - x64 Workstation
-ProcessorNameString=Intel(R) Core(TM) Ultra 9 185H
-ComputerRAM=32261 MB
-ProjectDrive=C:\  (538.48 GB Free)
-DateTime=18-MAR-2026 11:18:30
+ProcessorNameString=Intel(R) Core(TM) 5 120U
+ComputerRAM=16049 MB
+ProjectDrive=C:\  (74.60 GB Free)
+DateTime=14-APR-2026 15:58:31
 OutputType=EXE
 Language=ENGLISH
 ComposerVersion=11.0.0.2
@@ -401,7 +401,7 @@ Arg-010-2==
 Arg-010-5=EZForecourt Client
 Arg-010-6==
 Arg-010-10==
-Arg-010-13=<InstallDir>\EZIPConfig.exe
+Arg-010-13=<InstallDir>\EZPConfig.exe
 Arg-010-14=/LPT
 Arg-010-19=<InstallDir>\EZIPConfig.exe
 Arg-010-20=/LPT
