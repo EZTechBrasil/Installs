@@ -1,0 +1,13 @@
+// Polkit rules for EZTech APT Manager
+// Allows the 'eztechlx' user to run apt-get update and upgrade
+// without interactive authentication.
+//
+// Install to: /etc/polkit-1/rules.d/50-eztech-apt-manager.rules
+
+polkit.addRule(function(action, subject) {
+    if ((action.id === "com.eztech.apt-manager.update" ||
+         action.id === "com.eztech.apt-manager.upgrade") &&
+        subject.user === "eztechlx") {
+        return polkit.Result.YES;
+    }
+});

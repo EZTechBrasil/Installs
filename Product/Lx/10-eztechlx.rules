@@ -5,11 +5,27 @@ polkit.addRule(function(action, subject) {
       action.lookup("unit") == "ezlx-rest-api.service"      ||
       action.lookup("unit") == "ezhowsc.service"            ||
       action.lookup("unit") == "ez2serial.service"          ||
-      action.lookup("unit") == "ezlog.service" )            &&
+      action.lookup("unit") == "ezlog.service"              ||
+      action.lookup("unit") == "print-watcher.service" )    &&
       subject.user == "eztechlx" ) {
         return polkit.Result.YES;
   }
 });
+
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.udisks2.filesystem-unmount" &&
+        subject.isInGroup("ezgroup") &&
+        action.lookup("device").startsWith("/dev/sd")) {
+        return polkit.Result.YES;
+    }
+});
+
+polkit.addRule(function(action, subject) {
+    if (subject.isInGroup("ezgroup")) {
+        return polkit.Result.YES;
+    }
+});
+
 
 polkit.addRule(function(action, subject) {
     if (action.id == "org.freedesktop.udisks2.filesystem-unmount" &&
@@ -46,19 +62,32 @@ polkit.addRule(function(action, subject) {
     // Check if the action is related to power off
     if (action.id == "org.freedesktop.login1.power-off" ||
         action.id == "org.freedesktop.login1.power-off-multiple-sessions" ||
-        action.id == "org.freedesktop.login1.power-off-ignore-inhibit")
+        action.id == "org.freedesktop.login1.power-off-ignore-inhibit" ||
+        action.id == "org.freedesktop.login1.reboot" ||
+        action.id == "org.freedesktop.login1.reboot-multiple-sessions" ||
+        action.id == "org.freedesktop.login1.reboot-ignore-inhibit")
     {
-        // Check if the user is 'seu_usuario'
         if (subject.isInGroup("ezgroup")) {
             return polkit.Result.YES;
         }
     }
 });
 
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.hostname1.set-hostname" ||
+       action.id == "org.freedesktop.hostname1.set-static-hostname" ||
+       action.id == "org.freedesktop.hostname1.set-machine-info") {
+        if (subject.isInGroup("ezgroup")) {
+            return polkit.Result.YES;
+        }
+    }
+});
 
 polkit.addRule(function(action, subject) {
-    if (subject.isInGroup("ezgroup")) {
+    if (action.id == "br.ind.eztech.lx" && 
+        subject.isInGroup("ezgroup")) {
         return polkit.Result.YES;
     }
 });
+
 
